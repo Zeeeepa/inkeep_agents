@@ -1,4 +1,4 @@
-import { createRoute, OpenAPIHono } from '@hono/zod-openapi';
+import { createRoute} from '@hono/zod-openapi';
 import {
   AgentApiInsertSchema,
   AgentApiUpdateSchema,
@@ -23,10 +23,12 @@ import {
   TenantProjectIdParamsSchema,
   TenantProjectParamsSchema,
   updateAgent,
+  ResolvedRef,
 } from '@inkeep/agents-core';
 import dbClient from '../data/db/dbClient';
+import { createAppWithResolvedRef } from '../utils/app-helper';
 
-const app = new OpenAPIHono();
+const app = createAppWithResolvedRef();
 
 app.openapi(
   createRoute({
@@ -55,8 +57,9 @@ app.openapi(
     const { tenantId, projectId } = c.req.valid('param');
     const page = Number(c.req.query('page')) || 1;
     const limit = Math.min(Number(c.req.query('limit')) || 10, 100);
+    const resolvedRef = c.get('resolvedRef');
 
-    const agent = await listAgents(dbClient)({ scopes: { tenantId, projectId } });
+    const agent = await listAgents(dbClient, resolvedRef)({ scopes: { tenantId, projectId } });
     return c.json({
       data: agent,
       pagination: {
@@ -93,7 +96,9 @@ app.openapi(
   }),
   async (c) => {
     const { tenantId, projectId, id } = c.req.valid('param');
-    const agent = await getAgentById(dbClient)({
+    const resolvedRef = c.get('resolvedRef');
+
+    const agent = await getAgentById(dbClient, resolvedRef)({
       scopes: { tenantId, projectId, agentId: id },
     });
 
@@ -132,8 +137,9 @@ app.openapi(
   }),
   async (c) => {
     const { tenantId, projectId, agentId, subAgentId } = c.req.valid('param');
+    const resolvedRef = c.get('resolvedRef');
 
-    const relatedAgents = await getAgentSubAgentInfos(dbClient)({
+    const relatedAgents = await getAgentSubAgentInfos(dbClient, resolvedRef)({
       scopes: { tenantId, projectId },
       agentId: agentId,
       subAgentId: subAgentId,
@@ -175,8 +181,9 @@ app.openapi(
   }),
   async (c) => {
     const { tenantId, projectId, agentId } = c.req.valid('param');
+    const resolvedRef = c.get('resolvedRef');
 
-    const fullAgent = await getFullAgentDefinition(dbClient)({
+    const fullAgent = await getFullAgentDefinition(dbClient, resolvedRef)({
       scopes: { tenantId, projectId, agentId },
     });
 

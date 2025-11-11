@@ -1,4 +1,4 @@
-import { createRoute, OpenAPIHono } from '@hono/zod-openapi';
+import { createRoute } from '@hono/zod-openapi';
 import {
   associateDataComponentWithAgent,
   ComponentAssociationListResponse,
@@ -21,8 +21,9 @@ import {
 } from '@inkeep/agents-core';
 import { z } from 'zod';
 import dbClient from '../data/db/dbClient';
+import { createAppWithResolvedRef } from '../utils/app-helper';
 
-const app = new OpenAPIHono();
+const app = createAppWithResolvedRef();
 
 app.openapi(
   createRoute({
@@ -48,8 +49,9 @@ app.openapi(
   }),
   async (c) => {
     const { tenantId, projectId, agentId, subAgentId } = c.req.valid('param');
+    const resolvedRef = c.get('resolvedRef');
 
-    const dataComponents = await getDataComponentsForAgent(dbClient)({
+    const dataComponents = await getDataComponentsForAgent(dbClient, resolvedRef)({
       scopes: { tenantId, projectId, agentId, subAgentId },
     });
 
@@ -83,8 +85,9 @@ app.openapi(
   }),
   async (c) => {
     const { tenantId, projectId, dataComponentId } = c.req.valid('param');
+    const resolvedRef = c.get('resolvedRef');
 
-    const agents = await getAgentsUsingDataComponent(dbClient)({
+    const agents = await getAgentsUsingDataComponent(dbClient, resolvedRef)({
       scopes: { tenantId, projectId },
       dataComponentId,
     });
@@ -135,8 +138,8 @@ app.openapi(
     const { subAgentId, dataComponentId } = c.req.valid('json');
 
     const [agent, dataComponent] = await Promise.all([
-      getSubAgentById(dbClient)({ scopes: { tenantId, projectId, agentId }, subAgentId }),
-      getDataComponent(dbClient)({ scopes: { tenantId, projectId }, dataComponentId }),
+      getSubAgentById(dbClient, undefined)({ scopes: { tenantId, projectId, agentId }, subAgentId }),
+      getDataComponent(dbClient, undefined)({ scopes: { tenantId, projectId }, dataComponentId }),
     ]);
 
     if (!agent) {
@@ -153,7 +156,7 @@ app.openapi(
       });
     }
 
-    const exists = await isDataComponentAssociatedWithAgent(dbClient)({
+    const exists = await isDataComponentAssociatedWithAgent(dbClient, undefined)({
       scopes: { tenantId, projectId, agentId, subAgentId },
       dataComponentId,
     });
@@ -247,8 +250,9 @@ app.openapi(
   }),
   async (c) => {
     const { tenantId, projectId, agentId, subAgentId, dataComponentId } = c.req.valid('param');
+    const resolvedRef = c.get('resolvedRef');
 
-    const exists = await isDataComponentAssociatedWithAgent(dbClient)({
+    const exists = await isDataComponentAssociatedWithAgent(dbClient, resolvedRef)({
       scopes: { tenantId, projectId, agentId, subAgentId },
       dataComponentId,
     });

@@ -1,4 +1,4 @@
-import { createRoute, OpenAPIHono } from '@hono/zod-openapi';
+import { createRoute } from '@hono/zod-openapi';
 import {
   ApiKeyApiCreationResponseSchema,
   ApiKeyApiInsertSchema,
@@ -20,8 +20,9 @@ import {
 } from '@inkeep/agents-core';
 import { z } from 'zod';
 import dbClient from '../data/db/dbClient';
+import { createAppWithResolvedRef } from '../utils/app-helper';
 
-const app = new OpenAPIHono();
+const app = createAppWithResolvedRef();
 
 app.openapi(
   createRoute({
@@ -54,8 +55,9 @@ app.openapi(
     const page = Number(c.req.query('page')) || 1;
     const limit = Math.min(Number(c.req.query('limit')) || 10, 100);
     const agentId = c.req.query('agentId');
+    const resolvedRef = c.get('resolvedRef');
 
-    const result = await listApiKeysPaginated(dbClient)({
+    const result = await listApiKeysPaginated(dbClient, resolvedRef)({
       scopes: { tenantId, projectId },
       pagination: { page, limit },
       agentId: agentId,
@@ -95,7 +97,8 @@ app.openapi(
   }),
   async (c) => {
     const { tenantId, projectId, id } = c.req.valid('param');
-    const apiKey = await getApiKeyById(dbClient)({
+    const resolvedRef = c.get('resolvedRef');
+    const apiKey = await getApiKeyById(dbClient, resolvedRef)({
       scopes: { tenantId, projectId },
       id,
     });

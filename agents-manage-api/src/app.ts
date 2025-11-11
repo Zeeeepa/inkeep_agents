@@ -9,6 +9,7 @@ import type { StatusCode } from 'hono/utils/http-status';
 import { pinoLogger } from 'hono-pino';
 import { getLogger } from './logger';
 import { apiKeyAuth } from './middleware/auth';
+import { refMiddleware, writeProtectionMiddleware } from './middleware/ref';
 import { setupOpenAPIRoutes } from './openapi';
 import crudRoutes from './routes/index';
 import oauthRoutes from './routes/oauth';
@@ -176,6 +177,10 @@ function createManagementHono(
 
   // API Key authentication middleware for protected routes
   app.use('/tenants/*', apiKeyAuth());
+
+  // Ref versioning middleware for all tenant routes
+  app.use('/tenants/*', refMiddleware);
+  app.use('/tenants/*', writeProtectionMiddleware);
 
   // Mount routes for all entities
   app.route('/tenants/:tenantId', crudRoutes);

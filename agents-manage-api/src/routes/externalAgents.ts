@@ -1,4 +1,4 @@
-import { createRoute, OpenAPIHono } from '@hono/zod-openapi';
+import { createRoute } from '@hono/zod-openapi';
 import {
   commonGetErrorResponses,
   createApiError,
@@ -18,8 +18,9 @@ import {
   updateExternalAgent,
 } from '@inkeep/agents-core';
 import dbClient from '../data/db/dbClient';
+import { createAppWithResolvedRef } from '../utils/app-helper';
 
-const app = new OpenAPIHono();
+const app = createAppWithResolvedRef();
 
 app.openapi(
   createRoute({
@@ -47,8 +48,9 @@ app.openapi(
   async (c) => {
     const { tenantId, projectId } = c.req.valid('param');
     const { page, limit } = c.req.valid('query');
+    const resolvedRef = c.get('resolvedRef');
 
-    const result = await listExternalAgentsPaginated(dbClient)({
+    const result = await listExternalAgentsPaginated(dbClient, resolvedRef)({
       scopes: { tenantId, projectId },
       pagination: { page, limit },
     });
@@ -89,7 +91,8 @@ app.openapi(
   }),
   async (c) => {
     const { tenantId, projectId, id } = c.req.valid('param');
-    const externalAgent = await getExternalAgent(dbClient)({
+    const resolvedRef = c.get('resolvedRef');
+    const externalAgent = await getExternalAgent(dbClient, resolvedRef)({
       scopes: { tenantId, projectId },
       externalAgentId: id,
     });

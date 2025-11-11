@@ -1,4 +1,4 @@
-import { createRoute, OpenAPIHono } from '@hono/zod-openapi';
+import { createRoute } from '@hono/zod-openapi';
 import {
   AgentWithinContextOfProjectResponse,
   AgentWithinContextOfProjectSchema,
@@ -16,10 +16,11 @@ import {
 import { z } from 'zod';
 import dbClient from '../data/db/dbClient';
 import { getLogger } from '../logger';
+import { createAppWithResolvedRef } from '../utils/app-helper';
 
 const logger = getLogger('agentFull');
 
-const app = new OpenAPIHono();
+const app = createAppWithResolvedRef();
 
 app.openapi(
   createRoute({
@@ -66,7 +67,7 @@ app.openapi(
 
     const validatedAgentData = AgentWithinContextOfProjectSchema.parse(agentData);
 
-    const createdAgent = await createFullAgentServerSide(dbClient, logger)(
+    const createdAgent = await createFullAgentServerSide(dbClient)(
       { tenantId, projectId },
       validatedAgentData
     );
@@ -100,11 +101,12 @@ app.openapi(
   }),
   async (c) => {
     const { tenantId, projectId, agentId } = c.req.valid('param');
+    const resolvedRef = c.get('resolvedRef');
 
     try {
-      const agent: FullAgentDefinition | null = await getFullAgent(
+      const agent: FullAgentDefinition | null = await getFullAgent()(
         dbClient,
-        logger
+        resolvedRef
       )({
         scopes: { tenantId, projectId, agentId },
       });
@@ -188,9 +190,9 @@ app.openapi(
         });
       }
 
-      const existingAgent: FullAgentDefinition | null = await getFullAgent(
+      const existingAgent: FullAgentDefinition | null = await getFullAgent()(
         dbClient,
-        logger
+        undefined
       )({
         scopes: { tenantId, projectId, agentId },
       });
@@ -198,11 +200,11 @@ app.openapi(
 
       // Update/create the full agent using server-side data layer operations
       const updatedAgent: FullAgentDefinition = isCreate
-        ? await createFullAgentServerSide(dbClient, logger)(
+        ? await createFullAgentServerSide(dbClient)(
             { tenantId, projectId },
             validatedAgentData
           )
-        : await updateFullAgentServerSide(dbClient, logger)(
+        : await updateFullAgentServerSide(dbClient)(
             { tenantId, projectId },
             validatedAgentData
           );
@@ -255,8 +257,7 @@ app.openapi(
 
     try {
       const deleted = await deleteFullAgent(
-        dbClient,
-        logger
+        dbClient
       )({
         scopes: { tenantId, projectId, agentId },
       });

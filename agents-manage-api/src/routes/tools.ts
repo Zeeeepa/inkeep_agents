@@ -1,4 +1,4 @@
-import { createRoute, OpenAPIHono } from '@hono/zod-openapi';
+import { createRoute } from '@hono/zod-openapi';
 import type { CredentialStoreRegistry, ServerConfig } from '@inkeep/agents-core';
 import {
   commonGetErrorResponses,
@@ -24,6 +24,7 @@ import {
 } from '@inkeep/agents-core';
 import dbClient from '../data/db/dbClient';
 import { getLogger } from '../logger';
+import { createAppWithResolvedRef } from '../utils/app-helper';
 
 const logger = getLogger('tools');
 
@@ -32,7 +33,7 @@ type AppVariables = {
   credentialStores: CredentialStoreRegistry;
 };
 
-const app = new OpenAPIHono<{ Variables: AppVariables }>();
+const app = createAppWithResolvedRef<{ Variables: AppVariables }>();
 
 app.openapi(
   createRoute({
@@ -62,6 +63,7 @@ app.openapi(
   async (c) => {
     const { tenantId, projectId } = c.req.valid('param');
     const { page, limit, status } = c.req.valid('query');
+    const resolvedRef = c.get('resolvedRef');
 
     let result: {
       data: McpTool[];
@@ -76,7 +78,7 @@ app.openapi(
 
     // Filter by status if provided
     if (status) {
-      const dbResult = await listTools(dbClient)({
+      const dbResult = await listTools(dbClient, resolvedRef)({
         scopes: { tenantId, projectId },
         pagination: { page, limit },
       });
@@ -84,7 +86,7 @@ app.openapi(
         data: (
           await Promise.all(
             dbResult.data.map(
-              async (tool) => await dbResultToMcpTool(tool, dbClient, credentialStores)
+              async (tool) => await dbResultToMcpTool(tool, dbClient, credentialStores, resolvedRef)
             )
           )
         ).filter((tool) => tool.status === status),
@@ -92,14 +94,14 @@ app.openapi(
       };
     } else {
       // Use paginated results from operations
-      const dbResult = await listTools(dbClient)({
+      const dbResult = await listTools(dbClient, resolvedRef)({
         scopes: { tenantId, projectId },
         pagination: { page, limit },
       });
       result = {
         data: await Promise.all(
           dbResult.data.map(
-            async (tool) => await dbResultToMcpTool(tool, dbClient, credentialStores)
+            async (tool) => await dbResultToMcpTool(tool, dbClient, credentialStores, resolvedRef)
           )
         ),
         pagination: dbResult.pagination,
@@ -134,7 +136,8 @@ app.openapi(
   }),
   async (c) => {
     const { tenantId, projectId, id } = c.req.valid('param');
-    const tool = await getToolById(dbClient)({ scopes: { tenantId, projectId }, toolId: id });
+    const resolvedRef = c.get('resolvedRef');
+    const tool = await getToolById(dbClient, resolvedRef)({ scopes: { tenantId, projectId }, toolId: id });
     if (!tool) {
       throw createApiError({
         code: 'not_found',
@@ -145,7 +148,7 @@ app.openapi(
     const credentialStores = c.get('credentialStores');
 
     return c.json({
-      data: await dbResultToMcpTool(tool, dbClient, credentialStores),
+      data: await dbResultToMcpTool(tool, dbClient, credentialStores, resolvedRef),
     });
   }
 );

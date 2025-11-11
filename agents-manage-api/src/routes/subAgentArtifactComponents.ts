@@ -1,4 +1,4 @@
-import { createRoute, OpenAPIHono } from '@hono/zod-openapi';
+import { createRoute } from '@hono/zod-openapi';
 import {
   ArtifactComponentArrayResponse,
   associateArtifactComponentWithAgent,
@@ -21,8 +21,9 @@ import {
 } from '@inkeep/agents-core';
 import { z } from 'zod';
 import dbClient from '../data/db/dbClient';
+import { createAppWithResolvedRef } from '../utils/app-helper';
 
-const app = new OpenAPIHono();
+const app = createAppWithResolvedRef();
 
 app.openapi(
   createRoute({
@@ -48,8 +49,9 @@ app.openapi(
   }),
   async (c) => {
     const { tenantId, projectId, agentId, subAgentId } = c.req.valid('param');
+    const resolvedRef = c.get('resolvedRef');
 
-    const artifactComponents = await getArtifactComponentsForAgent(dbClient)({
+    const artifactComponents = await getArtifactComponentsForAgent(dbClient, resolvedRef)({
       scopes: { tenantId, projectId, agentId, subAgentId },
     });
 
@@ -85,8 +87,9 @@ app.openapi(
   }),
   async (c) => {
     const { tenantId, projectId, artifactComponentId } = c.req.valid('param');
+    const resolvedRef = c.get('resolvedRef');
 
-    const agents = await getAgentsUsingArtifactComponent(dbClient)({
+    const agents = await getAgentsUsingArtifactComponent(dbClient, resolvedRef)({
       scopes: { tenantId, projectId },
       artifactComponentId,
     });
@@ -136,11 +139,11 @@ app.openapi(
     const { tenantId, projectId, agentId } = c.req.valid('param');
     const { subAgentId, artifactComponentId } = c.req.valid('json');
 
-    const agent = await getSubAgentById(dbClient)({
+    const agent = await getSubAgentById(dbClient, undefined)({
       scopes: { tenantId, projectId, agentId },
       subAgentId,
     });
-    const artifactComponent = await getArtifactComponentById(dbClient)({
+    const artifactComponent = await getArtifactComponentById(dbClient, undefined)({
       scopes: { tenantId, projectId },
       id: artifactComponentId,
     });
@@ -159,7 +162,7 @@ app.openapi(
       });
     }
 
-    const exists = await isArtifactComponentAssociatedWithAgent(dbClient)({
+    const exists = await isArtifactComponentAssociatedWithAgent(dbClient, undefined)({
       scopes: { tenantId, projectId, agentId, subAgentId },
       artifactComponentId,
     });
@@ -253,8 +256,9 @@ app.openapi(
   }),
   async (c) => {
     const { tenantId, projectId, agentId, subAgentId, artifactComponentId } = c.req.valid('param');
+    const resolvedRef = c.get('resolvedRef');
 
-    const exists = await isArtifactComponentAssociatedWithAgent(dbClient)({
+    const exists = await isArtifactComponentAssociatedWithAgent(dbClient, resolvedRef)({
       scopes: { tenantId, projectId, agentId, subAgentId },
       artifactComponentId,
     });

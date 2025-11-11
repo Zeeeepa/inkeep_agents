@@ -1,4 +1,4 @@
-import { createRoute, OpenAPIHono } from '@hono/zod-openapi';
+import { createRoute } from '@hono/zod-openapi';
 import {
   commonGetErrorResponses,
   createApiError,
@@ -18,10 +18,11 @@ import {
 } from '@inkeep/agents-core';
 import dbClient from '../data/db/dbClient';
 import { getLogger } from '../logger';
+import { createAppWithResolvedRef } from '../utils/app-helper';
 
 const logger = getLogger('functions');
 
-const app = new OpenAPIHono();
+const app = createAppWithResolvedRef();
 
 app.openapi(
   createRoute({
@@ -48,9 +49,10 @@ app.openapi(
   }),
   async (c) => {
     const { tenantId, projectId } = c.req.valid('param');
+    const resolvedRef = c.get('resolvedRef');
 
     try {
-      const functions = await listFunctions(dbClient)({ scopes: { tenantId, projectId } });
+      const functions = await listFunctions(dbClient, resolvedRef)({ scopes: { tenantId, projectId } });
 
       return c.json({
         data: functions as any,
@@ -95,10 +97,11 @@ app.openapi(
   }),
   async (c) => {
     const { tenantId, projectId, id } = c.req.valid('param');
+    const resolvedRef = c.get('resolvedRef');
 
     try {
       // Functions are project-scoped
-      const functionData = await getFunction(dbClient)({
+      const functionData = await getFunction(dbClient, resolvedRef)({
         functionId: id,
         scopes: { tenantId, projectId },
       });
@@ -218,7 +221,7 @@ app.openapi(
     const updateData = c.req.valid('json');
 
     try {
-      const existing = await getFunction(dbClient)({
+      const existing = await getFunction(dbClient, undefined)({
         functionId: id,
         scopes: { tenantId, projectId },
       });
@@ -238,7 +241,7 @@ app.openapi(
         scopes: { tenantId, projectId },
       });
 
-      const updated = await getFunction(dbClient)({
+      const updated = await getFunction(dbClient, undefined)({
         functionId: id,
         scopes: { tenantId, projectId },
       });
@@ -277,7 +280,7 @@ app.openapi(
     const { tenantId, projectId, id } = c.req.valid('param');
 
     try {
-      const existing = await getFunction(dbClient)({
+      const existing = await getFunction(dbClient, undefined)({
         functionId: id,
         scopes: { tenantId, projectId },
       });

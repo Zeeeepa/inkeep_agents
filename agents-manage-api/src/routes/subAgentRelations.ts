@@ -1,4 +1,4 @@
-import { createRoute, OpenAPIHono } from '@hono/zod-openapi';
+import { createRoute } from '@hono/zod-openapi';
 import {
   commonGetErrorResponses,
   createApiError,
@@ -24,8 +24,9 @@ import {
   validateSubAgent,
 } from '@inkeep/agents-core';
 import dbClient from '../data/db/dbClient';
+import { createAppWithResolvedRef } from '../utils/app-helper';
 
-const app = new OpenAPIHono();
+const app = createAppWithResolvedRef();
 
 app.openapi(
   createRoute({
@@ -55,26 +56,27 @@ app.openapi(
     const { page = 1, limit = 10, sourceSubAgentId, targetSubAgentId } = c.req.valid('query');
     const pageNum = Number(page);
     const limitNum = Math.min(Number(limit), 100);
+    const resolvedRef = c.get('resolvedRef');
 
     try {
       let result: { data: SubAgentRelationApiSelect[]; pagination: Pagination };
 
       if (sourceSubAgentId) {
-        const rawResult = await getAgentRelationsBySource(dbClient)({
+        const rawResult = await getAgentRelationsBySource(dbClient, resolvedRef)({
           scopes: { tenantId, projectId, agentId },
           sourceSubAgentId,
           pagination: { page: pageNum, limit: limitNum },
         });
         result = { ...rawResult, data: rawResult.data };
       } else if (targetSubAgentId) {
-        const rawResult = await getSubAgentRelationsByTarget(dbClient)({
+        const rawResult = await getSubAgentRelationsByTarget(dbClient, resolvedRef)({
           scopes: { tenantId, projectId, agentId },
           targetSubAgentId,
           pagination: { page: pageNum, limit: limitNum },
         });
         result = { ...rawResult, data: rawResult.data };
       } else {
-        const rawResult = await listAgentRelations(dbClient)({
+        const rawResult = await listAgentRelations(dbClient, resolvedRef)({
           scopes: { tenantId, projectId, agentId },
           pagination: { page: pageNum, limit: limitNum },
         });
@@ -115,7 +117,8 @@ app.openapi(
   }),
   async (c) => {
     const { tenantId, projectId, agentId, id } = c.req.valid('param');
-    const agentRelation = (await getAgentRelationById(dbClient)({
+    const resolvedRef = c.get('resolvedRef');
+    const agentRelation = (await getAgentRelationById(dbClient, resolvedRef)({
       scopes: { tenantId, projectId, agentId },
       relationId: id,
     })) as SubAgentRelationApiSelect | null;
@@ -165,7 +168,7 @@ app.openapi(
     const body = await c.req.valid('json');
 
     if (body.targetSubAgentId) {
-      const subAgentExists = await validateSubAgent(dbClient)({
+      const subAgentExists = await validateSubAgent(dbClient, undefined)({
         scopes: { tenantId, projectId, agentId, subAgentId: body.targetSubAgentId },
       });
       if (!subAgentExists) {
@@ -176,7 +179,7 @@ app.openapi(
       }
     }
 
-    const existingRelations = await listAgentRelations(dbClient)({
+    const existingRelations = await listAgentRelations(dbClient, undefined)({
       scopes: { tenantId, projectId, agentId },
       pagination: { page: 1, limit: 1000 },
     });

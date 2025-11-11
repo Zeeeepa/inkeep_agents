@@ -1,4 +1,4 @@
-import { createRoute, OpenAPIHono } from '@hono/zod-openapi';
+import { createRoute } from '@hono/zod-openapi';
 import {
   commonGetErrorResponses,
   createApiError,
@@ -18,8 +18,9 @@ import {
   updateSubAgent,
 } from '@inkeep/agents-core';
 import dbClient from '../data/db/dbClient';
+import { createAppWithResolvedRef } from '../utils/app-helper';
 
-const app = new OpenAPIHono();
+const app = createAppWithResolvedRef();
 
 app.openapi(
   createRoute({
@@ -48,8 +49,9 @@ app.openapi(
     const { tenantId, projectId, agentId } = c.req.valid('param');
     const page = Number(c.req.query('page')) || 1;
     const limit = Math.min(Number(c.req.query('limit')) || 10, 100);
+    const resolvedRef = c.get('resolvedRef');
 
-    const result = await listSubAgentsPaginated(dbClient)({
+    const result = await listSubAgentsPaginated(dbClient, resolvedRef)({
       scopes: { tenantId, projectId, agentId },
       pagination: { page, limit },
     });
@@ -90,7 +92,9 @@ app.openapi(
   }),
   async (c) => {
     const { tenantId, projectId, agentId, id } = c.req.valid('param');
-    const subAgent = await getSubAgentById(dbClient)({
+    const resolvedRef = c.get('resolvedRef');
+
+    const subAgent = await getSubAgentById(dbClient, resolvedRef)({
       scopes: { tenantId, projectId, agentId },
       subAgentId: id,
     });

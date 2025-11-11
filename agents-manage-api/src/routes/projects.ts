@@ -1,25 +1,30 @@
-import { createRoute, OpenAPIHono } from '@hono/zod-openapi';
+import { createRoute } from '@hono/zod-openapi';
 import {
   commonGetErrorResponses,
   createApiError,
   createProject,
   deleteProject,
   ErrorResponseSchema,
+  getPoolFromClient,
   getProject,
   listProjectsPaginated,
-  PaginationQueryParamsSchema,
+  PaginationWithRefQueryParamsSchema,
   ProjectApiInsertSchema,
   ProjectApiUpdateSchema,
   ProjectListResponse,
   ProjectResponse,
+  RefQueryParamSchema,
+  type ResolvedRef,
   TenantIdParamsSchema,
   TenantParamsSchema,
   updateProject,
+  withRefConnection,
 } from '@inkeep/agents-core';
 
+import { createAppWithResolvedRef } from '../utils/app-helper';
 import dbClient from '../data/db/dbClient';
 
-const app = new OpenAPIHono();
+const app = createAppWithResolvedRef();
 
 app.openapi(
   createRoute({
@@ -31,7 +36,7 @@ app.openapi(
     tags: ['Projects'],
     request: {
       params: TenantParamsSchema,
-      query: PaginationQueryParamsSchema,
+      query: PaginationWithRefQueryParamsSchema,
     },
     responses: {
       200: {
@@ -49,8 +54,9 @@ app.openapi(
     const { tenantId } = c.req.valid('param');
     const page = Number(c.req.query('page')) || 1;
     const limit = Math.min(Number(c.req.query('limit')) || 10, 100);
+    const resolvedRef = c.get('resolvedRef');
 
-    const result = await listProjectsPaginated(dbClient)({
+    const result = await listProjectsPaginated(dbClient, resolvedRef)({
       tenantId,
       pagination: { page, limit },
     });
@@ -68,6 +74,7 @@ app.openapi(
     tags: ['Projects'],
     request: {
       params: TenantIdParamsSchema,
+      query: RefQueryParamSchema,
     },
     responses: {
       200: {
@@ -83,7 +90,9 @@ app.openapi(
   }),
   async (c) => {
     const { tenantId, id } = c.req.valid('param');
-    const project = await getProject(dbClient)({ scopes: { tenantId, projectId: id } });
+    const resolvedRef = c.get('resolvedRef') as ResolvedRef | undefined;
+
+    const project = await getProject(dbClient, resolvedRef)({ scopes: { tenantId, projectId: id } });
 
     if (!project) {
       throw createApiError({

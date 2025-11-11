@@ -1359,9 +1359,16 @@ export const TenantProjectAgentSubAgentIdParamsSchema =
     id: resourceIdSchema,
   });
 
+export const RefQueryParamSchema = z.object({
+  ref: z.string().optional().describe('Branch name, tag name, or commit hash to query from'),
+});
+
 export const PaginationQueryParamsSchema = z
   .object({
     page: pageNumber,
     limit: limitNumber,
   })
   .openapi('PaginationQueryParams');
+
+export const PaginationWithRefQueryParamsSchema =
+  PaginationQueryParamsSchema.merge(RefQueryParamSchema);

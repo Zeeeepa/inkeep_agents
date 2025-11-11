@@ -1,4 +1,4 @@
-import { createRoute, OpenAPIHono } from '@hono/zod-openapi';
+import { createRoute } from '@hono/zod-openapi';
 import {
   commonGetErrorResponses,
   createApiError,
@@ -16,10 +16,11 @@ import {
 import { z } from 'zod';
 import dbClient from '../data/db/dbClient';
 import { getLogger } from '../logger';
-
+import { createAppWithResolvedRef } from '../utils/app-helper';
+  
 const logger = getLogger('projectFull');
 
-const app = new OpenAPIHono();
+const app = createAppWithResolvedRef();
 
 app.openapi(
   createRoute({
@@ -67,7 +68,7 @@ app.openapi(
     const validatedProjectData = FullProjectDefinitionSchema.parse(projectData);
     console.log('validatedProjectData', validatedProjectData);
     try {
-      const createdProject = await createFullProjectServerSide(dbClient, logger)(
+      const createdProject = await createFullProjectServerSide(dbClient)(
         { tenantId, projectId: validatedProjectData.id },
         validatedProjectData
       );
@@ -115,14 +116,11 @@ app.openapi(
   }),
   async (c) => {
     const { tenantId, projectId } = c.req.valid('param');
+    const resolvedRef = c.get('resolvedRef');
 
     try {
-      const project: FullProjectDefinition | null = await getFullProject(
-        dbClient,
-        logger
-      )({
-        scopes: { tenantId, projectId },
-      });
+      const project: FullProjectDefinition | null = await getFullProject(dbClient, resolvedRef)(
+        { scopes: { tenantId, projectId } });
 
       if (!project) {
         throw createApiError({
@@ -202,21 +200,18 @@ app.openapi(
         });
       }
 
-      const existingProject: FullProjectDefinition | null = await getFullProject(
-        dbClient,
-        logger
-      )({
+      const existingProject: FullProjectDefinition | null = await getFullProject(dbClient, undefined)({
         scopes: { tenantId, projectId },
       });
       const isCreate = !existingProject;
 
       // Update/create the full project using server-side data layer operations
       const updatedProject: FullProjectDefinition = isCreate
-        ? await createFullProjectServerSide(dbClient, logger)(
+        ? await createFullProjectServerSide(dbClient)(
             { tenantId, projectId },
             validatedProjectData
           )
-        : await updateFullProjectServerSide(dbClient, logger)(
+        : await updateFullProjectServerSide(dbClient)(
             { tenantId, projectId },
             validatedProjectData
           );
@@ -269,8 +264,7 @@ app.openapi(
 
     try {
       const deleted = await deleteFullProject(
-        dbClient,
-        logger
+        dbClient
       )({
         scopes: { tenantId, projectId },
       });
