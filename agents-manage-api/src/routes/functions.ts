@@ -1,10 +1,9 @@
-import { createRoute, OpenAPIHono } from '@hono/zod-openapi';
+import { createRoute } from '@hono/zod-openapi';
 import {
   commonGetErrorResponses,
   createApiError,
   deleteFunction,
   FunctionApiInsertSchema,
-  FunctionApiSelectSchema,
   FunctionApiUpdateSchema,
   FunctionListResponse,
   FunctionResponse,
@@ -16,12 +15,12 @@ import {
   TenantProjectParamsSchema,
   upsertFunction,
 } from '@inkeep/agents-core';
-import dbClient from '../data/db/dbClient';
 import { getLogger } from '../logger';
+import { createAppWithDb } from '../utils/apps';
 
 const logger = getLogger('functions');
 
-const app = new OpenAPIHono();
+const app = createAppWithDb();
 
 app.openapi(
   createRoute({

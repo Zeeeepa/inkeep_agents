@@ -4,6 +4,7 @@ import {
   commonGetErrorResponses,
   createApiError,
   createTool,
+  type DatabaseClient,
   dbResultToMcpTool,
   deleteTool,
   ErrorResponseSchema,
@@ -30,6 +31,7 @@ const logger = getLogger('tools');
 type AppVariables = {
   serverConfig: ServerConfig;
   credentialStores: CredentialStoreRegistry;
+  db: DatabaseClient;
 };
 
 const app = new OpenAPIHono<{ Variables: AppVariables }>();
