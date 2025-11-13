@@ -1,12 +1,11 @@
 import { and, count, desc, eq, inArray } from 'drizzle-orm';
 import type { DatabaseClient } from '../db/client';
-import { createDataAccessFn } from '../db/data-access-helper';
 import { subAgents } from '../db/schema';
 import type { SubAgentInsert, SubAgentSelect, SubAgentUpdate } from '../types/entities';
 import type { AgentScopeConfig, PaginationConfig } from '../types/utility';
 
-export const getSubAgentById = createDataAccessFn(
-  async (db: DatabaseClient, params: { scopes: AgentScopeConfig; subAgentId: string }) => {
+export const getSubAgentById =
+  (db: DatabaseClient) => async (params: { scopes: AgentScopeConfig; subAgentId: string }) => {
     const result = await db.query.subAgents.findFirst({
       where: and(
         eq(subAgents.tenantId, params.scopes.tenantId),
@@ -16,11 +15,10 @@ export const getSubAgentById = createDataAccessFn(
       ),
     });
     return result;
-  }
-);
+  };
 
-export const listSubAgents = createDataAccessFn(
-  async (db: DatabaseClient, params: { scopes: AgentScopeConfig }) => {
+export const listSubAgents =
+  (db: DatabaseClient) => async (params: { scopes: AgentScopeConfig }) => {
     return await db.query.subAgents.findMany({
       where: and(
         eq(subAgents.tenantId, params.scopes.tenantId),
@@ -28,11 +26,11 @@ export const listSubAgents = createDataAccessFn(
         eq(subAgents.agentId, params.scopes.agentId)
       ),
     });
-  }
-);
+  };
 
-export const listSubAgentsPaginated = createDataAccessFn(
-  async (db: DatabaseClient, params: { scopes: AgentScopeConfig; pagination?: PaginationConfig }) => {
+export const listSubAgentsPaginated =
+  (db: DatabaseClient) =>
+  async (params: { scopes: AgentScopeConfig; pagination?: PaginationConfig }) => {
     const page = params.pagination?.page || 1;
     const limit = Math.min(params.pagination?.limit || 10, 100);
     const offset = (page - 1) * limit;
@@ -61,8 +59,7 @@ export const listSubAgentsPaginated = createDataAccessFn(
       data,
       pagination: { page, limit, total, pages },
     };
-  }
-);
+  };
 
 export const createSubAgent = (db: DatabaseClient) => async (params: SubAgentInsert) => {
   const agent = await db.insert(subAgents).values(params).returning();
@@ -123,7 +120,7 @@ export const upsertSubAgent =
       agentId: params.data.agentId,
     };
 
-    const existing = await getSubAgentById(db)()({
+    const existing = await getSubAgentById(db)({
       scopes,
       subAgentId: params.data.id,
     });
@@ -162,15 +159,15 @@ export const deleteSubAgent =
         )
       );
 
-    const deletedSubAgent = await getSubAgentById(db)()({
+    const deletedSubAgent = await getSubAgentById(db)({
       scopes: params.scopes,
       subAgentId: params.subAgentId,
     });
     return deletedSubAgent === undefined;
   };
 
-export const getSubAgentsByIds = createDataAccessFn(
-  async (db: DatabaseClient, params: { scopes: AgentScopeConfig; subAgentIds: string[] }) => {
+export const getSubAgentsByIds =
+  (db: DatabaseClient) => async (params: { scopes: AgentScopeConfig; subAgentIds: string[] }) => {
     if (params.subAgentIds.length === 0) {
       return [];
     }
@@ -186,5 +183,4 @@ export const getSubAgentsByIds = createDataAccessFn(
           inArray(subAgents.id, params.subAgentIds)
         )
       );
-  }
-);
+  };

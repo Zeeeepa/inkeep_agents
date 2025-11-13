@@ -1,4 +1,4 @@
-import { createRoute } from '@hono/zod-openapi';
+import { createRoute, OpenAPIHono } from '@hono/zod-openapi';
 import {
   commonGetErrorResponses,
   createApiError,
@@ -18,9 +18,8 @@ import {
   validatePropsAsJsonSchema,
 } from '@inkeep/agents-core';
 import dbClient from '../data/db/dbClient';
-import { createAppWithResolvedRef } from '../utils/app-helper';
 
-const app = createAppWithResolvedRef();
+const app = new OpenAPIHono();
 
 app.openapi(
   createRoute({
@@ -46,12 +45,12 @@ app.openapi(
     },
   }),
   async (c) => {
+    const db = c.get('db');
     const { tenantId, projectId } = c.req.valid('param');
     const page = Number(c.req.query('page')) || 1;
     const limit = Math.min(Number(c.req.query('limit')) || 10, 100);
-    const resolvedRef = c.get('resolvedRef');
 
-    const result = await listDataComponentsPaginated(dbClient, resolvedRef)({
+    const result = await listDataComponentsPaginated(db)({
       scopes: { tenantId, projectId },
       pagination: { page, limit },
     });
@@ -82,9 +81,9 @@ app.openapi(
     },
   }),
   async (c) => {
+    const db = c.get('db');
     const { tenantId, projectId, id } = c.req.valid('param');
-    const resolvedRef = c.get('resolvedRef');
-    const dataComponent = await getDataComponent(dbClient, resolvedRef)({
+    const dataComponent = await getDataComponent(db)({
       scopes: { tenantId, projectId },
       dataComponentId: id,
     });
@@ -130,6 +129,7 @@ app.openapi(
     },
   }),
   async (c) => {
+    const db = c.get('db');
     const { tenantId, projectId } = c.req.valid('param');
     const body = c.req.valid('json');
 
@@ -152,7 +152,7 @@ app.openapi(
       projectId,
     };
 
-    const dataComponent = await createDataComponent(dbClient)(dataComponentData);
+    const dataComponent = await createDataComponent(db)(dataComponentData);
 
     return c.json({ data: dataComponent }, 201);
   }
@@ -188,6 +188,7 @@ app.openapi(
     },
   }),
   async (c) => {
+    const db = c.get('db');
     const { tenantId, projectId, id } = c.req.valid('param');
     const body = c.req.valid('json');
 
@@ -204,7 +205,7 @@ app.openapi(
       }
     }
 
-    const updatedDataComponent = await updateDataComponent(dbClient)({
+    const updatedDataComponent = await updateDataComponent(db)({
       scopes: { tenantId, projectId },
       dataComponentId: id,
       data: body,
@@ -246,9 +247,10 @@ app.openapi(
     },
   }),
   async (c) => {
+    const db = c.get('db');
     const { tenantId, projectId, id } = c.req.valid('param');
 
-    const deleted = await deleteDataComponent(dbClient)({
+    const deleted = await deleteDataComponent(db)({
       scopes: { tenantId, projectId },
       dataComponentId: id,
     });

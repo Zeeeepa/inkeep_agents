@@ -18,10 +18,9 @@ import {
   updateArtifactComponent,
   validatePropsAsJsonSchema,
 } from '@inkeep/agents-core';
-import dbClient from '../data/db/dbClient';
-import { createAppWithResolvedRef } from '../utils/app-helper';
+import { createAppWithDb } from '../utils/apps';
 
-const app = createAppWithResolvedRef();
+const app = createAppWithDb();
 
 app.openapi(
   createRoute({
@@ -47,12 +46,12 @@ app.openapi(
     },
   }),
   async (c) => {
+    const db = c.get('db');
     const { tenantId, projectId } = c.req.valid('param');
     const page = Number(c.req.query('page')) || 1;
     const limit = Math.min(Number(c.req.query('limit')) || 10, 100);
-    const resolvedRef = c.get('resolvedRef');
 
-    const result = await listArtifactComponentsPaginated(dbClient, resolvedRef)({
+    const result = await listArtifactComponentsPaginated(db)({
       scopes: { tenantId, projectId },
       pagination: { page, limit },
     });
@@ -83,9 +82,9 @@ app.openapi(
     },
   }),
   async (c) => {
+    const db = c.get('db');
     const { tenantId, projectId, id } = c.req.valid('param');
-    const resolvedRef = c.get('resolvedRef');
-    const artifactComponent = await getArtifactComponentById(dbClient, resolvedRef)({
+    const artifactComponent = await getArtifactComponentById(db)({
       scopes: { tenantId, projectId },
       id,
     });
@@ -131,6 +130,7 @@ app.openapi(
     },
   }),
   async (c) => {
+    const db = c.get('db');
     const { tenantId, projectId } = c.req.valid('param');
     const body = c.req.valid('json');
 
@@ -158,7 +158,7 @@ app.openapi(
     };
 
     try {
-      const artifactComponent = await createArtifactComponent(dbClient)({
+      const artifactComponent = await createArtifactComponent(db)({
         ...componentData,
       });
 
@@ -208,6 +208,7 @@ app.openapi(
     },
   }),
   async (c) => {
+    const db = c.get('db');
     const { tenantId, projectId, id } = c.req.valid('param');
     const body = c.req.valid('json');
 
@@ -237,7 +238,7 @@ app.openapi(
       updateData.props = body.props ?? null;
     }
 
-    const updatedArtifactComponent = await updateArtifactComponent(dbClient)({
+    const updatedArtifactComponent = await updateArtifactComponent(db)({
       scopes: { tenantId, projectId },
       id,
       data: updateData,
@@ -279,9 +280,10 @@ app.openapi(
     },
   }),
   async (c) => {
+    const db = c.get('db');
     const { tenantId, projectId, id } = c.req.valid('param');
 
-    const deleted = await deleteArtifactComponent(dbClient)({
+    const deleted = await deleteArtifactComponent(db)({
       scopes: { tenantId, projectId },
       id,
     });

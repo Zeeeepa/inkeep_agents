@@ -1,4 +1,4 @@
-import { createRoute } from '@hono/zod-openapi';
+import { createRoute, OpenAPIHono } from '@hono/zod-openapi';
 import {
   commonGetErrorResponses,
   createApiError,
@@ -21,9 +21,8 @@ import {
 } from '@inkeep/agents-core';
 import { nanoid } from 'nanoid';
 import dbClient from '../data/db/dbClient';
-import { createAppWithResolvedRef } from '../utils/app-helper';
 
-const app = createAppWithResolvedRef();
+const app = new OpenAPIHono();
 
 app.openapi(
   createRoute({
@@ -49,15 +48,15 @@ app.openapi(
     },
   }),
   async (c) => {
+    const db = c.get('db');
     const { tenantId, projectId, agentId, subAgentId } = c.req.valid('param');
     const { page = 1, limit = 10 } = c.req.valid('query');
     const pageNum = Number(page);
     const limitNum = Math.min(Number(limit), 100);
-    const resolvedRef = c.get('resolvedRef');
 
     try {
       const result: { data: SubAgentTeamAgentRelationApiSelect[]; pagination: Pagination } =
-        await listSubAgentTeamAgentRelations(dbClient, resolvedRef)({
+        await listSubAgentTeamAgentRelations(db)({
           scopes: { tenantId, projectId, agentId, subAgentId },
           pagination: { page: pageNum, limit: limitNum },
         });
@@ -95,9 +94,9 @@ app.openapi(
     },
   }),
   async (c) => {
+    const db = c.get('db');
     const { tenantId, projectId, agentId, subAgentId, id } = c.req.valid('param');
-    const resolvedRef = c.get('resolvedRef');
-    const relation = (await getSubAgentTeamAgentRelationById(dbClient, resolvedRef)({
+    const relation = (await getSubAgentTeamAgentRelationById(db)({
       scopes: { tenantId, projectId, agentId, subAgentId },
       relationId: id,
     })) as SubAgentTeamAgentRelationApiSelect | null;
@@ -143,11 +142,12 @@ app.openapi(
     },
   }),
   async (c) => {
+    const db = c.get('db');
     const { tenantId, projectId, agentId, subAgentId } = c.req.valid('param');
     const body = await c.req.valid('json');
 
     // Check for duplicate relation
-    const existingRelations = await listSubAgentTeamAgentRelations(dbClient, undefined)({
+    const existingRelations = await listSubAgentTeamAgentRelations(db)({
       scopes: { tenantId, projectId, agentId, subAgentId },
       pagination: { page: 1, limit: 1000 },
     });
@@ -164,7 +164,7 @@ app.openapi(
       });
     }
 
-    const relation = await createSubAgentTeamAgentRelation(dbClient)({
+    const relation = await createSubAgentTeamAgentRelation(db)({
       scopes: { tenantId, projectId, agentId, subAgentId },
       relationId: nanoid(),
       data: {
@@ -207,10 +207,11 @@ app.openapi(
     },
   }),
   async (c) => {
+    const db = c.get('db');
     const { tenantId, projectId, agentId, subAgentId, id } = c.req.valid('param');
     const body = await c.req.valid('json');
 
-    const updatedRelation = await updateSubAgentTeamAgentRelation(dbClient)({
+    const updatedRelation = await updateSubAgentTeamAgentRelation(db)({
       scopes: { tenantId, projectId, agentId, subAgentId },
       relationId: id,
       data: body,
@@ -252,9 +253,10 @@ app.openapi(
     },
   }),
   async (c) => {
+    const db = c.get('db');
     const { tenantId, projectId, agentId, subAgentId, id } = c.req.valid('param');
 
-    const deleted = await deleteSubAgentTeamAgentRelation(dbClient)({
+    const deleted = await deleteSubAgentTeamAgentRelation(db)({
       scopes: { tenantId, projectId, agentId, subAgentId },
       relationId: id,
     });

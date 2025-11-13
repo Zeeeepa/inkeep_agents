@@ -1,4 +1,4 @@
-import { createRoute } from '@hono/zod-openapi';
+import { createRoute, OpenAPIHono } from '@hono/zod-openapi';
 import {
   commonGetErrorResponses,
   createApiError,
@@ -18,9 +18,8 @@ import {
   updateSubAgent,
 } from '@inkeep/agents-core';
 import dbClient from '../data/db/dbClient';
-import { createAppWithResolvedRef } from '../utils/app-helper';
 
-const app = createAppWithResolvedRef();
+const app = new OpenAPIHono();
 
 app.openapi(
   createRoute({
@@ -46,12 +45,12 @@ app.openapi(
     },
   }),
   async (c) => {
+    const db = c.get('db');
     const { tenantId, projectId, agentId } = c.req.valid('param');
     const page = Number(c.req.query('page')) || 1;
     const limit = Math.min(Number(c.req.query('limit')) || 10, 100);
-    const resolvedRef = c.get('resolvedRef');
 
-    const result = await listSubAgentsPaginated(dbClient, resolvedRef)({
+    const result = await listSubAgentsPaginated(db)({
       scopes: { tenantId, projectId, agentId },
       pagination: { page, limit },
     });
@@ -91,10 +90,9 @@ app.openapi(
     },
   }),
   async (c) => {
+    const db = c.get('db');
     const { tenantId, projectId, agentId, id } = c.req.valid('param');
-    const resolvedRef = c.get('resolvedRef');
-
-    const subAgent = await getSubAgentById(dbClient, resolvedRef)({
+    const subAgent = await getSubAgentById(db)({
       scopes: { tenantId, projectId, agentId },
       subAgentId: id,
     });
@@ -146,10 +144,11 @@ app.openapi(
     },
   }),
   async (c) => {
+    const db = c.get('db');
     const { tenantId, projectId, agentId } = c.req.valid('param');
     const body = c.req.valid('json');
     const subAgentId = body.id ? String(body.id) : generateId();
-    const subAgent = await createSubAgent(dbClient)({
+    const subAgent = await createSubAgent(db)({
       ...body,
       id: subAgentId,
       tenantId,
@@ -197,10 +196,11 @@ app.openapi(
     },
   }),
   async (c) => {
+    const db = c.get('db');
     const { tenantId, projectId, agentId, id } = c.req.valid('param');
     const body = c.req.valid('json');
 
-    const updatedSubAgent = await updateSubAgent(dbClient)({
+    const updatedSubAgent = await updateSubAgent(db)({
       scopes: { tenantId, projectId, agentId },
       subAgentId: id,
       data: body,
@@ -248,9 +248,10 @@ app.openapi(
     },
   }),
   async (c) => {
+    const db = c.get('db');
     const { tenantId, projectId, agentId, id } = c.req.valid('param');
 
-    const deleted = await deleteSubAgent(dbClient)({
+    const deleted = await deleteSubAgent(db)({
       scopes: { tenantId, projectId, agentId },
       subAgentId: id,
     });

@@ -337,6 +337,7 @@ export const subAgentArtifactComponents = pgTable(
   (table) => [
     primaryKey({
       columns: [table.tenantId, table.projectId, table.agentId, table.subAgentId, table.id],
+      name: 'sub_agent_artifact_components_pk',
     }),
     foreignKey({
       columns: [table.tenantId, table.projectId, table.agentId, table.subAgentId],
@@ -466,7 +467,10 @@ export const subAgentExternalAgentRelations = pgTable(
     ...timestamps,
   },
   (table) => [
-    primaryKey({ columns: [table.tenantId, table.projectId, table.agentId, table.id] }),
+    primaryKey({
+      columns: [table.tenantId, table.projectId, table.agentId, table.id],
+      name: 'sub_agent_external_agent_relations_pk',
+    }),
     foreignKey({
       columns: [table.tenantId, table.projectId, table.agentId, table.subAgentId],
       foreignColumns: [subAgents.tenantId, subAgents.projectId, subAgents.agentId, subAgents.id],
@@ -489,7 +493,10 @@ export const subAgentTeamAgentRelations = pgTable(
     ...timestamps,
   },
   (table) => [
-    primaryKey({ columns: [table.tenantId, table.projectId, table.agentId, table.id] }),
+    primaryKey({
+      columns: [table.tenantId, table.projectId, table.agentId, table.id],
+      name: 'sub_agent_team_agent_relations_pk',
+    }),
     foreignKey({
       columns: [table.tenantId, table.projectId, table.agentId, table.subAgentId],
       foreignColumns: [subAgents.tenantId, subAgents.projectId, subAgents.agentId, subAgents.id],
@@ -511,7 +518,10 @@ export const subAgentFunctionToolRelations = pgTable(
     ...timestamps,
   },
   (table) => [
-    primaryKey({ columns: [table.tenantId, table.projectId, table.agentId, table.id] }),
+    primaryKey({
+      columns: [table.tenantId, table.projectId, table.agentId, table.id],
+      name: 'sub_agent_function_tool_relations_pk',
+    }),
     foreignKey({
       columns: [table.tenantId, table.projectId, table.agentId, table.subAgentId],
       foreignColumns: [subAgents.tenantId, subAgents.projectId, subAgents.agentId, subAgents.id],
