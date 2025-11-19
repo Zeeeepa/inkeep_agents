@@ -381,6 +381,7 @@ vi.mock('../../logger.js', () => ({
 
 describe('generateTaskHandler', () => {
   const mockConfig: TaskHandlerConfig = {
+    dbClient: {} as any,
     tenantId: 'test-tenant',
     projectId: 'test-project',
     agentId: 'test-agent',
@@ -876,6 +877,7 @@ describe('generateTaskHandler', () => {
   describe('createTaskHandlerConfig', () => {
     it('should create config from agent data', async () => {
       const config = await createTaskHandlerConfig({
+        dbClient: {} as any,
         tenantId: 'test-tenant',
         projectId: 'test-project',
         agentId: 'test-agent',
@@ -888,6 +890,7 @@ describe('generateTaskHandler', () => {
         projectId: 'test-project',
         agentId: 'test-agent',
         subAgentId: 'test-agent',
+        dbClient: {} as any,
         agentSchema: {
           id: 'test-agent',
           name: 'Test Agent',
@@ -930,6 +933,7 @@ describe('generateTaskHandler', () => {
 
       await expect(
         createTaskHandlerConfig({
+          dbClient: {} as any,
           tenantId: 'test-tenant',
           projectId: 'test-project',
           agentId: 'test-agent',
@@ -968,6 +972,7 @@ describe('generateTaskHandler', () => {
       );
 
       const config = await createTaskHandlerConfig({
+        dbClient: {} as any,
         tenantId: 'test-tenant',
         projectId: 'test-project',
         agentId: 'test-agent',
@@ -1025,6 +1030,7 @@ describe('generateTaskHandler', () => {
       );
 
       const config = await createTaskHandlerConfig({
+        dbClient: {} as any,
         tenantId: 'test-tenant',
         projectId: 'test-project',
         agentId: 'test-agent',
@@ -1075,6 +1081,7 @@ describe('generateTaskHandler', () => {
       );
 
       const config = await createTaskHandlerConfig({
+        dbClient: {} as any,
         tenantId: 'test-tenant',
         projectId: 'test-project',
         agentId: 'test-agent',

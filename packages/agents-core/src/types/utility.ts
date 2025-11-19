@@ -1,4 +1,5 @@
 import type { z } from 'zod';
+import type { ResolvedRef } from '../dolt/ref';
 import type { ApiKeySelect } from '../index';
 import type {
   McpTransportConfigSchema,
@@ -268,6 +269,8 @@ export interface ExecutionContext {
   baseUrl: string;
   /** API key ID for tracking */
   apiKeyId: string;
+  /** Ref extracted from request headers */
+  ref: ResolvedRef;
   /** Sub Agent ID extracted from request headers (only for internal A2A calls) */
   subAgentId?: string;
   /** Metadata for the execution context */

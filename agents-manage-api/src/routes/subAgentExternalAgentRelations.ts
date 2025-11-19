@@ -11,7 +11,6 @@ import {
   PaginationQueryParamsSchema,
   SubAgentExternalAgentRelationApiInsertSchema,
   type SubAgentExternalAgentRelationApiSelect,
-  SubAgentExternalAgentRelationApiSelectSchema,
   SubAgentExternalAgentRelationApiUpdateSchema,
   SubAgentExternalAgentRelationListResponse,
   SubAgentExternalAgentRelationResponse,

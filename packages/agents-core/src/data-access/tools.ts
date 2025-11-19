@@ -5,6 +5,7 @@ import type { NangoCredentialData } from '../credential-stores/nango-store';
 import { CredentialStuffer } from '../credential-stuffer';
 import type { DatabaseClient } from '../db/client';
 import { subAgentToolRelations, tools } from '../db/schema';
+import type { ResolvedRef } from '../dolt/ref';
 import {
   type AgentScopeConfig,
   CredentialStoreType,
@@ -81,6 +82,7 @@ const convertToMCPToolConfig = (tool: ToolSelect): MCPToolConfig => {
 const discoverToolsFromServer = async (
   tool: ToolSelect,
   dbClient: DatabaseClient,
+  ref?: ResolvedRef,
   credentialStoreRegistry?: CredentialStoreRegistry
 ): Promise<McpToolDefinition[]> => {
   if (tool.config.type !== 'mcp') {
@@ -113,7 +115,8 @@ const discoverToolsFromServer = async (
         tool.tenantId,
         tool.projectId,
         dbClient,
-        credentialStoreRegistry
+        credentialStoreRegistry,
+        ref
       );
       const credentialStuffer = new CredentialStuffer(credentialStoreRegistry, contextResolver);
       serverConfig = await credentialStuffer.buildMcpServerConfig(
@@ -171,7 +174,8 @@ export const dbResultToMcpTool = async (
   dbResult: ToolSelect,
   dbClient: DatabaseClient,
   credentialStoreRegistry?: CredentialStoreRegistry,
-  relationshipId?: string
+  relationshipId?: string,
+  ref?: ResolvedRef
 ): Promise<McpTool> => {
   const { headers, capabilities, credentialReferenceId, imageUrl, createdAt, ...rest } = dbResult;
 
@@ -229,7 +233,12 @@ export const dbResultToMcpTool = async (
   }
 
   try {
-    availableTools = await discoverToolsFromServer(dbResult, dbClient, credentialStoreRegistry);
+    availableTools = await discoverToolsFromServer(
+      dbResult,
+      dbClient,
+      ref,
+      credentialStoreRegistry
+    );
     status = 'healthy';
     lastErrorComputed = null;
   } catch (error) {

@@ -71,7 +71,7 @@ async function makeApiRequestInternal<T>(
       const errorData = await response.json().catch(() => ({
         error: { code: 'unknown', message: 'Unknown error occurred' },
       }));
-
+      console.log(url, errorData);
       throw new ApiError(
         errorData.error || {
           code: 'unknown',
