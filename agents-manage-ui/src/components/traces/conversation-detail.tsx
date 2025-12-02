@@ -23,7 +23,6 @@ import { Skeleton } from '@/components/ui/skeleton';
 import { useRuntimeConfig } from '@/contexts/runtime-config-context';
 import { getSignozTracesExplorerUrl } from '@/lib/utils/signoz-links';
 import { copyTraceToClipboard } from '@/lib/utils/trace-formatter';
-import { ContextBreakdown } from './context-breakdown';
 import { SignozLink } from './signoz-link';
 import { InfoRow } from './timeline/blocks';
 import { TimelineWrapper } from './timeline/timeline-wrapper';
@@ -149,7 +148,7 @@ export function ConversationDetail({ conversationId, onBack }: ConversationDetai
       </div>
 
       {/* Summary Cards */}
-      <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mb-4 flex-shrink-0">
+      <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3 mb-4 flex-shrink-0">
         {/* Duration */}
         <Card
           className="shadow-none bg-background"
@@ -318,11 +317,6 @@ export function ConversationDetail({ conversationId, onBack }: ConversationDetai
             })()}
           </CardContent>
         </Card>
-
-        {/* Context Breakdown - only show if available */}
-        {conversation.contextBreakdown && (
-          <ContextBreakdown breakdown={conversation.contextBreakdown} />
-        )}
       </div>
 
       {/* Timeline Panel - Takes remaining height */}
