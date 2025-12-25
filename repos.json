@@ -1,0 +1,130 @@
+[
+  {
+    "name": "aigne-framework",
+    "description": "AIGNE Framework"
+  },
+  {
+    "name": "claude-flow",
+    "description": "Claude-Flow v2.0.0 Alpha represents a leap in AI-powered development orchestration. Built from the ground up with enterprise-grade architecture, advanced swarm intelligence, and seamless Claude Code integration."
+  },
+  {
+    "name": "danmu_api",
+    "description": "一个人人都能部署的基于 js 的弹幕 API 服务器，支持爱优腾芒哔人弹幕直接获取"
+  },
+  {
+    "name": "voice-noob",
+    "description": "Voice agent platform for configuring and deploying custom AI voice agents"
+  },
+  {
+    "name": "devtools-debugger-mcp",
+    "description": "An MCP server exposing full Chrome DevTools Protocol debugging: breakpoints, step/run, call stacks, eval, and source maps."
+  },
+  {
+    "name": "dashcam",
+    "description": ""
+  },
+  {
+    "name": "mgrep",
+    "description": "A calm, CLI-native way to semantically grep everything, like code, images, pdfs and more."
+  },
+  {
+    "name": "grainchain",
+    "description": "Langchain for sandboxes"
+  },
+  {
+    "name": "Microsoft.Unity.Analyzers",
+    "description": "Roslyn analyzers for Unity game developers"
+  },
+  {
+    "name": "sj.h",
+    "description": "A tiny little JSON parsing library"
+  },
+  {
+    "name": "intelligent-audit-system",
+    "description": "🤖 AutoAudit--智能审计决策系统 Python FastAPI License  基于大语言模型的智能审计平台"
+  },
+  {
+    "name": "Portalis",
+    "description": ""
+  },
+  {
+    "name": "DeepWideResearch",
+    "description": "Agentic RAG for any scenario. Customize sources, depth, and width"
+  },
+  {
+    "name": "llm-auto-optimizer",
+    "description": ""
+  },
+  {
+    "name": "better-ui",
+    "description": ""
+  },
+  {
+    "name": "vscode-deepscan",
+    "description": "Extension to integrate DeepScan into VS Code."
+  },
+  {
+    "name": "voltagent",
+    "description": "Open Source TypeScript AI Agent Framework"
+  },
+  {
+    "name": "autogenlib",
+    "description": "Import wisdom, export code."
+  },
+  {
+    "name": "catwalk",
+    "description": "🐈 A collection of LLM inference providers and models"
+  },
+  {
+    "name": "callcenter.js-mcp",
+    "description": "Callcenter.JS AI Voice Agent VOIP Connector, MCP + CLI"
+  },
+  {
+    "name": "yaak",
+    "description": "The most intuitive desktop API client. Organize and execute REST, GraphQL, WebSockets, Server Sent Events, and gRPC"
+  },
+  {
+    "name": "comfydeploy",
+    "description": "ComfyDeployed"
+  },
+  {
+    "name": "LEANN",
+    "description": "RAG on Everything with LEANN. Enjoy 97% storage savings while running a fast, accurate, and 100% private RAG application"
+  },
+  {
+    "name": "Deep-Live-Cam",
+    "description": "real time face swap and one-click video deepfake with only a single image"
+  },
+  {
+    "name": "lsp",
+    "description": "A customizable language server protocol with full integration with vscode..!"
+  },
+  {
+    "name": "ultimate_mcp_server",
+    "description": "The Ultimate Model Context Protocol (MCP) Server, providing unified access to a wide variety of useful and powerful tools."
+  },
+  {
+    "name": "computesdk",
+    "description": "A free and open-source toolkit for running other people's code in your applications."
+  },
+  {
+    "name": "odoo",
+    "description": "Odoo. Open Source Apps To Grow Your Business."
+  },
+  {
+    "name": "promptflow",
+    "description": "Build high-quality LLM apps - from prototyping, testing to production deployment and monitoring."
+  },
+  {
+    "name": "cc-sessions",
+    "description": "An opinionated extension set for Claude Code (hooks, subagents, commands, task/git management infrastructure)"
+  },
+  {
+    "name": "cloudflare-manager",
+    "description": "一个强大的Cloudflare多账号Workers批量管理系统，支持账号管理、批量操作、实时监控和Workers脚本管理。"
+  },
+  {
+    "name": "sealos",
+    "description": "The Intelligent Cloud OS. Use AI to automate the full lifecycle of your development and production environments"
+  }
+]
