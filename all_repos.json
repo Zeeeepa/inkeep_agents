@@ -1,0 +1,3830 @@
+[
+  {
+    "description": "Python SDK to Interact with Intelligent Code Generation Agents",
+    "name": "codegen"
+  },
+  {
+    "description": "Create AI Agents in a No-Code Visual Builder or TypeScript SDK with full 2-way sync. For shipping AI assistants and multi-agent AI workflows.",
+    "name": "inkeep_agents"
+  },
+  {
+    "description": "",
+    "name": "snow-code"
+  },
+  {
+    "description": "analyzer",
+    "name": "analyzer"
+  },
+  {
+    "description": "Speech-to-text, text-to-speech, speaker diarization, speech enhancement, source separation, and VAD using next-gen Kaldi with onnxruntime without Internet connection. Support embedded systems, Android, iOS, HarmonyOS, Raspberry Pi, RISC-V, RK NPU, Ascend NPU, x86_64 servers, websocket server/client, support 12 programming languages",
+    "name": "sherpa-onnx"
+  },
+  {
+    "description": "Generative UI SDK for React",
+    "name": "tambo"
+  },
+  {
+    "description": "\ud83c\udfaf Specification-first AI development framework. Automates spec validation, traceability, and code generation for greenfield and brownfield projects at any scale.",
+    "name": "specweave"
+  },
+  {
+    "description": "Ensemble Plugin Ecosystem - Modular Claude Code plugins for AI-augmented development workflows",
+    "name": "ensemble"
+  },
+  {
+    "description": "Costrict - strict AI coder for enterprises, quality first, including AI Agent, AI CodeReview, AI Completion. ",
+    "name": "costrict"
+  },
+  {
+    "description": "A free and open-source toolkit for running other people's code in your applications.",
+    "name": "computesdk"
+  },
+  {
+    "description": "K2-Think\u6a21\u578b\u4ee3\u7406\uff0c\u517c\u5bb9OpenAI API\uff0c\u652f\u6301\u672c\u5730/Docker\u90e8\u7f72\uff0c\u52a0\u5165\u5de5\u5177\u8c03\u7528",
+    "name": "k2think2api3"
+  },
+  {
+    "description": "NOFX: Defining the Next-Generation AI Trading Operating System. A multi-exchange Al trading platform(Binance/Hyperliquid/Aster) with multi-Ai competition(deepseek/qwen/claude)self-evolution, and real-time dashboard",
+    "name": "nofx"
+  },
+  {
+    "description": "Charm experimental packages",
+    "name": "x"
+  },
+  {
+    "description": "Windows",
+    "name": "Windows"
+  },
+  {
+    "description": "\u57fa\u4e8e\u591a\u667a\u80fd\u4f53LLM\u7684\u4e2d\u6587\u91d1\u878d\u4ea4\u6613\u6846\u67b6 - TradingAgents\u4e2d\u6587\u589e\u5f3a\u7248",
+    "name": "TradingAgents-CN"
+  },
+  {
+    "description": "Open Source TypeScript AI Agent Framework",
+    "name": "voltagent"
+  },
+  {
+    "description": "A task runner / simpler Make alternative written in Go",
+    "name": "task"
+  },
+  {
+    "description": "\u2728 Open-source AI hackers for your apps \ud83d\udc68\ud83c\udffb\u200d\ud83d\udcbb",
+    "name": "strix"
+  },
+  {
+    "description": "Claude Code superpowers: core skills library",
+    "name": "superpowers"
+  },
+  {
+    "description": "Build full-stack apps on your own infrastructure.",
+    "name": "sst"
+  },
+  {
+    "description": "hydra",
+    "name": "thc-hydra"
+  },
+  {
+    "description": "SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges. [NeurIPS 2024] ",
+    "name": "SWE-agent"
+  },
+  {
+    "description": "\u5b9f\u8df5LLM\u30a2\u30d7\u30ea\u30b1\u30fc\u30b7\u30e7\u30f3\u958b\u767a\u30b5\u30f3\u30d7\u30eb\u30b3\u30fc\u30c9",
+    "name": "softwaredesign-llm-application"
+  },
+  {
+    "description": "A Model Context Protocol (MCP) proxy server that enables efficient management of large tool collections across multiple MCP servers by grouping them and loading tool schemas on-demand.",
+    "name": "serena-modular-mcp"
+  },
+  {
+    "description": "",
+    "name": "S1-Parser"
+  },
+  {
+    "description": "A lightweight sandboxing tool for enforcing filesystem and network restrictions on arbitrary processes at the OS level, without requiring a container.",
+    "name": "sandbox-runtime"
+  },
+  {
+    "description": "\"RAG-Anything: All-in-One RAG System\"",
+    "name": "RAG-Anything"
+  },
+  {
+    "description": "\ud83d\udd78\ufe0f Web apps in pure Python \ud83d\udc0d",
+    "name": "reflex"
+  },
+  {
+    "description": "Research and development (R&D) is crucial for the enhancement of industrial productivity, especially in the AI era, where the core aspects of R&D are mainly focused on data and models. We are committed to automating these high-value generic R&D processes through our open source R&D automation tool RD-Agent, which lets AI drive data-driven AI.",
+    "name": "RD-Agent"
+  },
+  {
+    "description": "",
+    "name": "opencode-web"
+  },
+  {
+    "description": "Fast Diversification for Search & Retrieval",
+    "name": "pyversity"
+  },
+  {
+    "description": "",
+    "name": "perp-dex-tools"
+  },
+  {
+    "description": "Red Team AI prompts",
+    "name": "Prompts"
+  },
+  {
+    "description": "Playwright MCP server",
+    "name": "playwright-mcp"
+  },
+  {
+    "description": "Neovate Code is a code agent to enhance your development. You can use it to generate code, fix bugs, review code, add tests, and more. You can run it in interactive mode or headless mode.",
+    "name": "neovate-code"
+  },
+  {
+    "description": "A god-simulation sandbox game built on Godot 4 as a multi-agent AI social simulation system. In this virtual world, AI characters possess independent thinking and memory, capable of autonomous social interactions, task completion, and developing complex social relationships through continuous communication.",
+    "name": "Microverse"
+  },
+  {
+    "description": "\u5229\u7528AI\u5927\u6a21\u578b\uff0c\u4e00\u952e\u751f\u6210\u9ad8\u6e05\u77ed\u89c6\u9891 Generate short videos with one click using AI LLM.",
+    "name": "MoneyPrinterTurbo"
+  },
+  {
+    "description": "Generate large-scale explorable 3D scenes with high-quality panorama videos from a single image or text prompt.",
+    "name": "Matrix-3D"
+  },
+  {
+    "description": "Chrome MCP Server is a Chrome extension-based Model Context Protocol (MCP) server that exposes your Chrome browser functionality to AI assistants like Claude, enabling complex browser automation, content analysis, and semantic search.",
+    "name": "mcp-chrome"
+  },
+  {
+    "description": "Orchestrate your AI agents with Kanban-like boards. \u9811\u5f35\u3063\u3066\u3001AI\u305f\u3061\uff01",
+    "name": "kanbatte"
+  },
+  {
+    "description": "a key checker for various AI services",
+    "name": "keychecker"
+  },
+  {
+    "description": "VSCode Extension with an MCP server that exposes semantic tools like Find Usages and Rename to LLMs",
+    "name": "BifrostMCP"
+  },
+  {
+    "description": "\ud83d\ude80 Full-stack Next.js 15 + Cloudflare Workers template with D1 database, R2 storage, Better Auth, and Server Actions. Production-ready with automated CI/CD and generous free tiers.",
+    "name": "fullstack-next-cloudflare"
+  },
+  {
+    "description": "The best way to get AI coding agents to solve hard problems in complex codebases.",
+    "name": "humanlayer"
+  },
+  {
+    "description": "The missing intelligence layer for GitHub.  Analyze, visualize, and understand your repositories like never before.",
+    "name": "github.gg"
+  },
+  {
+    "description": "Drag & drop UI to build your customized LLM flow",
+    "name": "Flowise"
+  },
+  {
+    "description": "Captures your web app's complete development timeline - server logs, browser events, console messages, network requests, and automatic screenshots - in a unified, timestamped feed for AI debugging.",
+    "name": "dev3000"
+  },
+  {
+    "description": "Production-ready platform for agentic workflow development.",
+    "name": "dify"
+  },
+  {
+    "description": "DevTools for Vite (Rolldown). Working in Progress",
+    "name": "devtools"
+  },
+  {
+    "description": "Reference PyTorch implementation and models for DINOv3",
+    "name": "dinov3"
+  },
+  {
+    "description": "The contents of /mnt/skills in Claude's code interpreter environment",
+    "name": "claude-skills"
+  },
+  {
+    "description": "",
+    "name": "chatkit-js"
+  },
+  {
+    "description": "Red Team tools containerized",
+    "name": "Containers"
+  },
+  {
+    "description": "Byterover Cipher is an opensource memory layer specifically designed for coding agents. Compatible with Cursor, Windsurf, Claude Code, Cline, Claude Desktop, Gemini CLI, AWS's Kiro, VS Code, Roo Code, Trae, Amp Code and Warp through MCP. Built by https://byterover.dev/",
+    "name": "cipher"
+  },
+  {
+    "description": "",
+    "name": "Crypto-Asset-Tracing-Handbook"
+  },
+  {
+    "description": "The power of Claude Code + [Gemini / OpenAI / Grok / OpenRouter / Ollama / Custom Model / All Of The Above] working as one.",
+    "name": "zen-mcp-server"
+  },
+  {
+    "description": "\ud83d\udc08 A collection of LLM inference providers and models ",
+    "name": "catwalk"
+  },
+  {
+    "description": "\ud83e\udd16 A starting point for developing your own Chrome extension using chatgpt.js (including pop-up menu + settings management)",
+    "name": "chatgpt.js-chrome-starter"
+  },
+  {
+    "description": "ZAI-API\uff1a\u652f\u6301Tools\u3001CCR\u8f6c\u63a5CC\u3001Kilo Code\u7b49",
+    "name": "zai-api"
+  },
+  {
+    "description": "Convert documentation websites, GitHub repositories, and PDFs into Claude AI skills with automatic conflict detection",
+    "name": "Skill_Seekers"
+  },
+  {
+    "description": "Run Windows apps on \ud83d\udc27 Linux with \u2728 seamless integration",
+    "name": "winboat"
+  },
+  {
+    "description": "The AI developer platform. Use Weights & Biases to train and fine-tune models, and manage models from experimentation to production.",
+    "name": "wandb"
+  },
+  {
+    "description": "Weave is a toolkit for developing AI-powered applications, built by Weights & Biases.",
+    "name": "weave"
+  },
+  {
+    "description": "",
+    "name": "surf"
+  },
+  {
+    "description": "Realtime Web Apps and Dashboards for Python and R",
+    "name": "wave"
+  },
+  {
+    "description": "An open-source user mode debugger for Windows. Optimized for reverse engineering and malware analysis.",
+    "name": "x64dbg"
+  },
+  {
+    "description": "\u901a\u8fc7\u5bf9\u8bdd\u6316\u6398\u7528\u6237\u9700\u6c42\uff0c\u5e76\u81ea\u52a8\u751f\u6210\u4e13\u4e1a\u7684Prompt\uff0c\u9884\u89c8\u7248 https://pre-yprompt.pages.dev/",
+    "name": "YPrompt"
+  },
+  {
+    "description": "Lightweight static analysis for many languages. Find bug variants with patterns that look like source code.",
+    "name": "semgrep"
+  },
+  {
+    "description": "MCP server for Claude Code/VSCode/Cursor/Windsurf to use editor self functionality. \u26a1 Get real-time LSP diagnostics, type information, and code navigation for AI coding agents without waiting for slow tsc/eslint checks.",
+    "name": "vscode-mcp"
+  },
+  {
+    "description": "The all-in-one Vite plugin for React projects.",
+    "name": "vite-plugin-react"
+  },
+  {
+    "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+    "name": "open-webui"
+  },
+  {
+    "description": "Frontier Open-Source Text-to-Speech",
+    "name": "VibeVoice"
+  },
+  {
+    "description": "MCP Server for IDA Pro",
+    "name": "ida-pro-mcp"
+  },
+  {
+    "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+    "name": "gemini-cli"
+  },
+  {
+    "description": "Bootchain exploit for MediaTek devices",
+    "name": "fenrir"
+  },
+  {
+    "description": "Linux Bash Script for the Paranoid Admin on a Budget - real-time monitoring and active threat response",
+    "name": "theProtector"
+  },
+  {
+    "description": "\ud83d\ude80 EvoAgentX: Building a Self-Evolving Ecosystem of AI Agents",
+    "name": "EvoAgentX"
+  },
+  {
+    "description": "Open Source Alternative to NotebookLM / Perplexity, connected to external sources such as Search Engines, Slack, Linear, Jira, ClickUp, Confluence, Notion, YouTube, GitHub, Discord and more. Join our discord: https://discord.gg/ejRNvftDp9",
+    "name": "SurfSense"
+  },
+  {
+    "description": "Minimal agent runtime built with DSPy modules and a thin Python loop. Includes CLI, FastAPI server, and eval harness with OpenAI/Ollama support.",
+    "name": "dspy-micro-agent"
+  },
+  {
+    "description": "The ultimate LLM/AI application development framework in Golang.",
+    "name": "eino"
+  },
+  {
+    "description": "Superinterface is an AI assistants library for building AI capabilities into your app or website. You use React components and hooks to build AI-first assistants-based interfaces like chats and wizards.",
+    "name": "superinterface"
+  },
+  {
+    "description": "\ud83e\udd16 AI code assistant built for speed - zero-overhead tRPC communication with real-time streaming",
+    "name": "code"
+  },
+  {
+    "description": "Use Claude Code or Cursor CLI on mobile and web with Claude Code UI. Claude Code UI free open source webui/GUI that helps you manage your Claude Code session and projects remotely",
+    "name": "claudecodeui"
+  },
+  {
+    "description": "Generate a timeline of your day, automatically",
+    "name": "Dayflow"
+  },
+  {
+    "description": "",
+    "name": "codacy-cli-v2"
+  },
+  {
+    "description": "Context engineering is the new vibe coding - it's the way to actually make AI coding assistants work. Claude Code is the best for this so that's what this repo is centered around, but you can apply this strategy with any AI coding assistant!",
+    "name": "context-engineering-intro"
+  },
+  {
+    "description": "A configuration framework that enhances Claude Code with specialized commands, cognitive personas, and development methodologies.",
+    "name": "SuperClaude"
+  },
+  {
+    "description": "A refreshingly simple data-driven game engine built in Rust",
+    "name": "bevy"
+  },
+  {
+    "description": "Sourcebot is a self-hosted tool that helps you understand your codebase.",
+    "name": "sourcebot"
+  },
+  {
+    "description": ":mag: ScanCode detects licenses, copyrights, dependencies by \"scanning code\" ... to discover and inventory open source and third-party packages used in your code. Sponsored by NLnet project https://nlnet.nl/project/vulnerabilitydatabase, the Google Summer of Code, Azure credits, nexB and others generous sponsors!",
+    "name": "scancode-toolkit"
+  },
+  {
+    "description": "Qwen Code is a coding agent that lives in the digital world.",
+    "name": "qwen-code"
+  },
+  {
+    "description": "Clone a voice in 5 seconds to generate arbitrary speech in real-time",
+    "name": "Real-Time-Voice-Cloning"
+  },
+  {
+    "description": "Hybrid Python + Rust backtesting framework ",
+    "name": "pyrust-bt"
+  },
+  {
+    "description": "codes for R-Zero: Self-Evolving Reasoning LLM from Zero Data (https://www.arxiv.org/pdf/2508.05004)",
+    "name": "R-Zero"
+  },
+  {
+    "description": "pg_lake: Postgres with Iceberg and data lake access",
+    "name": "pg_lake"
+  },
+  {
+    "description": "Nightingale for monitoring and alerting, just as Grafana for visualization.",
+    "name": "nightingale"
+  },
+  {
+    "description": "Paper2Agent is a multi-agent AI system that automatically transforms research papers into interactive AI agents with minimal human input.",
+    "name": "Paper2Agent"
+  },
+  {
+    "description": "",
+    "name": "once-campfire"
+  },
+  {
+    "description": "\u96c6\u4ee3\u7801\u6267\u884c\u80fd\u529b/\u9ad8\u5ea6\u53ef\u6269\u5c55\u6027\u4e3a\u4e00\u4f53\u7684\u591a\u4eba\u8de8\u5e73\u53f0\u804a\u5929\u673a\u5668\u4eba\uff1a\u6c99\u76d2\u9a71\u52a8\uff5c\u53ef\u89c6\u5316\uff5c\u9ad8\u6269\u5c55\uff5c\u591a\u6a21\u6001; An Extensible Multi-person interactive Agent Framework Powered by LLM Code Generation; Support: QQ, Discord, Minecraft, Bilibili Live, SSE(SDK) ...",
+    "name": "nekro-agent"
+  },
+  {
+    "description": "LLM agents built for control. Designed for real-world use. Deployed in minutes.",
+    "name": "parlant"
+  },
+  {
+    "description": "open-source IEEE 802.11 WiFi baseband FPGA (chip) design: driver, software",
+    "name": "openwifi"
+  },
+  {
+    "description": "A minimal yet professional single agent demo project that showcases the core execution pipeline and production-grade features of agents.",
+    "name": "Mini-Agent"
+  },
+  {
+    "description": "all of the workflows of n8n i could find (also from the site itself)",
+    "name": "n8n-workflows"
+  },
+  {
+    "description": "",
+    "name": "llm-orchestrator"
+  },
+  {
+    "description": "Clone this repo to build Frida",
+    "name": "frida"
+  },
+  {
+    "description": "",
+    "name": "deepagents"
+  },
+  {
+    "description": "\u4e00\u4e2a\u4eba\u4eba\u90fd\u80fd\u90e8\u7f72\u7684\u57fa\u4e8e js \u7684\u5f39\u5e55 API \u670d\u52a1\u5668\uff0c\u652f\u6301\u7231\u4f18\u817e\u8292\u54d4\u4eba\u5f39\u5e55\u76f4\u63a5\u83b7\u53d6\uff0c\u517c\u5bb9\u5f39\u5f39play\u7684\u641c\u7d22\u3001\u8be6\u60c5\u67e5\u8be2\u548c\u5f39\u5e55\u83b7\u53d6\u63a5\u53e3\uff0c\u5e76\u63d0\u4f9b\u65e5\u5fd7\u8bb0\u5f55\uff0c\u652f\u6301vercel/cloudflare/docker/claw\u7b49\u90e8\u7f72\u65b9\u5f0f\uff0c\u4e0d\u7528\u63d0\u524d\u4e0b\u8f7d\u5f39\u5e55\uff0c\u6ca1\u6709nas\u6216\u5c0f\u9e21\u4e5f\u80fd\u4e00\u952e\u90e8\u7f72\u3002",
+    "name": "danmu_api"
+  },
+  {
+    "description": "LLM-powered framework for deep document understanding, semantic retrieval, and context-aware answers using RAG paradigm.",
+    "name": "WeKnora"
+  },
+  {
+    "description": "An agentic troubleshooting guide (TSG) automation framework for intelligent incident diagnosis. Automates troubleshooting procedures using multi-agent LLM coordination with DAG-based workflows, enabling efficient and systematic incident resolution.",
+    "name": "StepFly"
+  },
+  {
+    "description": "Letta is the platform for building stateful agents: open AI with advanced memory that can learn and self-improve over time.",
+    "name": "letta"
+  },
+  {
+    "description": "A Model Context Protocol (MCP) server that provides structured spec-driven development workflow tools for AI-assisted software development, featuring a real-time web dashboard for monitoring and managing your project's progress.",
+    "name": "spec-workflow-mcp"
+  },
+  {
+    "description": "reconFTW is a tool designed to perform automated recon on a target domain by running the best set of tools to perform scanning and finding out vulnerabilities",
+    "name": "reconftw"
+  },
+  {
+    "description": "PandaWiki \u662f\u4e00\u6b3e AI \u5927\u6a21\u578b\u9a71\u52a8\u7684\u5f00\u6e90\u77e5\u8bc6\u5e93\u642d\u5efa\u7cfb\u7edf\uff0c\u5e2e\u52a9\u4f60\u5feb\u901f\u6784\u5efa\u667a\u80fd\u5316\u7684 \u4ea7\u54c1\u6587\u6863\u3001\u6280\u672f\u6587\u6863\u3001FAQ\u3001\u535a\u5ba2\u7cfb\u7edf\uff0c\u501f\u52a9\u5927\u6a21\u578b\u7684\u529b\u91cf\u4e3a\u4f60\u63d0\u4f9b AI \u521b\u4f5c\u3001AI \u95ee\u7b54\u3001AI \u641c\u7d22\u7b49\u80fd\u529b\u3002",
+    "name": "PandaWiki"
+  },
+  {
+    "description": "Context7 MCP Server -- Up-to-date code documentation for LLMs and AI code editors",
+    "name": "context7"
+  },
+  {
+    "description": "A unified hub server that aggregates multiple MCP servers into separate Streamable HTTP (SSE) endpoints for different scenarios",
+    "name": "mcphub"
+  },
+  {
+    "description": "",
+    "name": "klaude"
+  },
+  {
+    "description": "The official Go library for the Cloudflare API",
+    "name": "cloudflare-go"
+  },
+  {
+    "description": "A Model Context Protocol (MCP) server that helps large language models index, search, and analyze code repositories with minimal setup",
+    "name": "code-index-mcp"
+  },
+  {
+    "description": "SecLists is the security tester's companion. It's a collection of multiple types of lists used during security assessments, collected in one place. List types include usernames, passwords, URLs, sensitive data patterns, fuzzing payloads, web shells, and many more.",
+    "name": "SecLists"
+  },
+  {
+    "description": "A list of useful payloads and bypass for Web Application Security and Pentest/CTF",
+    "name": "PayloadsAllTheThings"
+  },
+  {
+    "description": "AI enabled pair programmer for Claude, GPT, O Series, Grok, Deepseek, Gemini and 300+ models",
+    "name": "forge"
+  },
+  {
+    "description": "MCP Toolbox for Databases is an open source MCP server for databases.",
+    "name": "genai-toolbox-mcp"
+  },
+  {
+    "description": "Build AI agents with Go. Multiple providers, multiple models, one API \ud83e\uddd9",
+    "name": "fantasy"
+  },
+  {
+    "description": "Run sandboxed code environments on Cloudflare's edge network",
+    "name": "sandbox-sdk"
+  },
+  {
+    "description": "",
+    "name": "dashcam"
+  },
+  {
+    "description": "Meta-framework for generating domain-specific RAG frameworks from Neo4j schemas. Define your domain in YAML, get type-safe TypeScript APIs with vector search, query builders, and MCP integration.",
+    "name": "ragforge"
+  },
+  {
+    "description": "The Elastic stack (ELK) powered by Docker and Compose.",
+    "name": "docker-elk"
+  },
+  {
+    "description": "An open-source, code-first Go toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.",
+    "name": "adk-go"
+  },
+  {
+    "description": "@vitejs release scripts",
+    "name": "release-scripts"
+  },
+  {
+    "description": "A Rust ransomware framework that bypasses some antivirus solutions e.g. ESET, Avast and Huorong.",
+    "name": "rustransomware"
+  },
+  {
+    "description": "PromptX \u00b7 \u9886\u5148\u7684AI \u667a\u80fd\u4f53\u4e0a\u4e0b\u6587\u5e73\u53f0 \uff5c PromptX \u00b7 Leading AI Agent Context Platform",
+    "name": "PromptX"
+  },
+  {
+    "description": "PromptEnhancer is a prompt-rewriting tool, refining prompts into clearer, structured versions for better image generation.",
+    "name": "PromptEnhancer"
+  },
+  {
+    "description": "Prowler is the Open Cloud Security platform for AWS, Azure, GCP, Kubernetes, M365 and more. It helps for continuous monitoring, security assessments & audits, incident response, compliance, hardening and forensics readiness. Includes CIS, NIST 800, NIST CSF, CISA, FedRAMP, PCI-DSS, GDPR, HIPAA, FFIEC, SOC2, ENS and more",
+    "name": "prowler"
+  },
+  {
+    "description": "Prompt-To-Agent : Create custom engineering agents for your codebase",
+    "name": "potpie"
+  },
+  {
+    "description": "An intelligent MCP server providing expert validation and strategic guidance for AI coding agents",
+    "name": "athena-protocol"
+  },
+  {
+    "description": "Autonomous agents for everyone",
+    "name": "eliza"
+  },
+  {
+    "description": "SCIP indexer for Golang",
+    "name": "scip-go"
+  },
+  {
+    "description": "Multi-language static analysis engine implemented using tree-sitter",
+    "name": "pink"
+  },
+  {
+    "description": "A collection of tools for working with the PhysioNet repository.",
+    "name": "physionet"
+  },
+  {
+    "description": "Best and simplest tool for website change detection, web page monitoring, and website change alerts. Perfect for tracking content changes, price drops, restock alerts, and website defacement monitoring\u2014all for free or enjoy our SaaS plan!",
+    "name": "changedetection.io"
+  },
+  {
+    "description": "",
+    "name": "open-rube"
+  },
+  {
+    "description": "Intelligent Claude Code plugin that auto-configures linting, typechecking, and parallel agent-based fixing",
+    "name": "minimal-claude"
+  },
+  {
+    "description": "The best ChatGPT that $100 can buy.",
+    "name": "nanochat"
+  },
+  {
+    "description": "Starter app to build with OpenAI ChatKit SDK",
+    "name": "openai-chatkit-advanced-samples"
+  },
+  {
+    "description": "A curated collection of fun and creative examples generated with Nano Banana\ud83c\udf4c, Gemini-2.5-flash-image based model. This repository showcases diverse AI-generated visuals and prompts, highlighting the playful possibilities of Nano Banana.",
+    "name": "Awesome-Nano-Banana-images"
+  },
+  {
+    "description": "Opinionated Arch/Hyprland Setup",
+    "name": "omarchy"
+  },
+  {
+    "description": "Odoo. Open Source Apps To Grow Your Business.",
+    "name": "odoo"
+  },
+  {
+    "description": "All the open source AI Agents hosted on the oTTomator Live Agent Studio platform!",
+    "name": "ottomator-agents"
+  },
+  {
+    "description": "",
+    "name": "open-swe"
+  },
+  {
+    "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+    "name": "AutoGPT"
+  },
+  {
+    "description": "A configurable MCP client/server ",
+    "name": "atlantis-mcp-server"
+  },
+  {
+    "description": "Multi-modal Critical Thinking Agent Framework for Complex Visual Reasoning",
+    "name": "MMCTAgent"
+  },
+  {
+    "description": "",
+    "name": "wundr"
+  },
+  {
+    "description": "",
+    "name": "aiinbx-py"
+  },
+  {
+    "description": "Windows inside a Docker container.",
+    "name": "windowsvm"
+  },
+  {
+    "description": "\ud83d\udd25 Clone and recreate any website as a modern React app in seconds",
+    "name": "open-lovable"
+  },
+  {
+    "description": "React Flow |\u00a0Svelte Flow - Powerful open source libraries for building node-based UIs with React (https://reactflow.dev) or Svelte (https://svelteflow.dev). Ready out-of-the-box and infinitely customizable.",
+    "name": "xyflow"
+  },
+  {
+    "description": "MIMIC Code Repository: Code shared by the research community for the MIMIC family of databases",
+    "name": "mimic-code"
+  },
+  {
+    "description": "\u4e00\u6b3e\u5f3a\u5927\u7684\u684c\u9762\u5e94\u7528\uff0c\u65e8\u5728\u7b80\u5316\u60a8\u7684 Prompt \u7ba1\u7406\u5de5\u4f5c\u6d41\u7a0b\u3002",
+    "name": "Prompt-Tools"
+  },
+  {
+    "description": "A relation-free graph constrcution method for efficient GraphRAG.",
+    "name": "LinearRAG"
+  },
+  {
+    "description": "Xray panel supporting multi-protocol multi-user expire day & traffic & IP limit (Vmess, Vless, Trojan, ShadowSocks, Wireguard, Tunnel, Mixed, HTTP) ",
+    "name": "3x-ui"
+  },
+  {
+    "description": "UltraRAG 2.0: Less Code, Lower Barrier, Faster Deployment! MCP-based low-code RAG framework, enabling researchers to build complex pipelines to creative innovation.",
+    "name": "UltraRAG"
+  },
+  {
+    "description": "Enable AI agents to work reliably - giving them secure access to structured data, tools to take action, and the context needed to make smart decisions.",
+    "name": "monday_mcp"
+  },
+  {
+    "description": "Allows AI to perform advanced reasoning, store the reasoning automatically, and can create system prompts or domain knowledge as libraries.",
+    "name": "advanced-reasoning-mcp"
+  },
+  {
+    "description": "RAG on Everything with LEANN. Enjoy 97% storage savings while running a fast, accurate, and 100% private RAG application on your personal device.",
+    "name": "LEANN"
+  },
+  {
+    "description": "Transforms complex documents like PDFs into LLM-ready markdown/JSON for your Agentic workflows.",
+    "name": "MinerU"
+  },
+  {
+    "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
+    "name": "langflow"
+  },
+  {
+    "description": "[EMNLP2025] \"LightRAG: Simple and Fast Retrieval-Augmented Generation\"",
+    "name": "LightRAG"
+  },
+  {
+    "description": "Personal AI Notebooks. Organize files & webpages and generate notes from them. Open source, local & open data, open model choice (incl. local).",
+    "name": "surfapp"
+  },
+  {
+    "description": "A high-performance algorithmic trading platform and event-driven backtester",
+    "name": "nautilus_trader"
+  },
+  {
+    "description": "A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization.",
+    "name": "langextract"
+  },
+  {
+    "description": "being referenced at the main pieces repo https://github.com/pieces-app/pieces_for_x/blob/ef787e68a85c14cdb0b5906d666a370bff8b4800/testdriver/snippets/initialize_existing_db_and_launch_both.yaml#L11",
+    "name": "assets-pieces"
+  },
+  {
+    "description": "Video-based AI memory library. Store millions of text chunks in MP4 files with lightning-fast semantic search. No database needed.",
+    "name": "memvid"
+  },
+  {
+    "description": "Lemon AI is the first Full-stack Open-source Self-Evolving General AI Agent, offering a fully local alternative to Agentic platforms like Manus & Genspark AI.\ud83d\udd14 Official updates   X(twitter) @LemonAI_cc",
+    "name": "lemonai"
+  },
+  {
+    "description": "Client libraries for AppMap",
+    "name": "appmap-js"
+  },
+  {
+    "description": "Automatically generates beautiful and easy-to-read ER diagrams from your database.",
+    "name": "liam"
+  },
+  {
+    "description": "The Intelligent Cloud OS. Use AI to automate the full lifecycle of your development and production environments, from provisioning custom dev stacks and deploying self-optimizing databases (MySQL, PostgreSQL, Redis, MongoDB) to running any Dockerized service.",
+    "name": "sealos"
+  },
+  {
+    "description": "A calm, CLI-native way to semantically grep everything, like code, images, pdfs and more.",
+    "name": "mgrep"
+  },
+  {
+    "description": "",
+    "name": "examplesnotes"
+  },
+  {
+    "description": "\u4e00\u6b3e\u63d0\u793a\u8bcd\u4f18\u5316\u5668\uff0c\u52a9\u529b\u4e8e\u7f16\u5199\u9ad8\u8d28\u91cf\u7684\u63d0\u793a\u8bcd",
+    "name": "prompt-optimizer"
+  },
+  {
+    "description": "AI-Powered Penetration Testing Assistant",
+    "name": "hackerai"
+  },
+  {
+    "description": "Transform vague ideas into production-ready prompts. Analyze gaps, generate PRDs, and supercharge your AI coding workflow with the CLEAR framework.",
+    "name": "Clavix"
+  },
+  {
+    "description": "Scapy: the Python-based interactive packet manipulation program & library.",
+    "name": "scapy"
+  },
+  {
+    "description": "Free, local, open-source AI app builder | v0 / lovable / Bolt alternative | \ud83c\udf1f Star if you like it!",
+    "name": "dyad"
+  },
+  {
+    "description": "",
+    "name": "llm-inference-gateway"
+  },
+  {
+    "description": "Claude-Flow v2.0.0 Alpha represents a leap in AI-powered development orchestration. Built from the ground up with enterprise-grade architecture, advanced swarm intelligence, and seamless Claude Code integration.",
+    "name": "claude-flow"
+  },
+  {
+    "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+    "name": "trivy"
+  },
+  {
+    "description": "A library for building fast, reliable and evolvable network services.",
+    "name": "pingora"
+  },
+  {
+    "description": "Your AI Operator for Web, Android, Automation & Testing.",
+    "name": "midscene"
+  },
+  {
+    "description": "Gemini-cli or claude code? Why not both? LangCode combines all CLI capabilities and models in one place \u2602\ufe0f!",
+    "name": "langchain-code"
+  },
+  {
+    "description": "Roslyn analyzers for Unity game developers",
+    "name": "Microsoft.Unity.Analyzers"
+  },
+  {
+    "description": "CF-workers/pages\u4ee3\u7406\u811a\u672c\u3010Vless\u4e0eTrojan\u3011\uff1a\u652f\u6301nat64\u81ea\u52a8\u751f\u6210proxyip\uff0c\u4e00\u952e\u81ea\u5efaproxyip\u4e0eCF\u53cd\u4ee3IP\uff0cCF\u4f18\u9009\u5b98\u65b9IP\u4e09\u5730\u533a\u5e94\u7528\u811a\u672c\uff0c\u81ea\u52a8\u8f93\u51fa\u7f8e\u3001\u4e9a\u3001\u6b27\u6700\u4f73\u4f18\u9009IP",
+    "name": "Cloudflare-vless-trojan"
+  },
+  {
+    "description": "Custom UI for Deep Agents",
+    "name": "deep-agents-ui"
+  },
+  {
+    "description": "A bunch of my first droids",
+    "name": "Droids"
+  },
+  {
+    "description": "",
+    "name": "llm-auto-optimizer"
+  },
+  {
+    "description": "AI Proxy is a high performance AI gateway using OpenAI / Claude / Gemini protocol as the entry point. It features intelligent error handling, multi-channel management, and comprehensive monitoring. With support for multiple models, rate limiting, and multi-tenant isolation.",
+    "name": "aiproxy"
+  },
+  {
+    "description": "Open-Source Memory Engine for LLMs, AI Agents & Multi-Agent Systems",
+    "name": "Memori"
+  },
+  {
+    "description": "Call MCPs via TypeScript, masquerading as simple TypeScript API. Or package them as cli.",
+    "name": "mcporter"
+  },
+  {
+    "description": "",
+    "name": "better-ui"
+  },
+  {
+    "description": "The agent that generates working apps (and maybe some other things)",
+    "name": "agent-build"
+  },
+  {
+    "description": " All-in-One Hacking Tools For Hackers! And more hacking tools! For termux.",
+    "name": "AllHackingTools"
+  },
+  {
+    "description": "\"DeepCode: Open Agentic Coding (Paper2Code & Text2Web & Text2Backend)\"",
+    "name": "DeepCode"
+  },
+  {
+    "description": "",
+    "name": "cve-reference-ingest"
+  },
+  {
+    "description": "We write your reusable computer vision tools. \ud83d\udc9c",
+    "name": "supervision"
+  },
+  {
+    "description": "\ud83c\udf10 WebAgent for Information Seeking built by Tongyi Lab: WebWalker & WebDancer & WebSailor https://arxiv.org/pdf/2507.02592",
+    "name": "WebAgent"
+  },
+  {
+    "description": "Leantime is a goals focused project management system for non-project managers. Building with ADHD, Autism, and dyslexia in mind.",
+    "name": "leantime"
+  },
+  {
+    "description": "A GUI Agent application based on UI-TARS(Vision-Language Model) that allows you to control your computer using natural language.",
+    "name": "UI-TARS-desktop"
+  },
+  {
+    "description": "",
+    "name": "codementor"
+  },
+  {
+    "description": "A highly opinionated, zero-configuration linter and formatter.",
+    "name": "ultracite"
+  },
+  {
+    "description": "\u89e3\u51b3Cursor\u5728\u514d\u8d39\u8ba2\u9605\u671f\u95f4\u51fa\u73b0\u4ee5\u4e0b\u63d0\u793a\u7684\u95ee\u9898:  Your request has been blocked as our system has detected suspicious activity / You've reached your trial request limit.  /  Too many free trial accounts used on this machine.",
+    "name": "go-cursor-help"
+  },
+  {
+    "description": "An AI agent development platform with all-in-one visual tools, simplifying agent creation, debugging, and deployment like never before. Coze your way to AI Agent creation.",
+    "name": "coze-studio"
+  },
+  {
+    "description": "An AI-powered task-management system you can drop into Cursor, Lovable, Windsurf, Roo, and others.",
+    "name": "claude-task-master"
+  },
+  {
+    "description": "\u4e00\u4e2a\u5c06ACE(Augment Context Engine) \u505a\u6210MCP\u7684\u9879\u76ee",
+    "name": "acemcp"
+  },
+  {
+    "description": "Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG.",
+    "name": "pathway"
+  },
+  {
+    "description": "\u5f00\u6e90\u767d\u677f\u5de5\u5177\uff08SaaS\uff09\uff0c\u4e00\u4f53\u5316\u767d\u677f\uff0c\u5305\u542b\u601d\u7ef4\u5bfc\u56fe\u3001\u6d41\u7a0b\u56fe\u3001\u81ea\u7531\u753b\u7b49\u3002All in one open-source whiteboard tool with mind, flowchart, freehand and etc.",
+    "name": "drawnix"
+  },
+  {
+    "description": "Claude Code SDK Demos",
+    "name": "claude-code-sdk-demos"
+  },
+  {
+    "description": "A simple yet powerful agent framework that delivers with open-source models",
+    "name": "Youtu-agent"
+  },
+  {
+    "description": "Lightweight MCP Server for Computer Use in Windows",
+    "name": "Windows-MCP"
+  },
+  {
+    "description": "Turn repositories into Jupyter-enabled Docker images",
+    "name": "repo2docker"
+  },
+  {
+    "description": "",
+    "name": "llm-observatory"
+  },
+  {
+    "description": "A behavioral analytics library that uses dom mutations and user interactions to generate aggregated insights.",
+    "name": "clarity"
+  },
+  {
+    "description": "the LLM vulnerability scanner",
+    "name": "garak"
+  },
+  {
+    "description": "\ud83d\ude80 PR-Agent (Qodo Merge open-source): An AI-Powered \ud83e\udd16 Tool for Automated Pull Request Analysis, Feedback, Suggestions and More! \ud83d\udcbb\ud83d\udd0d",
+    "name": "pr-agent"
+  },
+  {
+    "description": "",
+    "name": "auto-coder.web"
+  },
+  {
+    "description": "TypeScript AI AI Function Calling Framework enhanced by compiler skills.",
+    "name": "agentica"
+  },
+  {
+    "description": "Agentic RAG for any scenario. Customize sources, depth, and width",
+    "name": "DeepWideResearch"
+  },
+  {
+    "description": "Command line tools for fly.io services",
+    "name": "flyctl"
+  },
+  {
+    "description": "LLM based autonomous agent that conducts deep local and web research on any topic and generates a long report with citations.",
+    "name": "gpt-researcher"
+  },
+  {
+    "description": "",
+    "name": "llm-copilot-agent"
+  },
+  {
+    "description": "This repository is for active development of the Microsoft 365 Agent SDK components for JavaScript",
+    "name": "Agents-for-js"
+  },
+  {
+    "description": "\u57fa\u4e8e\u5927\u8bed\u8a00\u6a21\u578b\uff08LLM\uff09\u548c\u53ef\u89e3\u91ca AI\uff08XAI\uff09\u7684\u4e0b\u4e00\u4ee3\u4ee3\u7801\u8d28\u91cf\u4e0e\u5b89\u5168\u5206\u6790\u5de5\u5177\u3002\u652f\u6301\u5bf9\u6574\u4e2a\u4ee3\u7801\u4ed3\u5e93\u548c\u5355\u4e2a\u4ee3\u7801\u7247\u6bb5\u8fdb\u884c\u81ea\u52a8\u5316\u9759\u6001\u5206\u6790\uff08SAST\uff09\uff0c\u65e8\u5728\u53d1\u73b0\u9690\u85cf\u7684 Bug\u3001\u5b89\u5168\u6f0f\u6d1e\uff08\u5982 SQL \u6ce8\u5165\u3001XSS\uff09\u3001\u6027\u80fd\u95ee\u9898\u3001\u4ee3\u7801\u5f02\u5473\u548c\u6280\u672f\u503a\u3002\u4e3a\u60a8\u7684 Pull Request \u548c\u65e5\u5e38\u5f00\u53d1\u63d0\u4f9b\u667a\u80fd\u3001\u53ef\u89e3\u91ca\u7684\u5ba1\u67e5\u53cd\u9988\u3002A next-gen code quality and security analysis tool, powered by Large Language Models (LLM) and enhanced with Explainable AI (XAI). ",
+    "name": "XCodeReviewer"
+  },
+  {
+    "description": "Crawlee\u2014A web scraping and browser automation library for Python to build reliable crawlers. Extract data for AI, LLMs, RAG, or GPTs. Download HTML, PDF, JPG, PNG, and other files from websites. Works with BeautifulSoup, Playwright, and raw HTTP. Both headful and headless mode. With proxy rotation.",
+    "name": "crawlee-python"
+  },
+  {
+    "description": "CRS-\u81ea\u5efaClaude Code\u955c\u50cf\uff0c\u4e00\u7ad9\u5f0f\u5f00\u6e90\u4e2d\u8f6c\u670d\u52a1\uff0c\u8ba9 Claude\u3001OpenAI\u3001Gemini\u3001Droid \u8ba2\u9605\u7edf\u4e00\u63a5\u5165\uff0c\u652f\u6301\u62fc\u8f66\u5171\u4eab\uff0c\u66f4\u9ad8\u6548\u5206\u644a\u6210\u672c\uff0c\u539f\u751f\u5de5\u5177\u65e0\u7f1d\u4f7f\u7528\u3002",
+    "name": "claude-relay-service"
+  },
+  {
+    "description": "The Future of Data Engineering \u2014 A CLI SQL client for the modern data stack, enabling AI-native context engineering for data.",
+    "name": "Datus-agent"
+  },
+  {
+    "description": "CryptoJS\u5e38\u89c4\u52a0\u89e3\u5bc6\u81ea\u5410\u5bc6\u94a5\u3001\u52a0\u89e3\u5bc6\u65b9\u5f0f\uff0c\u5feb\u901f\u5b9a\u4f4d\u52a0\u89e3\u5bc6\u4f4d\u7f6e(\u65e0\u89c6\u6df7\u6dc6)\u3002SRC\u548c\u5e38\u89c4\u6e17\u900f\u795e\u5668",
+    "name": "FakeCryptoJS"
+  },
+  {
+    "description": "A curated list of awesome commands, files, and workflows for Claude Code",
+    "name": "awesome-claude-code"
+  },
+  {
+    "description": "",
+    "name": "llm-policy-engine"
+  },
+  {
+    "description": "Go RPC framework with high-performance and strong-extensibility for building micro-services.",
+    "name": "kitex"
+  },
+  {
+    "description": "A collection of projects showcasing RAG, agents, workflows, and other AI use cases",
+    "name": "awesome-ai-apps"
+  },
+  {
+    "description": "Automate browser-based workflows with LLMs and Computer Vision",
+    "name": "skyvern"
+  },
+  {
+    "description": "Package manager for Claude Code skills and agents and other AI related resources",
+    "name": "craftdesk"
+  },
+  {
+    "description": "Smart Tree: not just a tree, a philosophy. A context-aware, AI-crafted replacement for 20+ tools with MEM8 quantum compression, semantic search, AST-smart editing, and partnership memory. Crafted with care by human + AI\u2014accept no knock-offs.",
+    "name": "smart-tree"
+  },
+  {
+    "description": "Automatically provision and manage TLS certificates in Kubernetes",
+    "name": "cert-manager"
+  },
+  {
+    "description": "Runtime sandbox to empower DAIV agents to run arbitrary commands.",
+    "name": "daiv-sandbox"
+  },
+  {
+    "description": "Truly independent web browser",
+    "name": "ladybird"
+  },
+  {
+    "description": "Multi-agent collaboration framework",
+    "name": "OxyGent"
+  },
+  {
+    "description": "Data transformation framework for AI. Ultra performant, with incremental processing.",
+    "name": "cocoindex"
+  },
+  {
+    "description": "A lightweight library for building Multimodal Agents. Give LLMs superpowers like memory, knowledge, tools and reasoning.",
+    "name": "agno"
+  },
+  {
+    "description": "AI app store powered by 24/7 desktop history.  open source | 100% local | dev friendly | 24/7 screen, mic recording",
+    "name": "screenpipe"
+  },
+  {
+    "description": "Official Every-Env plugin marketplace for Claude Code extensions",
+    "name": "every-marketplace"
+  },
+  {
+    "description": "",
+    "name": "cognitive-memory-engine"
+  },
+  {
+    "description": "Archon is an AI agent that is able to create other AI agents using an advanced agentic coding workflow and framework knowledge base to unlock a new frontier of automated agents.",
+    "name": "Archon"
+  },
+  {
+    "description": "",
+    "name": "llm-config-manager"
+  },
+  {
+    "description": "chrome extension to firefox extension converter",
+    "name": "chrome2moz"
+  },
+  {
+    "description": "\u95f2\u9c7c\u81ea\u52a8\u56de\u590d\u7ba1\u7406\u7cfb\u7edf\u662f\u4e00\u4e2a\u57fa\u4e8e Python + FastAPI \u5f00\u53d1\u7684\u81ea\u52a8\u5316\u5ba2\u670d\u7cfb\u7edf\uff0c\u4e13\u4e3a\u95f2\u9c7c\u5e73\u53f0\u8bbe\u8ba1\u3002\u7cfb\u7edf\u901a\u8fc7 WebSocket \u8fde\u63a5\u95f2\u9c7c\u670d\u52a1\u5668\uff0c\u5b9e\u65f6\u63a5\u6536\u548c\u5904\u7406\u6d88\u606f\uff0c\u63d0\u4f9b\u667a\u80fd\u5316\u7684\u81ea\u52a8\u56de\u590d\u670d\u52a1\u3002   \u53e6\u5916\u63d0\u4f9bcursor pro 14\u5929\u8bd5\u7528\u8d26\u53f7\uff0c\u7269\u7f8e\u4ef7\u5ec9\uff0c\u6b22\u8fce\u8054\u7cfb",
+    "name": "xianyu-auto-reply"
+  },
+  {
+    "description": "Async SWE agents seamlessly integrated on your git platform to automate code issues implementation, reviews, and pipeline repairs.",
+    "name": "daiv"
+  },
+  {
+    "description": "\u4e00\u4e2a\u5f3a\u5927\u7684Cloudflare\u591a\u8d26\u53f7Workers\u6279\u91cf\u7ba1\u7406\u7cfb\u7edf\uff0c\u652f\u6301\u8d26\u53f7\u7ba1\u7406\u3001\u6279\u91cf\u64cd\u4f5c\u3001\u5b9e\u65f6\u76d1\u63a7\u548cWorkers\u811a\u672c\u7ba1\u7406\u3002",
+    "name": "cloudflare-manager"
+  },
+  {
+    "description": "Fulling is an AI-powered Full-stack Engineer Agent. Built with Next.js, Claude Sonnet, shadcn/ui, and PostgreSQL. Generates 100% AI-written code for full-stack applications.",
+    "name": "fulling"
+  },
+  {
+    "description": "Valdi is a cross-platform UI framework that delivers native performance without sacrificing developer velocity.",
+    "name": "Valdi"
+  },
+  {
+    "description": "Library to extract information from frontend frameworks",
+    "name": "tinkaton"
+  },
+  {
+    "description": "Like catnip, a highly addictive agentic coding tool",
+    "name": "catnip"
+  },
+  {
+    "description": "A GPT-empowered penetration testing tool",
+    "name": "PentestGPT"
+  },
+  {
+    "description": "Multi-agent AI coding platform powered by Vercel Sandbox and AI Gateway",
+    "name": "coding-agent-template"
+  },
+  {
+    "description": "AIGNE Framework",
+    "name": "aigne-framework"
+  },
+  {
+    "description": "Python SDK for Pipedream",
+    "name": "pipedream-sdk-python"
+  },
+  {
+    "description": "UNIX-like reverse engineering framework and command-line toolset",
+    "name": "radare2"
+  },
+  {
+    "description": "Universal skills loader for AI coding agents - npm i -g openskills",
+    "name": "openskills"
+  },
+  {
+    "description": "",
+    "name": "chatkit-python"
+  },
+  {
+    "description": "Signal Tracking & Detection",
+    "name": "AntiHunter"
+  },
+  {
+    "description": "DockMon - Modern Docker container monitoring with auto-restart and alerts",
+    "name": "dockmon"
+  },
+  {
+    "description": "\ud83e\udd16 24/7 AI agent that maximizes Claude Code Pro usage via Slack. Auto-processes tasks, manages isolated workspaces, creates Git commits/PRs, and optimizes day/night usage thresholds.",
+    "name": "sleepless-agent"
+  },
+  {
+    "description": "\ud83d\udc96\ud83e\uddf8 Self hosted, you owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
+    "name": "airi"
+  },
+  {
+    "description": "A simple CLI to run LLM prompt and implement MCP client.",
+    "name": "mcp-client-cli"
+  },
+  {
+    "description": "",
+    "name": "composio-base-py"
+  },
+  {
+    "description": "\ud83e\ude84 Create rich visualizations with AI ",
+    "name": "data-formulator"
+  },
+  {
+    "description": "",
+    "name": "llm-analytics-hub"
+  },
+  {
+    "description": "FastGPT is a knowledge-based platform built on the LLMs, offers a comprehensive suite of out-of-the-box capabilities such as data processing, RAG retrieval, and visual AI workflow orchestration, letting you easily develop and deploy complex question-answering systems without the need for extensive setup or configuration.",
+    "name": "FastGPT"
+  },
+  {
+    "description": "A dashboard for managing Parse Server",
+    "name": "parse-dashboard"
+  },
+  {
+    "description": "Automated Pentest Agent",
+    "name": "apex"
+  },
+  {
+    "description": "",
+    "name": "droidrun"
+  },
+  {
+    "description": "\ud83e\udde0 Make your agents learn from experience. Based on the Agentic Context Engineering (ACE) framework.",
+    "name": "agentic-context-engine"
+  },
+  {
+    "description": "The most accurate document search and store for building AI apps",
+    "name": "morphik-core"
+  },
+  {
+    "description": "Public repository for Skills",
+    "name": "skills"
+  },
+  {
+    "description": "Fabric is an open-source framework for augmenting humans using AI. It provides a modular system for solving specific problems using a crowdsourced set of AI prompts that can be used anywhere.",
+    "name": "Fabric"
+  },
+  {
+    "description": "\ud83d\udd25 1Panel provides an intuitive web interface and MCP Server to manage websites, files, containers, databases, and LLMs on a Linux server.",
+    "name": "1Panel"
+  },
+  {
+    "description": "Open Source DeepWiki: AI-Powered Wiki Generator for GitHub/Gitlab/Bitbucket Repositories. Join the discord: https://discord.gg/gMwThUMeme",
+    "name": "deepwiki-open"
+  },
+  {
+    "description": "Repo2Run is an LLM-based agent that automates environment configuration by generating error-free Dockerfiles for Python repositories.",
+    "name": "Repo2Run"
+  },
+  {
+    "description": "A free and open vulnerabilities database and the packages they impact. And the tools to aggregate and correlate these vulnerabilities. Sponsored by NLnet https://nlnet.nl/project/vulnerabilitydatabase/ for https://www.aboutcode.org/ Chat at https://gitter.im/aboutcode-org/vulnerablecode  Docs at https://vulnerablecode.readthedocs.org/",
+    "name": "vulnerablecode"
+  },
+  {
+    "description": "Define, Prompt and Test MCP enabled Agents and Workflows",
+    "name": "fast-agent"
+  },
+  {
+    "description": "A collection of sample agents built with Agent Development (ADK) ",
+    "name": "adk-samples"
+  },
+  {
+    "description": "Intelligent dual-mode agent for deploying applications to ANY Kubernetes cluster through dynamic discovery and plain English governance",
+    "name": "dot-ai"
+  },
+  {
+    "description": "Open sourced predictions, execution logs, trajectories, and results from model inference + evaluation runs on the SWE-bench task.",
+    "name": "experiments"
+  },
+  {
+    "description": "A list of OSINT tools & resources for (fraud-)investigators, CTI-analysts, KYC, AML and more. ",
+    "name": "Legendary_OSINT"
+  },
+  {
+    "description": "reNgine is an automated reconnaissance framework for web applications with a focus on highly configurable streamlined recon process via Engines, recon data correlation and organization, continuous monitoring, backed by a database, and simple yet intuitive User Interface. reNgine makes it easy for penetration testers to gather reconnaissance with mi",
+    "name": "rengine"
+  },
+  {
+    "description": "A set of tools that gives agents powerful capabilities.",
+    "name": "tools"
+  },
+  {
+    "description": "",
+    "name": "llm-registry"
+  },
+  {
+    "description": "Cloud-native development environment SDK for running sandboxed code with high-performance file operations",
+    "name": "devbox-sdk"
+  },
+  {
+    "description": "`Packer-InfoFinder` \u662f\u4e00\u6b3e\u4e13\u4e3a\u73b0\u4ee3Web\u5e94\u7528\u8bbe\u8ba1\u7684\u81ea\u52a8\u5316\u5b89\u5168\u626b\u63cf\u5de5\u5177\u3002\u5b83\u80fd\u6df1\u5ea6\u6293\u53d6\u76ee\u6807\u7f51\u7ad9\u7684JavaScript\u6587\u4ef6\uff0c\u667a\u80fd\u8fd8\u539f\u7531Webpack\u7b49\u6253\u5305\u5668\u8fdb\u884c\u4ee3\u7801\u62c6\u5206\uff08Code Splitting\uff09\u7684\u5f02\u6b65\u6a21\u5757\uff0c\u5e76\u5229\u7528\u5f3a\u5927\u7684\u6b63\u5219\u5f15\u64ce\u626b\u63cf\u6240\u6709JS\u4ee3\u7801\uff0c\u53d1\u73b0\u5176\u4e2d\u53ef\u80fd\u5b58\u5728\u7684\u654f\u611f\u4fe1\u606f\uff0c\u5982API\u5bc6\u94a5\u3001\u5185\u90e8\u8def\u5f84\u3001\u51ed\u8bc1\u3001\u4e2a\u4eba\u8eab\u4efd\u4fe1\u606f\uff08PII\uff09\u7b49",
+    "name": "Packer-InfoFinder"
+  },
+  {
+    "description": "Integrating ChatGPT into your browser deeply, everything you need is here",
+    "name": "chatGPTBox"
+  },
+  {
+    "description": "",
+    "name": "TinyRecursiveModels"
+  },
+  {
+    "description": "",
+    "name": "buttercup"
+  },
+  {
+    "description": "a powerful coding agent toolkit providing semantic retrieval and editing capabilities (MCP server & Agno integration)",
+    "name": "serena"
+  },
+  {
+    "description": "",
+    "name": "devbox-runtime"
+  },
+  {
+    "description": ":page_facing_up: Python Apps for Home Automation",
+    "name": "appdaemon"
+  },
+  {
+    "description": "Run django in the browser",
+    "name": "django-repl"
+  },
+  {
+    "description": "This mode serves as a code-first swarm orchestration layer, enabling SnowCode to write, edit, test, and optimize code autonomously inside of ServiceNow throught secure OAuth + MCP across recursive agent cycles.",
+    "name": "snow-flow"
+  },
+  {
+    "description": "Build, evaluate and train General Multi-Agent Assistance with ease",
+    "name": "AWorld"
+  },
+  {
+    "description": "Apache Beam is a unified programming model for Batch and Streaming data processing.",
+    "name": "beam"
+  },
+  {
+    "description": "\u23e9 Ship faster with Continuous AI. Build and run custom agents across your IDE, terminal, and CI",
+    "name": "continue"
+  },
+  {
+    "description": "SAG - SQL\u9a71\u52a8\u7684RAG\u5f15\u64ce \u00b7 \u67e5\u8be2\u65f6\u81ea\u52a8\u6784\u5efa\u77e5\u8bc6\u56fe\u8c31 | SQL-Driven RAG Engine \u00b7 Automatically Build Knowledge Graph During Querying",
+    "name": "SAG"
+  },
+  {
+    "description": "Easily switch between alternative low-cost AI models in Claude Code/Agent SDK. For those comfortable using Claude agents and commands, it lets you take what you've created and deploy fully hosted agents for real business purposes. Use Claude Code to get the agent working, then deploy it in your favorite cloud.",
+    "name": "agentic-flow"
+  },
+  {
+    "description": "AST/ASG Code Analysis MCP Server",
+    "name": "ast-mcp-server"
+  },
+  {
+    "description": "Intelligent automation and multi-agent orchestration for Claude Code",
+    "name": "Agents-Claude-Code"
+  },
+  {
+    "description": "\ud83d\udd25 \u4e00\u952e\u4f18\u5316 Linux \u7f51\u7edc\u6027\u80fd\u4e0e\u7cfb\u7edf\u7a33\u5b9a\u6027\uff08sysctl + IRQ + Offload + \u81ea\u68c0\u4fee\u590d\uff09\u5b89\u5168\u3001\u901a\u7528\u3001\u6301\u4e45\u3002",
+    "name": "-Linux-"
+  },
+  {
+    "description": "",
+    "name": "llm-memory-graph"
+  },
+  {
+    "description": "",
+    "name": "llm-forge"
+  },
+  {
+    "description": "AI\u6a21\u578b\u805a\u5408\u7ba1\u7406\u4e2d\u8f6c\u5206\u53d1\u7cfb\u7edf\uff0c\u4e00\u4e2a\u5e94\u7528\u7ba1\u7406\u60a8\u7684\u6240\u6709AI\u6a21\u578b\uff0c\u652f\u6301\u5c06\u591a\u79cd\u5927\u6a21\u578b\u8f6c\u4e3a\u7edf\u4e00\u683c\u5f0f\u8c03\u7528\uff0c\u652f\u6301OpenAI\u3001Claude\u3001Gemini\u7b49\u683c\u5f0f\uff0c\u53ef\u4f9b\u4e2a\u4eba\u6216\u8005\u4f01\u4e1a\u5185\u90e8\u7ba1\u7406\u4e0e\u5206\u53d1\u6e20\u9053\u4f7f\u7528\u3002\ud83c\udf65 The next-generation LLM gateway and AI asset management system supports multiple languages.",
+    "name": "new-api"
+  },
+  {
+    "description": "Automated Penetration Testing Framework - Open-Source Vulnerability Scanner - Vulnerability Management",
+    "name": "Nettacker"
+  },
+  {
+    "description": "Connect APIs, remarkably fast.  Free for developers.",
+    "name": "pipedream"
+  },
+  {
+    "description": "\u5f00\u6e90\u7684\u7aef\u5230\u7aef\u4ea7\u54c1\u7ea7\u901a\u7528\u667a\u80fd\u4f53",
+    "name": "joyagent-jdgenie"
+  },
+  {
+    "description": "An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.",
+    "name": "adk-python"
+  },
+  {
+    "description": "Agent OS is a system for better planning and executing software development tasks with your AI agents.",
+    "name": "agent-os"
+  },
+  {
+    "description": "\ud83d\udecd\ufe0f Typescript E-commerce Platform",
+    "name": "evershop"
+  },
+  {
+    "description": "\u5fae\u8206\uff1a\u4eba\u4eba\u53ef\u7528\u7684\u591aAgent\u8206\u60c5\u5206\u6790\u52a9\u624b\uff0c\u6253\u7834\u4fe1\u606f\u8327\u623f\uff0c\u8fd8\u539f\u8206\u60c5\u539f\u8c8c\uff0c\u9884\u6d4b\u672a\u6765\u8d70\u5411\uff0c\u8f85\u52a9\u51b3\u7b56\uff01\u4ece0\u5b9e\u73b0\uff0c\u4e0d\u4f9d\u8d56\u4efb\u4f55\u6846\u67b6\u3002",
+    "name": "BettaFish"
+  },
+  {
+    "description": "Create business apps and automate workflows in minutes. Supports PostgreSQL, MySQL, MariaDB, MSSQL, MongoDB, Rest API, Docker, K8s, and more \ud83d\ude80 No code / Low code platform..",
+    "name": "budibase"
+  },
+  {
+    "description": "cheper hcaptcha\u3001recaptcha\u3001recaptchav3\u3001turnstile\u30015s  solver bypass",
+    "name": "moonfy.github.io"
+  },
+  {
+    "description": "",
+    "name": "templates"
+  },
+  {
+    "description": "On-device TTS model by Neuphonic",
+    "name": "neutts-air"
+  },
+  {
+    "description": "",
+    "name": "vibesdk"
+  },
+  {
+    "description": "",
+    "name": "claude-code-sdk-python"
+  },
+  {
+    "description": "\ud83e\udd1e Use AI language models to write one-liner shell commands, then execute them.",
+    "name": "yolox"
+  },
+  {
+    "description": "",
+    "name": "jet_notes"
+  },
+  {
+    "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
+    "name": "claude-cookbooks"
+  },
+  {
+    "description": "Use Cloudflare to create HTTP pass-through proxies for unique IP rotation, similar to fireprox",
+    "name": "flareprox"
+  },
+  {
+    "description": "AI-powered WordPress CLI tool for content management with precision editing capabilities.",
+    "name": "PraisonAI-WPcli"
+  },
+  {
+    "description": "A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Python and .NET.",
+    "name": "agent-framework"
+  },
+  {
+    "description": "rep+ \u2014 Burp-style HTTP Repeater for Chrome DevTools with built\u2011in AI to explain requests and suggest attacks",
+    "name": "rep"
+  },
+  {
+    "description": "Fast, effective, mind-blowing, coding CLI. Browser integration, multi-agents, theming, and reasoning control. Orchestrate agents from OpenAI, Claude, Gemini or any provider.",
+    "name": "code_just"
+  },
+  {
+    "description": "\ud83d\udedc 100+ offline-first networking tools and utilities",
+    "name": "networking-toolbox"
+  },
+  {
+    "description": "The automation tower defense RTS",
+    "name": "Mindustry"
+  },
+  {
+    "description": "\ud83c\udf4c 1000+ selected Nano Banana Pro prompts with images, multilingual support, and instant gallery preview. Open-source prompt engineering library",
+    "name": "awesome-nano-banana-pro-prompts"
+  },
+  {
+    "description": "Legacy-Mess Detector \u2013 assess the \u201clegacy-mess level\u201d of your code and output a beautiful report | \u5c4e\u5c71\u4ee3\u7801\u68c0\u6d4b\u5668\uff0c\u8bc4\u4f30\u4ee3\u7801\u7684\u201c\u5c4e\u5c71\u7b49\u7ea7\u201d\u5e76\u8f93\u51fa\u7f8e\u89c2\u7684\u62a5\u544a",
+    "name": "fuck-u-code"
+  },
+  {
+    "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
+    "name": "claude-mem"
+  },
+  {
+    "description": "\ud83d\udd25 Pytest Language Server",
+    "name": "pytest-language-server"
+  },
+  {
+    "description": "Kosmos: An AI Scientist for Autonomous Discovery - An implementation and adaptation to be driven by Claude Code or API - Based on the Kosmos AI Paper -  https://arxiv.org/abs/2511.02824",
+    "name": "Kosmos"
+  },
+  {
+    "description": "RAVERSE: AI Multi-Agent Binary Patching System with MCP Server (35 tools, npm/pip/docker)",
+    "name": "jaegis-RAVERSE"
+  },
+  {
+    "description": "Chrome DevTools for coding agents",
+    "name": "chrome-devtools-mcp"
+  },
+  {
+    "description": "Core building blocks for AI apps.  High-quality, accessible, and customizable components for AI interfaces.",
+    "name": "prompt-kit"
+  },
+  {
+    "description": "Build your own generative UI chatbot using the Vercel AI SDK and Google Gemini",
+    "name": "gemini-chatbotz"
+  },
+  {
+    "description": "real time face swap and one-click video deepfake with only a single image",
+    "name": "Deep-Live-Cam"
+  },
+  {
+    "description": "A collection of MCP servers.",
+    "name": "awesome-mcp-servers"
+  },
+  {
+    "description": "Part of the Mat3ra Workflow Ecosystem",
+    "name": "ade"
+  },
+  {
+    "description": "HTTP API for Claude Code, Goose, Aider, Gemini, Amp, and Codex",
+    "name": "agentapi"
+  },
+  {
+    "description": "\u5c0f\u7ea2\u4e66\u7b14\u8bb0 | \u8bc4\u8bba\u722c\u866b\u3001\u6296\u97f3\u89c6\u9891 | \u8bc4\u8bba\u722c\u866b\u3001\u5feb\u624b\u89c6\u9891 | \u8bc4\u8bba\u722c\u866b\u3001B \u7ad9\u89c6\u9891 \uff5c \u8bc4\u8bba\u722c\u866b\u3001\u5fae\u535a\u5e16\u5b50 \uff5c \u8bc4\u8bba\u722c\u866b\u3001\u767e\u5ea6\u8d34\u5427\u5e16\u5b50 \uff5c \u767e\u5ea6\u8d34\u5427\u8bc4\u8bba\u56de\u590d\u722c\u866b  | \u77e5\u4e4e\u95ee\u7b54\u6587\u7ae0\uff5c\u8bc4\u8bba\u722c\u866b",
+    "name": "MediaCrawler"
+  },
+  {
+    "description": "Sub2API-\u4e00\u7ad9\u5f0f\u5f00\u6e90\u4e2d\u8f6c\u670d\u52a1\uff0c\u8ba9 Claude\u8ba2\u9605\u7edf\u4e00\u63a5\u5165\uff0c\u652f\u6301\u62fc\u8f66\u5171\u4eab\uff0c\u66f4\u9ad8\u6548\u5206\u644a\u6210\u672c\uff0c\u539f\u751f\u5de5\u5177\u65e0\u7f1d\u4f7f\u7528\u3002",
+    "name": "sub2api"
+  },
+  {
+    "description": "Intelligent tools for reliable AI-assisted development",
+    "name": "devflow"
+  },
+  {
+    "description": "Spec-driven development for AI coding assistants.",
+    "name": "OpenSpec"
+  },
+  {
+    "description": "\ud83d\udd0c Plug-and-play library to enable agents to call MCP and UTCP tools via code execution. ",
+    "name": "code-mode"
+  },
+  {
+    "description": "DeepAnalyze is the first agentic LLM for autonomous data science.",
+    "name": "DeepAnalyze"
+  },
+  {
+    "description": "A community driven registry service for Model Context Protocol (MCP) servers.",
+    "name": "registry"
+  },
+  {
+    "description": "\ud83e\udd16 AI Gateway | AI Native API Gateway",
+    "name": "higress"
+  },
+  {
+    "description": "Private NPM Registry for self-host. Example, npm registry Mirror on China https://registry.npmmirror.com",
+    "name": "cnpmcore"
+  },
+  {
+    "description": "LummaC2 extracted binaries by reversing & LummaC2 Stealer Analysis",
+    "name": "LummaC2-Stealer"
+  },
+  {
+    "description": "\"AI-Trader: Can AI Beat the Market?\"",
+    "name": "AI-Trader"
+  },
+  {
+    "description": ":zap: Universal Workflow Orchestration Platform \u2014 Code in any language, run anywhere. 800+ plugins for data, infrastructure, and AI automation.",
+    "name": "kestra"
+  },
+  {
+    "description": "GPlay Scraper is a powerful Python Google Play scraper library for extracting comprehensive app data from the Google Play Store. Scrape Google Play Store apps to get ratings, install counts, reviews, ASO metrics, developer information, and 65+ data fields",
+    "name": "gplay-scraper"
+  },
+  {
+    "description": "Open source alternative to AWS. Elastic compute, block storage (non replicated), firewall and load balancer, managed Postgres, K8s, AI inference, and IAM services.",
+    "name": "ubicloud"
+  },
+  {
+    "description": "tail -f your gmail",
+    "name": "gmailtail"
+  },
+  {
+    "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows \u2014 particularly Claude Code",
+    "name": "awesome-claude-skills"
+  },
+  {
+    "description": "\u300a\u6d6e\u751f\u5341\u68a6\u300b \u662f\u4e00\u6b3e\u57fa\u4e8e Web \u7684\u6c89\u6d78\u5f0f\u6587\u5b57\u5192\u9669\u6e38\u620f\u3002\u73a9\u5bb6\u5728\u6e38\u620f\u4e2d\u626e\u6f14\u4e00\u4e2a\u4e0e\u547d\u8fd0\u535a\u5f08\u7684\u89d2\u8272\uff0c\u6bcf\u5929\u6709\u5341\u6b21\u673a\u4f1a\u8fdb\u5165\u4e0d\u540c\u7684\u201c\u68a6\u5883\u201d\uff08\u5373\u751f\u547d\u8f6e\u56de\uff09\uff0c\u4f53\u9a8c\u7531 AI \u52a8\u6001\u751f\u6210\u7684\u3001\u72ec\u4e00\u65e0\u4e8c\u7684\u4eba\u751f\u6545\u4e8b\u3002\u6e38\u620f\u7684\u6838\u5fc3\u5728\u4e8e\u201c\u77e5\u8db3\u201d\u4e0e\u201c\u8d2a\u6b32\u201d\u4e4b\u95f4\u7684\u6289\u62e9\uff1a\u662f\u89c1\u597d\u5c31\u6536\uff0c\u8fd8\u662f\u8ffd\u6c42\u66f4\u9ad8\u7684\u56de\u62a5\u4f46\u53ef\u80fd\u5931\u53bb\u4e00\u5207\uff1f",
+    "name": "TenCyclesofFate"
+  },
+  {
+    "description": "Line SDK for voice agents.",
+    "name": "line"
+  },
+  {
+    "description": "Renderer for the harmony response format to be used with gpt-oss",
+    "name": "harmony"
+  },
+  {
+    "description": "Tsunami is a general purpose network security scanner with an extensible plugin system for detecting high severity vulnerabilities with high confidence.",
+    "name": "tsunami-security-scanner"
+  },
+  {
+    "description": "Build Real-Time Knowledge Graphs for AI Agents",
+    "name": "graphiti"
+  },
+  {
+    "description": "Asking yours data in a natural language way through pre-modeling (data models and semantic models).",
+    "name": "dat"
+  },
+  {
+    "description": "\u26a1 Easiest no code web data extraction platform \u2022 Instantly turn any website into API or spreadsheet \u26a1",
+    "name": "maxun"
+  },
+  {
+    "description": "public index of IDA Pro plugins",
+    "name": "plugin-repository"
+  },
+  {
+    "description": "Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.",
+    "name": "awesome-llm-apps"
+  },
+  {
+    "description": "sealos devbox ssh gateway",
+    "name": "sshgate"
+  },
+  {
+    "description": "",
+    "name": "amq2api"
+  },
+  {
+    "description": "DS.js (Declarative Self\u2011learning JavaScript",
+    "name": "dspy.ts"
+  },
+  {
+    "description": "Next generation testing framework powered by Vite.",
+    "name": "vitest"
+  },
+  {
+    "description": "ShinkaEvolve: Towards Open-Ended and Sample-Efficient Program Evolution",
+    "name": "ShinkaEvolve"
+  },
+  {
+    "description": "The glamourous AI coding agent for your favourite terminal \ud83d\udc98",
+    "name": "crush"
+  },
+  {
+    "description": "An Open Phone Agent Model & Framework. Unlocking the AI Phone for Everyone",
+    "name": "Open-AutoGLM"
+  },
+  {
+    "description": "",
+    "name": "jet_python_modules"
+  },
+  {
+    "description": "\ud83d\udd75\ufe0f\u200d\u2642\ufe0f All-in-one OSINT tool for analysing any website",
+    "name": "web-check"
+  },
+  {
+    "description": "General purpose 3D and 2D game engine using Go (golang) and Vulkan with built in editor",
+    "name": "kaiju"
+  },
+  {
+    "description": "",
+    "name": "droid2api"
+  },
+  {
+    "description": "Airweave lets agents search any app",
+    "name": "airweave"
+  },
+  {
+    "description": "Backup automation for self-hosters. Built on top of restic",
+    "name": "zerobyte"
+  },
+  {
+    "description": "ScanCode.io is a server to script and automate software composition analysis pipelines with ScanPipe pipelines. This project is sponsored by NLnet project https://nlnet.nl/project/vulnerabilitydatabase/ Google Summer of Code, nexB and others generous sponsors!",
+    "name": "scancode.io"
+  },
+  {
+    "description": "OneAPI\uff0c\u63d0\u4f9b\u5404\u79cd\u6570\u636eAPI\uff0c\u7528\u6237\u4fe1\u606f\u3001\u89c6\u9891\u5217\u8868\u3001\u8be6\u60c5\u3001\u70b9\u8d5e\u3001\u8bc4\u8bba\u6570\u636e\u3001\u7efc\u5408\u641c\u7d22\u7b49\uff0c\u5305\u62ec\uff1aDouyin\uff08\u6296\u97f3\uff09\u3001Xiaohongshu\uff08\u5c0f\u7ea2\u4e66\uff09\u3001Kuaishou\uff08\u5feb\u624b\uff09\u3001Bilibili\uff08\u54d4\u54e9\u54d4\u54e9\uff09\u3001Weibo\uff08\u5fae\u535a\uff09\u3001Toutiao\uff08\u4eca\u65e5\u5934\u6761\uff09\u3001Xigua\uff08\u897f\u74dc\u89c6\u9891\uff09\u3001Lemon8\u3001Tiktok\u3001Youtube\u7b49\u63a5\u53e3\u3001\u6570\u636e\u3001API\u3001\u722c\u866b\u3001\u91c7\u96c6\u3002",
+    "name": "OneAPI"
+  },
+  {
+    "description": "copy-trading and sniping support on xrpl amm, telegram control implemented",
+    "name": "xrpl-trading-bot"
+  },
+  {
+    "description": "\u4e00\u6b3e\u9762\u5411SRC\u6f0f\u6d1e\u6316\u6398\u4e2d\uff0c\u9875\u9762\u4fe1\u606f\u6536\u96c6\u573a\u666f\u7684\u6d4f\u89c8\u5668\u6269\u5c55\uff0c\u81ea\u52a8\u6536\u96c6\u9875\u9762\u53ca\u76f8\u5173\u8d44\u6e90\u4e2d\u7684\u654f\u611f\u4fe1\u606f\u4e0e\u53ef\u7591\u7ebf\u7d22\uff0c\u652f\u6301\u57fa\u7840\u626b\u63cf\u3001\u6df1\u5ea6\u9012\u5f52\u626b\u63cf\u3001\u6279\u91cf API \u6d4b\u8bd5\u53ca\u7ed3\u679c\u5bfc\u51fa\u4e0e\u81ea\u5b9a\u4e49\u6b63\u5219\u914d\u7f6e",
+    "name": "Phantom"
+  },
+  {
+    "description": "A modern AI chat template built with TanStack Start, featuring multi-model support, real-time streaming, and a clean, responsive UI.",
+    "name": "tanstack-ai-demo"
+  },
+  {
+    "description": "Neo4j graph construction from unstructured data using LLMs",
+    "name": "llm-graph-builder"
+  },
+  {
+    "description": "The JavaScript SDK for scalebox service by cloudsway.ai",
+    "name": "scalebox-sdk-js"
+  },
+  {
+    "description": "Build high-quality LLM apps - from prototyping, testing to production deployment and monitoring.",
+    "name": "promptflow"
+  },
+  {
+    "description": "",
+    "name": "scip-lsp"
+  },
+  {
+    "description": "",
+    "name": "agent-girl"
+  },
+  {
+    "description": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free.",
+    "name": "khoj"
+  },
+  {
+    "description": "Cameradar hacks its way into RTSP videosurveillance cameras",
+    "name": "cameradar"
+  },
+  {
+    "description": "Kanban board to manage your AI coding agents",
+    "name": "vibe-kanban"
+  },
+  {
+    "description": "",
+    "name": "otel"
+  },
+  {
+    "description": " Mobile-Agent: The Powerful GUI Agent Family",
+    "name": "MobileAgent"
+  },
+  {
+    "description": "Json Schema Type Builder with Static Type Resolution for TypeScript",
+    "name": "typebox"
+  },
+  {
+    "description": "",
+    "name": "Agent365-python"
+  },
+  {
+    "description": "\ud83e\udde1 Folo is the AI Reader",
+    "name": "Folo"
+  },
+  {
+    "description": "A collection of essential utilities for AI development. State management, debugging tools, and artifact handling - everything you need to build production-ready AI applications.",
+    "name": "ai-sdk-tools"
+  },
+  {
+    "description": "AI coding agent, built for the terminal.",
+    "name": "opencode"
+  },
+  {
+    "description": "E-mails, subdomains and names Harvester - OSINT ",
+    "name": "theHarvester"
+  },
+  {
+    "description": "\ud83e\udd16 The Modern Port Scanner \ud83e\udd16",
+    "name": "RustScan"
+  },
+  {
+    "description": "CLI MCP package manager & registry for all platforms and all clients. Search & configure MCP servers. Advanced Router & Profile features.",
+    "name": "mcpm.sh"
+  },
+  {
+    "description": "Fast, easy and reliable testing for anything that runs in a browser.",
+    "name": "cypress"
+  },
+  {
+    "description": "BISHENG is an open LLM devops platform for next generation Enterprise AI applications. Powerful and comprehensive features include: GenAI workflow, RAG, Agent, Unified model management, Evaluation, SFT, Dataset Management, Enterprise-level System Management, Observability and more.",
+    "name": "bisheng"
+  },
+  {
+    "description": "Various useful scripts for use within Windows Sandbox",
+    "name": "Windows-Sandbox-Tools"
+  },
+  {
+    "description": "Production-grade client-side tracing, profiling, and analysis for complex software systems.",
+    "name": "perfetto"
+  },
+  {
+    "description": "Better than Claude Code or Gemini CLI especially for Monorepos",
+    "name": "code-graph-rag"
+  },
+  {
+    "description": "Use Claude Code as the foundation for coding infrastructure, allowing you to decide how to interact with the model while enjoying updates from Anthropic.",
+    "name": "claude-code-router"
+  },
+  {
+    "description": "\u9996\u4e2a\u7cfb\u7edf\u5316 Vibe Coding \u5f00\u6e90\u6559\u7a0b | \u96f6\u57fa\u7840\u5230\u5168\u6808\u5b9e\u6218\uff0c\u8ba9\u4eba\u4eba\u90fd\u80fd\u7528 AI \u5f00\u53d1\u4ea7\u54c1 | \u5728\u7ebf\u5730\u5740\uff1awww.vibevibe.cn",
+    "name": "vibe-vibe"
+  },
+  {
+    "description": "",
+    "name": "JetScripts"
+  },
+  {
+    "description": "The data-validation toolkit for enhanced dbt (data build tool) PR review",
+    "name": "recce"
+  },
+  {
+    "description": "",
+    "name": "lynlang"
+  },
+  {
+    "description": "Reverse engineering and pentesting for Android applications ",
+    "name": "androguard"
+  },
+  {
+    "description": "",
+    "name": "AgentX"
+  },
+  {
+    "description": "AI-powered desktop automation \u2014 open source, MIT-licensed, cross-platform, accessibility-first. Works across all apps and browsers. Inspired by GitHub Actions & Playwright. 100x faster than generic AI agents, >95% success rate, no vendor lock-in.",
+    "name": "terminator"
+  },
+  {
+    "description": "Open-Source Chrome extension for AI-powered web automation. Run multi-agent workflows using your own LLM API key. Alternative to OpenAI Operator.",
+    "name": "nanobrowser"
+  },
+  {
+    "description": "Super Magic. The first open-source all-in-one AI productivity platform (Generalist AI Agent + Workflow Engine + IM + Online collaborative office system)",
+    "name": "magic"
+  },
+  {
+    "description": "Sec-Gemini v1 is a cutting-edge AI model designed to enhance cybersecurity capabilities and empower defenders in the ongoing battle against cyber threats.",
+    "name": "sec-gemini"
+  },
+  {
+    "description": "\u4e00\u4e2a\u57fa\u4e8enano banana pro\ud83c\udf4c\u7684\u539f\u751fAI PPT\u751f\u6210\u5e94\u7528\uff0c\u8fc8\u5411\u771f\u6b63\u7684\uff02Vibe PPT\uff02; \u652f\u6301\u4e0a\u4f20\u4efb\u610f\u6a21\u677f\u56fe\u7247\uff1b\u4e0a\u4f20\u4efb\u610f\u7d20\u6750&\u667a\u80fd\u89e3\u6790\uff1b\u4e00\u53e5\u8bdd/\u5927\u7eb2/\u9875\u9762\u63cf\u8ff0\u81ea\u52a8\u751f\u6210PPT\uff1b\u53e3\u5934\u4fee\u6539\u6307\u5b9a\u533a\u57df\u3001\u4e00\u952e\u5bfc\u51fa - An AI-native PPT generator based on nano banana pro\ud83c\udf4c",
+    "name": "banana-slides"
+  },
+  {
+    "description": "Railway CLI",
+    "name": "railwaybuildcli"
+  },
+  {
+    "description": "English translation for the DBI homebrew application",
+    "name": "DBIPatcher"
+  },
+  {
+    "description": "SCIP Code Intelligence Protocol",
+    "name": "scip"
+  },
+  {
+    "description": "Frame profiler",
+    "name": "tracy"
+  },
+  {
+    "description": "Desktop Extensions: One-click local MCP server installation in desktop apps",
+    "name": "mcpb"
+  },
+  {
+    "description": "An easy-to-use framework for modular RAG",
+    "name": "PAI-RAG"
+  },
+  {
+    "description": "Modular MCP server for programmatic prompt engineering. Provides intelligent prompt assembly for PRD generation, codebase analysis, and bug analysis with support for 31 technology stacks.",
+    "name": "mercury-spec-ops"
+  },
+  {
+    "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
+    "name": "ag-ui"
+  },
+  {
+    "description": "Build and deploy AI Agents on Cloudflare ",
+    "name": "Cloudflare-agents"
+  },
+  {
+    "description": "Vulnerability scanner written in Go which uses the data provided by https://osv.dev",
+    "name": "osv-scanner"
+  },
+  {
+    "description": "Build effective agents using Model Context Protocol and simple workflow patterns",
+    "name": "mcp-agent"
+  },
+  {
+    "description": "",
+    "name": "shadow-clean"
+  },
+  {
+    "description": "\u57fa\u4e8eNPS 0.26.10 \u7248\u672c\u4e8c\u5f00\u800c\u6765\uff0cNPS\u63a5\u529b\u9879\u76ee\u3002\u514d\u8d39NPS\u8282\u70b9\uff1ahttps://natnps.com",
+    "name": "nps"
+  },
+  {
+    "description": "A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through natural language commands and AI-assisted visualization.",
+    "name": "next-ai-draw-io"
+  },
+  {
+    "description": "eslint plugin for vitest",
+    "name": "eslint-plugin-vitest"
+  },
+  {
+    "description": "",
+    "name": "llm-governance-dashboard"
+  },
+  {
+    "description": "The most intuitive desktop API client. Organize and execute REST, GraphQL, WebSockets, Server Sent Events, and gRPC \ud83e\uddac",
+    "name": "yaak"
+  },
+  {
+    "description": "A lightweight, powerful framework for multi-agent workflows",
+    "name": "openai-agents-python"
+  },
+  {
+    "description": "Workflows are an event-driven, async-first, step-based way to control the execution flow of AI applications like agents.",
+    "name": "workflows-py"
+  },
+  {
+    "description": "A research prototype of a human-centered web agent",
+    "name": "magentic-ui"
+  },
+  {
+    "description": "Orchestrate Claude Code, Codex, and Gemini sessions on a multiplayer canvas. Manage git worktrees, track AI conversations, and visualize your team's agentic work in real-time.",
+    "name": "agor"
+  },
+  {
+    "description": "Parse Server for Node.js / Express",
+    "name": "parse-server"
+  },
+  {
+    "description": "Agentic QE Framework - Bridge classical to autonomous quality engineering",
+    "name": "agentic-qe"
+  },
+  {
+    "description": "Open Source Continuous File Synchronization",
+    "name": "syncthing"
+  },
+  {
+    "description": "MinIO is a high-performance, S3 compatible object store, open sourced under GNU AGPLv3 license.",
+    "name": "minio"
+  },
+  {
+    "description": "Next Generation Server Toolkit. Create web servers with everything you need and deploy them wherever you prefer.",
+    "name": "nitro"
+  },
+  {
+    "description": "GitHub Copilot CLI brings the power of Copilot coding agent directly to your terminal. ",
+    "name": "copilot-cli"
+  },
+  {
+    "description": "A CLI tool to convert your codebase into a single LLM prompt with source tree, prompt templating, and token counting.",
+    "name": "code2prompt"
+  },
+  {
+    "description": "Crawl Archivematica's Archival Information Packages (AIP) and provide repository-wide reporting.",
+    "name": "AIPscan"
+  },
+  {
+    "description": "BillionMail gives you open-source MailServer, NewsLetter,  Email Marketing \u2014 fully self-hosted, dev-friendly, and free from monthly fees. Join the discord: https://discord.gg/asfXzBUhZr",
+    "name": "BillionMail"
+  },
+  {
+    "description": "A model-driven approach to building AI agents in just a few lines of code.",
+    "name": "sdk-python"
+  },
+  {
+    "description": "An agent skill for managing isolated execution environments",
+    "name": "agent-sandbox-skill"
+  },
+  {
+    "description": "Cross-platform AI workflow DSL converter supporting iFlytek Spark, Dify, and Coze platforms with unified intermediate representation and bidirectional transformation capabilities.",
+    "name": "AgentBridge"
+  },
+  {
+    "description": "AIFlowy is an enterprise-grade AI application development platform based on Java, comparable to products like Dify and Coze.",
+    "name": "aiflowy"
+  },
+  {
+    "description": "\u4e00\u4e2a\u5f00\u6e90\u7684\u591a\u89d2\u8272\u3001\u591a\u60c5\u7eea AI \u914d\u97f3\u751f\u6210\u5e73\u53f0\uff0c\u652f\u6301\u5c0f\u8bf4\u3001\u5267\u672c\u3001\u89c6\u9891\u7b49\u5185\u5bb9\u7684\u81ea\u52a8\u914d\u97f3\u4e0e\u5bfc\u51fa\u3002",
+    "name": "SonicVale"
+  },
+  {
+    "description": "The Orchestration Layer for AI agents. Connect your models, tools, and data into a smart interface to create agentic apps that can think, act and talk to you",
+    "name": "dexto"
+  },
+  {
+    "description": "AI Vibe Coding Agent of TS backend server, enhanced by compiler skills, generating 100% working code",
+    "name": "autobe"
+  },
+  {
+    "description": "\ud83d\udc0a  Pluggable and configurable JavaScript Linter, code transformer and formatter, drop-in ESLint superpower replacement \ud83d\udcaa with built-in support for js, jsx, typescript, markdown, yaml and json. Write declarative codemods in a simplest possible way \ud83d\ude0f",
+    "name": "putout"
+  },
+  {
+    "description": "AI coding in free chatbots",
+    "name": "CodeWebChat"
+  },
+  {
+    "description": "\ud83e\udd17 smolagents: a barebones library for agents that think in code.",
+    "name": "smolagents"
+  },
+  {
+    "description": "",
+    "name": "agent-ide"
+  },
+  {
+    "description": "Apptron",
+    "name": "apptron"
+  },
+  {
+    "description": "Main MemberJunction Repository",
+    "name": "MJ"
+  },
+  {
+    "description": "CLI tool for configuring and monitoring Claude Code",
+    "name": "claude-code-templates"
+  },
+  {
+    "description": "Next generation autonomous AI agent for end-to-end testing of web & desktop",
+    "name": "cli"
+  },
+  {
+    "description": "An enterprise-ready AI agent development platform combining intelligent RPA, enabling agents to not only think but also act\u2014automating workflows across digital and desktop environments.",
+    "name": "astron-agent"
+  },
+  {
+    "description": "Enterprise-grade desktop RPA client with a pluggable library of atomic capabilities, policy\u2011friendly packaging, and CI/CD\u2011friendly CLI. Integrates with leading Agent platforms and LLMs for end\u2011to\u2011end desktop/web automation.",
+    "name": "astron-rpa"
+  },
+  {
+    "description": "\u5404\u79cd\u4ee3\u7801\u5b9e\u4f8b",
+    "name": "example"
+  },
+  {
+    "description": "The hacker's browser.",
+    "name": "vimium"
+  },
+  {
+    "description": "A next-generation HTTP stealth proxy which perfectly cloaks requests as the Chrome browser across all layers of the stack.",
+    "name": "thermoptic"
+  },
+  {
+    "description": "A distributed vector database that learns. Store embeddings, query with Cypher, scale horizontally with Raft consensus, and let the index improve itself through Graph Neural Networks.",
+    "name": "ruvector"
+  },
+  {
+    "description": "A Claude Skill to give your agent the ability to use a web browser",
+    "name": "dev-browser"
+  },
+  {
+    "description": "An AI-powered data science team of agents to help you perform common data science tasks 10X faster.",
+    "name": "ai-data-science-team"
+  },
+  {
+    "description": "",
+    "name": "research-core"
+  },
+  {
+    "description": "",
+    "name": "data-core"
+  },
+  {
+    "description": "",
+    "name": "automation-core"
+  },
+  {
+    "description": "",
+    "name": "intelligence-core"
+  },
+  {
+    "description": "",
+    "name": "mcp-server"
+  },
+  {
+    "description": "A minimal, fast, database client desktop application. Built for developers who want to quickly peek at their data without the bloat.",
+    "name": "data-peek"
+  },
+  {
+    "description": "\u26a1 \u9700\u6c42\u5206\u6790\u6548\u7387\u63d0\u5347 200%\uff01\u5168\u7403\u9996\u4e2a\u4e3a AI \u7f16\u7a0b\u65f6\u4ee3\u8bbe\u8ba1\u7684\u56e2\u961f\u534f\u4f5c MCP \u670d\u52a1\u5668\uff0c\u81ea\u52a8\u5206\u6790\u9700\u6c42\u81ea\u52a8\u7f16\u5199\u524d\u540e\u7aef\u4ee3\u7801\uff0c\u4e0b\u8f7d\u5207\u56fe",
+    "name": "lanhu-mcp"
+  },
+  {
+    "description": "A cross-platform CLI that gives developers a ready-to-run local infrastructure (Postgres / Redis / Keycloak / Miso Controller), builds and tests applications, and hands them off to the AI Fabrix Controller for cloud deployment.",
+    "name": "aifabrix-builder"
+  },
+  {
+    "description": "Codebase Indexing for AI programming assistant.: call graph search, multi-language support.",
+    "name": "codebase-indexer"
+  },
+  {
+    "description": "\u7ea2\u58a8 - \u57fa\u4e8e\ud83c\udf4cNano Banana Pro\ud83c\udf4c \u7684\u4e00\u7ad9\u5f0f\u5c0f\u7ea2\u4e66\u56fe\u6587\u751f\u6210\u5668 \u300a\u4e00\u53e5\u8bdd\u4e00\u5f20\u56fe\u7247\u751f\u6210\u5c0f\u7ea2\u4e66\u56fe\u6587\u300b Red Ink - A one-stop Xiaohongshu image-and-text generator based on the \ud83c\udf4cNano Banana Pro\ud83c\udf4c, \"One Sentence, One Image: Generate Xiaohongshu Text and Images.\"",
+    "name": "RedInk"
+  },
+  {
+    "description": "",
+    "name": "ruvvector-service"
+  },
+  {
+    "description": "fay\u662f\u4e00\u4e2a\u5e2e\u52a9\u6570\u5b57\u4eba\uff082.5d\u30013d\u3001\u79fb\u52a8\u3001pc\u3001\u7f51\u9875\uff09\u6216\u5927\u8bed\u8a00\u6a21\u578b\uff08openai\u517c\u5bb9\u3001deepseek\uff09\u8fde\u901a\u4e1a\u52a1\u7cfb\u7edf\u7684agent\u6846\u67b6\u3002",
+    "name": "Fay"
+  },
+  {
+    "description": "The ultimate open-source YouTube growth guide inspired by Creator Unlock. Includes tools, workflows, and strategies for AI-driven channel audits, niche research, video ideation, thumbnail & title optimization, content scoring, and data-backed growth strategies to help creators stop guessing and start winning on YouTube. \ud83d\ude80",
+    "name": "youtube-growth-guide"
+  },
+  {
+    "description": "",
+    "name": "vibe-coding-cn"
+  },
+  {
+    "description": "A curated list of AI tools I personally use to build, automate, and monetize projects \u2014 from content and video automation to APIs, websites, workflows, and AI voice. \u2b50\u2b50\u2b50\u2b50\u2b50",
+    "name": "awesome-ai-tools"
+  },
+  {
+    "description": "An MCP server exposing full Chrome DevTools Protocol debugging: breakpoints, step/run, call stacks, eval, and source maps.",
+    "name": "devtools-debugger-mcp"
+  },
+  {
+    "description": "Langchain for sandboxes",
+    "name": "grainchain"
+  },
+  {
+    "description": "Chrome Extension - Remote Script Loader (Manifest V3)",
+    "name": "chrome-extension-remote-scripts"
+  },
+  {
+    "description": "Open Source Vulnerability Management Platform",
+    "name": "faraday"
+  },
+  {
+    "description": "Python tool for phishing",
+    "name": "PyPhisher2"
+  },
+  {
+    "description": "Penetration Testing Reference Bank - OSCP / PTP & PTX  Cheatsheet",
+    "name": "Cheatsheet-God"
+  },
+  {
+    "description": "",
+    "name": "Z-Image"
+  },
+  {
+    "description": "sub2api",
+    "name": "sub2api2"
+  },
+  {
+    "description": "Best practice Documentation, prompts, commands and agent configurations for Claude Code",
+    "name": "ai-mesh"
+  },
+  {
+    "description": "This GitHub repo is a powerhouse collection of scraping APIs for developers that you can start using immediately to build everything from simple automations to full-scale applications. ",
+    "name": "scraping-apis-for-devs"
+  },
+  {
+    "description": "\u221e Infinite Server26 Kali Edition - Autonomous AI-Powered Security Fortress with Rancher, Docker, Kali Linux, NayDoeV1, JessicAi, NAi_gAil Mesh Shield, and NiA_Vault Blockchain",
+    "name": "infinite-server26"
+  },
+  {
+    "description": "This GitHub repo is a powerhouse collection of APIs you can start using immediately to build everything from simple automations to full-scale applications. One of the most valuable API lists on GitHub\u2014period. \ud83d\udcaa",
+    "name": "API-mega-list"
+  },
+  {
+    "description": "Complete guide to automating content for growth: Sora 2 video generation, brand authority automation, multi-platform posting, bulk content creation, and API integration.",
+    "name": "automate-for-growth"
+  },
+  {
+    "description": "A curated collection of AI tools, utilities, and resources for developers and creators",
+    "name": "ai-agent-tools"
+  },
+  {
+    "description": "Your complete beginner\u2019s course to mastering Lovable Vibe Coding.  This repo is a step-by-step learning hub designed to take absolute beginners and turn them into confident Lovable developers.",
+    "name": "lovable-for-beginners"
+  },
+  {
+    "description": "Learn how to automate faceless short-form + long-form video content and dominate YouTube, TikTok, Facebook & Instagram on autopilot \u2014 from idea \u2192 script \u2192 video \u2192 scheduled posts.",
+    "name": "automate-faceless-content"
+  },
+  {
+    "description": "A complete beginner-friendly guide that shows you how to monetize your custom GPTs on ChatGPT using Authflow.ai. Learn how to add paywalls, protect your GPT with authentication, create subscription tiers, and start earning from your custom GPTs on ChatGPT \u2014 step by step.",
+    "name": "authflow-monetize-gpts"
+  },
+  {
+    "description": "Sandbox for running tests generated by https://studio.testdriver.ai/",
+    "name": "playwright-sandbox"
+  },
+  {
+    "description": "Mirror docs synchronization",
+    "name": "cluster-image-docs"
+  },
+  {
+    "description": "",
+    "name": "PraisonAIWP"
+  },
+  {
+    "description": "All powerful skills of ClaudeKit.cc!",
+    "name": "claudekit-skills"
+  },
+  {
+    "description": "\ud83d\udcab Toolkit to help you get started with Spec-Driven Development",
+    "name": "spec-kit"
+  },
+  {
+    "description": "",
+    "name": "complex-agent"
+  },
+  {
+    "description": "",
+    "name": "llm-schema-registry"
+  },
+  {
+    "description": "\u300aAgentic Design Patterns\u300b\u4e2d\u6587\u7ffb\u8bd1\u7248",
+    "name": "agentic-design-patterns-cn"
+  },
+  {
+    "description": "",
+    "name": "graph-sitter"
+  },
+  {
+    "description": "",
+    "name": "social-bro"
+  },
+  {
+    "description": "Go LLM gateway \u2014 one interface for Claude Code, Codex, Gemini CLI, Anthropic, OpenAI, Qwen, and vLLM.",
+    "name": "tokligence-gateway"
+  },
+  {
+    "description": "DeepThinkVLA: Enhancing Reasoning Capability of Vision-Language-Action Models",
+    "name": "DeepThinkVLA"
+  },
+  {
+    "description": "Voice agent platform for configuring and deploying custom AI voice agents",
+    "name": "voice-noob"
+  },
+  {
+    "description": "\u4e00\u952eDD/\u91cd\u88c5\u811a\u672c (One-click reinstall OS on VPS)",
+    "name": "reinstall"
+  },
+  {
+    "description": "A Python library powered by Language Models (LLMs) for conversational data discovery and analysis.",
+    "name": "BambooAI"
+  },
+  {
+    "description": "A virtual environment runtime for the web, inspired by Plan 9",
+    "name": "wanix"
+  },
+  {
+    "description": "A User-Agent spoofer browser extension that is highly configurable",
+    "name": "UserAgent-Switcher"
+  },
+  {
+    "description": "An AI Hedge Fund Team",
+    "name": "ai-hedge-fund"
+  },
+  {
+    "description": "OpenAI\u517c\u5bb9API\u4ee3\u7406 for Z.ai GLM-4.5",
+    "name": "ZtoApi"
+  },
+  {
+    "description": "",
+    "name": "Neosgenesis"
+  },
+  {
+    "description": "Implementation of Google's PlanGen framework. https://arxiv.org/abs/2502.16111",
+    "name": "plangen"
+  },
+  {
+    "description": "Mirix is a multi-agent personal assistant designed to track on-screen activities and answer user questions intelligently. By capturing real-time visual data and consolidating it into structured memories, Mirix transforms raw inputs into a rich knowledge base that adapts to your digital experiences.",
+    "name": "MIRIX"
+  },
+  {
+    "description": "\u4e8c\u5f00\u81ea\u7528",
+    "name": "Antigravity2api"
+  },
+  {
+    "description": "",
+    "name": "db-studio"
+  },
+  {
+    "description": "Hierarchical Multi-Agent Reasoning and Generation System",
+    "name": "ATLAS"
+  },
+  {
+    "description": "Jinx is an enterprise-grade autonomous engineering agent that converts natural-language intent into working software. It generates and executes code safely in a sandbox, leverages durable memory and embeddings for context, and maintains an auditable trail of decisions and outputs (MIT).",
+    "name": "agent"
+  },
+  {
+    "description": "Used for deploying the backend service of ZGSM",
+    "name": "zgsm-backend-deploy"
+  },
+  {
+    "description": "",
+    "name": "projax"
+  },
+  {
+    "description": "AgentFlow: In-the-Flow Agentic System Optimization for Effective Planning and Tool Use",
+    "name": "AgentFlow"
+  },
+  {
+    "description": "",
+    "name": "amplifier"
+  },
+  {
+    "description": "",
+    "name": "xanmod-arm64"
+  },
+  {
+    "description": "Web UI for your scripts with execution management",
+    "name": "script-server"
+  },
+  {
+    "description": "",
+    "name": "the-markovian-thinker"
+  },
+  {
+    "description": "\u667a\u80fd\u95f2\u9c7c\u5ba2\u670d\u673a\u5668\u4eba\u7cfb\u7edf\uff1a\u4e13\u4e3a\u95f2\u9c7c\u5e73\u53f0\u6253\u9020\u7684AI\u503c\u5b88\u89e3\u51b3\u65b9\u6848\uff0c\u5b9e\u73b0\u95f2\u9c7c\u5e73\u53f07\u00d724\u5c0f\u65f6\u81ea\u52a8\u5316\u503c\u5b88\uff0c\u652f\u6301\u591a\u4e13\u5bb6\u534f\u540c\u51b3\u7b56\u3001\u667a\u80fd\u8bae\u4ef7\u548c\u4e0a\u4e0b\u6587\u611f\u77e5\u5bf9\u8bdd\u3002",
+    "name": "XianyuAutoAgent"
+  },
+  {
+    "description": "",
+    "name": "cluster-image"
+  },
+  {
+    "description": "Kodezi Chronos Debugging-first language model achieving 65.3% autonomous bug fixing (6-7x better than GPT-4). Research, benchmarks & evaluation framework. Model available Q1 2026 via Kodezi OS.",
+    "name": "Chronos"
+  },
+  {
+    "description": "Convert non-Git repos to Git format, and run in a Docker / Podman Compose deployment with Cloud agent and src serve-git",
+    "name": "repo-converter"
+  },
+  {
+    "description": "SCIP indexer for TypeScript and JavaScript",
+    "name": "scip-typescript"
+  },
+  {
+    "description": "SCIP indexer for Python",
+    "name": "scip-python"
+  },
+  {
+    "description": "\u4e00\u4e2a\u57fa\u4e8e Cloudflare \u6784\u5efa\u7684\u3001\u751f\u4ea7\u7ea7\u7684\u3001\u7c7b\u578b\u5b89\u5168\u7684\u5168\u6808 Web \u5e94\u7528\u6a21\u677f\uff1bHono / React / Vite / MaterialUI / UnoCSS / Zod / OpenAPI ",
+    "name": "nekro-edge-template"
+  },
+  {
+    "description": "Comprehensive agentic kit (subagents, skils/commands) for Claude Code, Opencode, Ampcode, and Droid",
+    "name": "agentic-kit"
+  },
+  {
+    "description": "[API] [ROUTE] [INFERENCE]",
+    "name": "antigravity-agent"
+  },
+  {
+    "description": "LLM Council works together to answer your hardest questions",
+    "name": "llm-council"
+  },
+  {
+    "description": "",
+    "name": "Antigravity-"
+  },
+  {
+    "description": "\u26a1 Rust-powered HTTP/HTTPS intercepting proxy for penetration testing. Modern Burp Suite alternative with Vue.js UI. Real-time traffic analysis, fuzzing & request repeater.",
+    "name": "int3rceptor"
+  },
+  {
+    "description": "Workflow automation, but you just describe what you want and it happens.",
+    "name": "b0t"
+  },
+  {
+    "description": "",
+    "name": "image-monitor"
+  },
+  {
+    "description": "",
+    "name": "aiproxy-free"
+  },
+  {
+    "description": "",
+    "name": "ai-born-website"
+  },
+  {
+    "description": "Build development environments from a Dockerfile on Docker, Kubernetes, and OpenShift. Enable developers to modify their development environment quickly.",
+    "name": "envbuilder"
+  },
+  {
+    "description": "",
+    "name": "AUTO-OPS-AI-DevOps-Agent"
+  },
+  {
+    "description": "HackGPT Enterprise is a production-ready, cloud-native AI-powered penetration testing platform designed for enterprise security teams. It combines advanced AI, machine learning, microservices architecture, and comprehensive security frameworks to deliver professional-grade cybersecurity assessments.",
+    "name": "HackGpt"
+  },
+  {
+    "description": "AI-Powered Penetration Testing Assistant",
+    "name": "PentestGPT2"
+  },
+  {
+    "description": "Weekly Vibecast Live coding sessions with rUv. Check branches for each week. ",
+    "name": "vibecast"
+  },
+  {
+    "description": "Browser Use for execution + Galileo for RCA + Claude-code to refine",
+    "name": "daytona-hackday"
+  },
+  {
+    "description": "",
+    "name": "ai_demo"
+  },
+  {
+    "description": "Base images and dependencies for Kubernetes cluster-image",
+    "name": "cache"
+  },
+  {
+    "description": "Kubernetes cluster-image for sealos",
+    "name": "runtime"
+  },
+  {
+    "description": "A NodeJS RAG framework to easily work with LLMs and embeddings",
+    "name": "embedJs"
+  },
+  {
+    "description": "The Python SDK for scalebox service by cloudsway.ai",
+    "name": "scalebox-sdk-python"
+  },
+  {
+    "description": "",
+    "name": "npm"
+  },
+  {
+    "description": "",
+    "name": "self-modifying-api"
+  },
+  {
+    "description": "codexist with rust",
+    "name": "codexist"
+  },
+  {
+    "description": "",
+    "name": "Portalis"
+  },
+  {
+    "description": "A2V: Next-Gen AI Value Compute Protocol.                                                                                 ",
+    "name": "A2V"
+  },
+  {
+    "description": "",
+    "name": "Agentic-Support"
+  },
+  {
+    "description": "\ud83c\udfaf \u544a\u522b\u4fe1\u606f\u8fc7\u8f7d\uff0cAI \u52a9\u4f60\u770b\u61c2\u65b0\u95fb\u8d44\u8baf\u70ed\u70b9\uff0c\u7b80\u5355\u7684\u8206\u60c5\u76d1\u63a7\u5206\u6790 - \u591a\u5e73\u53f0\u70ed\u70b9\u805a\u5408+\u57fa\u4e8e MCP \u7684AI\u5206\u6790\u5de5\u5177\u3002\u76d1\u63a735\u4e2a\u5e73\u53f0\uff08\u6296\u97f3\u3001\u77e5\u4e4e\u3001B\u7ad9\u3001\u534e\u5c14\u8857\u89c1\u95fb\u3001\u8d22\u8054\u793e\u7b49\uff09\uff0c\u667a\u80fd\u7b5b\u9009+\u81ea\u52a8\u63a8\u9001+AI\u5bf9\u8bdd\u5206\u6790\uff08\u7528\u81ea\u7136\u8bed\u8a00\u6df1\u5ea6\u6316\u6398\u65b0\u95fb\uff1a\u8d8b\u52bf\u8ffd\u8e2a\u3001\u60c5\u611f\u5206\u6790\u3001\u76f8\u4f3c\u68c0\u7d22\u7b4913\u79cd\u5de5\u5177\uff09\u3002\u652f\u6301\u4f01\u4e1a\u5fae\u4fe1/\u98de\u4e66/\u9489\u9489/Telegram/\u90ae\u4ef6/ntfy\u63a8\u9001\uff0c30\u79d2\u7f51\u9875\u90e8\u7f72\uff0c1\u5206\u949f\u624b\u673a\u901a\u77e5\uff0c\u65e0\u9700\u7f16\u7a0b\u3002\u652f\u6301Docker\u90e8\u7f72\u2b50 \u8ba9\u7b97\u6cd5\u4e3a\u4f60\u670d\u52a1\uff0c\u7528AI\u7406\u89e3\u70ed\u70b9",
+    "name": "TrendRadar"
+  },
+  {
+    "description": "Official CLI tool for AY Claude Platform - Discover, install, and manage Claude Skills, Agents, Commands, Hooks, Plugins, MCPs, and Settings. Cross-platform package manager for Claude Code extensions.",
+    "name": "ay-claude-templates"
+  },
+  {
+    "description": "AI-Powered Python & Python-Powered AI (Python-Use)",
+    "name": "aipyapp"
+  },
+  {
+    "description": "\u4e00\u4e2a\u57fa\u4e8e Playwright \u548cAI\u8fc7\u6ee4\u5206\u6790\u7684\u95f2\u9c7c\u591a\u4efb\u52a1\u5b9e\u65f6\u76d1\u63a7\u4e0e\u667a\u80fd\u5206\u6790\u5de5\u5177\uff0c\u914d\u5907\u4e86\u529f\u80fd\u5b8c\u5584\u7684 Web \u7ba1\u7406\u754c\u9762\u3002",
+    "name": "ai-goofish-monitor"
+  },
+  {
+    "description": "",
+    "name": "ast-read-tools"
+  },
+  {
+    "description": "gitsearch + gitview",
+    "name": "git_manager"
+  },
+  {
+    "description": ":books: The Open Source Discovery Service",
+    "name": "libraries.io"
+  },
+  {
+    "description": "\u9e3f\u8499\u5ba2\u6237\u7aef\u6d4b\u8bd5\u9776\u573a",
+    "name": "harmonyTarget"
+  },
+  {
+    "description": "MCP server enabling persistent memory for Claude through a local knowledge graph - fork focused on local development",
+    "name": "mcp-knowledge-graph"
+  },
+  {
+    "description": "EDR-Freeze is a tool that puts a process of EDR, AntiMalware into a coma state.",
+    "name": "EDR-Freeze"
+  },
+  {
+    "description": "Local first semantic and hybrid BM25 grep / search tool for use by AI and humans! ",
+    "name": "ck"
+  },
+  {
+    "description": "MCP server for Language Server Protocol integration.",
+    "name": "mcp-lsp"
+  },
+  {
+    "description": "Python package and backend for the Elysia platform app.",
+    "name": "elysia"
+  },
+  {
+    "description": "chat.qwen.ai\u7684API\u683c\u5f0f\u8f6c\u6362",
+    "name": "QwenChat2Api2"
+  },
+  {
+    "description": "",
+    "name": "api"
+  },
+  {
+    "description": "Turn a web server into an MCP server in one click without making any code changes.",
+    "name": "mcp-access-point"
+  },
+  {
+    "description": "A simple task management system for managing AI dev agents",
+    "name": "ai-dev-tasks"
+  },
+  {
+    "description": "This is the tool to dump the LSASS process on modern Windows 11",
+    "name": "WSASS"
+  },
+  {
+    "description": "Sim is an open-source AI agent workflow builder. Sim Studio's interface is a lightweight, intuitive way to quickly build and deploy LLMs that connect with your favorite tools.",
+    "name": "sim"
+  },
+  {
+    "description": "Use LLMs to dig out what you care about from massive amounts of information and a variety of sources daily.",
+    "name": "wiseflow"
+  },
+  {
+    "description": "Official repository of Youtu-GraphRAG: Vertically Unified Agents for Graph Retrieval-Augmented Complex Reasoning",
+    "name": "youtu-graphrag"
+  },
+  {
+    "description": "An ultra-intelligent system that analyzes project needs and dynamically creates specialized subagents for parallel development. ",
+    "name": "Claude-Code-Agent-Creator"
+  },
+  {
+    "description": "Lightweight tool for managing linux virtual machines",
+    "name": "flint"
+  },
+  {
+    "description": "Code proving a 25-year blind spot in all disassemblers. PoC for Intel x64/x86 \u201cghost instructions.\u201d",
+    "name": "hint-break"
+  },
+  {
+    "description": "Automatic scaling and load balancing for containerized applications",
+    "name": "AutoServe"
+  },
+  {
+    "description": "Antidote to VibeCoding",
+    "name": "Auditor"
+  },
+  {
+    "description": "note ",
+    "name": "notes"
+  },
+  {
+    "description": "RepoMaster: The open-source AI agent that masters GitHub. It turns any code repository into a powerful tool, achieving a new level of autonomous task-solving. An open alternative to Claude-Code.",
+    "name": "RepoMaster"
+  },
+  {
+    "description": "KeyLeak Detector \u2013 Scan websites for exposed API keys and secrets",
+    "name": "keyleak-detector"
+  },
+  {
+    "description": "A collective list of free APIs",
+    "name": "public-apis"
+  },
+  {
+    "description": "Qwen API documentation",
+    "name": "qwen-api"
+  },
+  {
+    "description": "",
+    "name": "apocalypse-the-server"
+  },
+  {
+    "description": "SilentButDeadly is a network communication blocker specifically designed to neutralize EDR/AV software by preventing their cloud connectivity using Windows Filtering Platform (WFP). This version focuses solely on network isolation without process termination.",
+    "name": "SilentButDeadly"
+  },
+  {
+    "description": "\u4e8c\u5f00\u9879\u76ee\uff0c\u591a\u6a21\u6001 AI \u89c6\u9891\u5206\u6790\u3001\u672c\u5730/\u4e91\u7aef\u53cc\u5f15\u64ce (\u652f\u6301 Ollama \u4e0e OpenAI \u517c\u5bb9 API)\u3001\u667a\u80fd\u5173\u952e\u5e27\u63d0\u53d6\u4e0e\u753b\u8d28\u5206\u6790\u3001\u9ad8\u6027\u80fd\u97f3\u9891\u8f6c\u5f55 (Whisper)\u3001AI \u6458\u8981\u62a5\u544a\u4e0e\u52a8\u6001\u5a92\u4f53\u751f\u6210 (\u89c6\u9891/GIF)\u3001\u96c6\u6210\u5316 WebUI \u4e0e\u5b9e\u65f6\u6d41\u5f0f\u54cd\u5e94\u3001\u81ea\u52a8\u5316\u73af\u5883\u914d\u7f6e\u4e0e\u7cfb\u7edf\u8d44\u6e90\u76d1\u63a7",
+    "name": "video-to-txt"
+  },
+  {
+    "description": "VERT-STEALER Token Stealer, Discord Token Grabber , Discord Injection , Password Stealer, Cookie Stealer, File Stealer, Crypto wallet Stealer etc.",
+    "name": "Vert-Stealer"
+  },
+  {
+    "description": "Composio equips your AI agents & LLMs with 100+ high-quality integrations via function calling",
+    "name": "composio"
+  },
+  {
+    "description": "",
+    "name": "SecretScout"
+  },
+  {
+    "description": "API, CLI, and Web App for analyzing and finding a person's profile in 1000 social media \\ websites",
+    "name": "social-analyzer"
+  },
+  {
+    "description": "Deep Research framework that combine language models with specialized tools for tasks like web search, crawling, and Python code execution",
+    "name": "DeepResearchAgent1"
+  },
+  {
+    "description": "Examples of my Claude Code infrastructure with skill auto-activation, hooks, and agents",
+    "name": "claude-code-infrastructure-showcase"
+  },
+  {
+    "description": "Callcenter.JS AI Voice Agent VOIP Connector, MCP + CLI",
+    "name": "callcenter.js-mcp"
+  },
+  {
+    "description": "\ud83e\udd16 AutoAudit--\u667a\u80fd\u5ba1\u8ba1\u51b3\u7b56\u7cfb\u7edf Python FastAPI License  \u57fa\u4e8e\u5927\u8bed\u8a00\u6a21\u578b\u7684\u667a\u80fd\u5ba1\u8ba1\u5e73\u53f0 | \u96c6\u6210\u77e5\u8bc6\u56fe\u8c31\u3001RAG\u3001\u5f3a\u5316\u5b66\u4e60\u7b49\u524d\u6cbf\u6280\u672f  \u529f\u80fd\u7279\u6027 \u2022 \u5feb\u901f\u5f00\u59cb \u2022 \u6280\u672f\u67b6\u6784 \u2022 \u6587\u6863  \ud83d\udccb \u9879\u76ee\u7b80\u4ecb \u667a\u80fd\u5ba1\u8ba1\u51b3\u7b56\u7cfb\u7edf\u662f\u4e00\u4e2a\u57fa\u4e8e\u5927\u8bed\u8a00\u6a21\u578b\uff08LLM\uff09\u7684\u667a\u80fd\u5ba1\u8ba1\u5e73\u53f0\uff0c\u96c6\u6210\u4e86\u77e5\u8bc6\u56fe\u8c31\u3001RAG\u68c0\u7d22\u589e\u5f3a\u751f\u6210\u3001\u5f3a\u5316\u5b66\u4e60\u7b49\u524d\u6cbf\u6280\u672f\uff0c\u4e3a\u5ba1\u8ba1\u5de5\u4f5c\u63d0\u4f9b\u667a\u80fd\u5316\u652f\u6301\u3002  \ud83c\udfaf \u6838\u5fc3\u4ef7\u503c: \u7a81\u7834\u4f20\u7edf\u5ba1\u8ba1\u5de5\u5177\u5c40\u9650\uff0c\u652f\u6301\u590d\u6742\u4e1a\u52a1\u903b\u8f91\u7684\u6df1\u5ea6\u63a8\u7406",
+    "name": "intelligent-audit-system"
+  },
+  {
+    "description": "Hysteria is a powerful, lightning fast and censorship resistant proxy.",
+    "name": "hysteria"
+  },
+  {
+    "description": "A lightweight, self-hosted headless browser automation platform. Designed as an alternative to Browserless, built for speed, privacy, and scalability.",
+    "name": "HeadlessX"
+  },
+  {
+    "description": "The Ultimate all-in social media automation (outreach) tool \ud83e\udd16",
+    "name": "growchief"
+  },
+  {
+    "description": "MAESTRO is an AI-powered research application designed to streamline complex research tasks.",
+    "name": "maestro"
+  },
+  {
+    "description": "Community-editable skills for Claude Code's superpowers plugin",
+    "name": "superpowers-skills"
+  },
+  {
+    "description": "Red Team tools, infrastructure, and hardware weaponized",
+    "name": "Arsenal"
+  },
+  {
+    "description": "Complete Mandiant Offensive VM (Commando VM), a fully customizable Windows-based pentesting virtual machine distribution. commandovm@mandiant.com",
+    "name": "commando-vm"
+  },
+  {
+    "description": "",
+    "name": "resonant-semantic-embedding"
+  },
+  {
+    "description": "A PDF is one of the most common file types, which makes it a great payload for Phishing Attacks. which makes it a great payload for Phishing Attacks. There are many ways that hackers use PDF files to gain access to a computers",
+    "name": "Silent-PDF-Exploit-ZeroTrace-PoC"
+  },
+  {
+    "description": "\u7b80\u5386\u8b66\u5bdf \ud83d\udd75\ufe0f\u200d\u2642\ufe0f \u75af\u72c2\u902e\u6355",
+    "name": "resumePolice"
+  },
+  {
+    "description": "ViPE: Video Pose Engine for Geometric 3D Perception",
+    "name": "vipe"
+  },
+  {
+    "description": "A powerful and open-source toolkit for hackers and security automation - \u5b89\u5168\u884c\u4e1a\u4ece\u4e1a\u8005\u81ea\u7814\u5f00\u6e90\u626b\u63cf\u5668\u5408\u8f91",
+    "name": "Scanners-Box"
+  },
+  {
+    "description": "An AI web browsing framework focused on simplicity and extensibility.",
+    "name": "stagehand"
+  },
+  {
+    "description": "\u5c06 Z.ai \u4ee3\u7406\u4e3a OpenAI Compatible \u683c\u5f0f\uff0c\u652f\u6301\u514d\u4ee4\u724c\u3001\u667a\u80fd\u5904\u7406\u601d\u8003\u94fe\u3001\u56fe\u7247\u4e0a\u4f20\u7b49\u529f\u80fd",
+    "name": "Z.ai2api"
+  },
+  {
+    "description": "ALL IN ONE Hacking Tool For Hackers",
+    "name": "hackingtool"
+  },
+  {
+    "description": "Attack Surface Management Platform",
+    "name": "Sn1per"
+  },
+  {
+    "description": "ScreenCoder \u2014 Turn any UI screenshot into clean, editable HTML/CSS with full control. Fast, accurate, and easy to customize.",
+    "name": "ScreenCoder"
+  },
+  {
+    "description": "",
+    "name": "CodeFuse-Embeddings"
+  },
+  {
+    "description": "Your memories are in ChatGPT... But nowhere else. Universal Memory MCP makes your memories available to every single LLM. No logins or paywall. One command to set it up.",
+    "name": "supermemory-mcp"
+  },
+  {
+    "description": "This is an **on-device, extremely fast text classifier** using Extreme Learning Machines - perfect for: - Real-time sentiment analysis - Spam detection - Topic classification - Any text categorization task where millisecond training speed matters - Generating text embeddings for similarity comparisons",
+    "name": "astermind-elm-mcp"
+  },
+  {
+    "description": "This project is the official implementation of 'DreamOmni2: Multimodal Instruction-based Editing and Generation''",
+    "name": "DreamOmni2"
+  },
+  {
+    "description": "Digital Mind Extension",
+    "name": "glass"
+  },
+  {
+    "description": "An opinionated extension set for Claude Code (hooks, subagents, commands, task/git management infrastructure)",
+    "name": "cc-sessions"
+  },
+  {
+    "description": "\u4e00\u4e2a\u73b0\u4ee3\u5316\u7684 Claude Code API \u4ee3\u7406\u670d\u52a1\uff0c\u63d0\u4f9b\u667a\u80fd\u8d1f\u8f7d\u5747\u8861\u3001\u7528\u6237\u7ba1\u7406\u548c\u4f7f\u7528\u7edf\u8ba1\u529f\u80fd\u3002",
+    "name": "claude-code-hub"
+  },
+  {
+    "description": "Claude Code \u4e2d\u6587\u5f00\u53d1\u5957\u4ef6 - \u4e3a\u4e2d\u56fd\u5f00\u53d1\u8005\u5b9a\u5236\u7684\u96f6\u95e8\u69db AI \u7f16\u7a0b\u73af\u5883\u3002\u4e00\u952e\u5b89\u88c5\u5b8c\u6574\u4e2d\u6587\u5316\u4f53\u9a8c\uff0c\u96c6\u6210 MCP \u670d\u52a1\u5668\u3001\u667a\u80fd\u4e0a\u4e0b\u6587\u7ba1\u7406\u3001\u5b89\u5168\u626b\u63cf\uff0c\u652f\u6301\u514d\u7ffb\u5899\u8bbf\u95ee\u3002\u8ba9 AI \u7f16\u7a0b\u66f4\u7b80\u5355\u3002",
+    "name": "claude-init"
+  },
+  {
+    "description": "Java decompiler written in C",
+    "name": "garlic"
+  },
+  {
+    "description": "SetupHijack is a security research tool that exploits race conditions and insecure file handling in Windows applications installer and update processes.",
+    "name": "SetupHijack"
+  },
+  {
+    "description": "",
+    "name": "Logics-Parsing"
+  },
+  {
+    "description": "",
+    "name": "konbini"
+  },
+  {
+    "description": "\u9a6c\u826fAI\u5199\u4f5c\u662f\u4e00\u4e2a\u4e13\u4e3a\u5c0f\u8bf4\u4f5c\u8005\u4e0e\u5e73\u53f0\u8fd0\u8425\u8005\u8bbe\u8ba1\u7684\u667a\u80fd\u5316\u521b\u4f5c\u5e73\u53f0\u3002\u5b83\u7ed3\u5408\u4e86\u5f3a\u5927\u7684AI\u6a21\u578b\uff08\u652f\u6301OpenAI, Gemini, Anthropic\u7b49\uff09\u4e0e\u4e13\u4e1a\u7684\u5728\u7ebf\u5bcc\u6587\u672c\u7f16\u8f91\u5668\uff0c\u65e8\u5728\u5e2e\u52a9\u4f5c\u8005\u6fc0\u53d1\u7075\u611f\u3001\u63d0\u9ad8\u5199\u4f5c\u6548\u7387\u3001\u7ba1\u7406\u521b\u4f5c\u5185\u5bb9\uff0c\u540c\u65f6\u4e3a\u5e73\u53f0\u7ba1\u7406\u5458\u63d0\u4f9b\u4e86\u5f3a\u5927\u7684\u540e\u53f0\u7ba1\u7406\u4e0e\u76d1\u63a7\u529f\u80fd\u3002",
+    "name": "MaliangAINovalWriter"
+  },
+  {
+    "description": "A free, open-source, multifunctional crypto arbitrage bot",
+    "name": "crypto-arbitrage-bot"
+  },
+  {
+    "description": "Advanced Active Directory network topology analyzer with SMB validation, multiple authentication methods (password/NTLM/Kerberos), and comprehensive network discovery. Export results as BloodHound\u2011compatible OpenGraph JSON.",
+    "name": "NetworkHound"
+  },
+  {
+    "description": "\"Proof of thought: Neurosymbolic program synthesis allows robust and interpretable reasoning\" published Sys2Reasoning Workshop NeurIPS 2024",
+    "name": "proofofthought"
+  },
+  {
+    "description": "A powerful GUI app and Toolkit for Claude Code - Create custom agents, manage interactive Claude Code sessions, run secure background agents, and more.",
+    "name": "opcode"
+  },
+  {
+    "description": "The fast and secure Load Balancer / API Gateway / Reverse Proxy with built-in service discovery, GeoIP, WAF, bot protection and much more - https://pingoo.io",
+    "name": "pingoo"
+  },
+  {
+    "description": "Python tools for networking",
+    "name": "PNT3"
+  },
+  {
+    "description": "Full Text Search Engine - built for Hackers not Hyperscalers",
+    "name": "blaze"
+  },
+  {
+    "description": "Next generation web scanner",
+    "name": "WhatWeb"
+  },
+  {
+    "description": "\u652f\u6301 Z.AI\u3001K2Think\u3001LongCat \u7b49\u591a\u4e2a AI \u63d0\u4f9b\u5546\u7684\u9ad8\u6027\u80fd\u4ee3\u7406\u670d\u52a1",
+    "name": "z.ai2api_python"
+  },
+  {
+    "description": "",
+    "name": "astra-xmod-shim"
+  },
+  {
+    "description": "",
+    "name": "dasein-core"
+  },
+  {
+    "description": "A professional Next.js webapp for managing AI prompts with intelligent AI enhancement, memory pattern integration, and developer-focused",
+    "name": "prompt-manager"
+  },
+  {
+    "description": "Prompt, run, edit, and deploy full-stack web applications using any LLM you want!",
+    "name": "bolt.diy"
+  },
+  {
+    "description": "Send a phone call from AI agent, in an API call. Or, directly call the bot from the configured phone number!",
+    "name": "call-center-ai"
+  },
+  {
+    "description": "",
+    "name": "agent-sandbox"
+  },
+  {
+    "description": "",
+    "name": "guild"
+  },
+  {
+    "description": "A deep research framework based on progressive search and cross-evaluation.",
+    "name": "DeepResearch"
+  },
+  {
+    "description": "",
+    "name": "lsmcp"
+  },
+  {
+    "description": "Context-central multi-agent framework with PyTorch-like API. Build intelligent agent systems with minimal code.",
+    "name": "ContextAgent"
+  },
+  {
+    "description": "Explore and improve architecture of software, visualize structure and dependencies of codebases, calculate code metrics",
+    "name": "stratify"
+  },
+  {
+    "description": "A customizable language server protocol with full integration with vscode..!",
+    "name": "lsp"
+  },
+  {
+    "description": "",
+    "name": "edmunds-claude-code"
+  },
+  {
+    "description": "jebmcp is a lightweight tool for managing and processing batch jobs in cloud environments. It simplifies task scheduling and monitoring, making it easier for developers to optimize workflows and improve productivity.",
+    "name": "jebmcp"
+  },
+  {
+    "description": "",
+    "name": "exploits"
+  },
+  {
+    "description": "Chrome extension to copy any element from any website with intelligent style extraction - optimized for LLM consumption",
+    "name": "sneaky-rat"
+  },
+  {
+    "description": "Agent Interaction Protocol is a distributed agent interaction protocol. It defines communication mechanisms for multi-agent collaboration, multi-tool invocation, and multi-modal data access in scientific scenarios.",
+    "name": "Agent-Interaction-Protocol"
+  },
+  {
+    "description": "A Model Context Protocol (MCP) Server providing LLM tools for the official ClinicalTrials.gov REST API. Search and retrieve clinical trial data, including study details and more",
+    "name": "clinicaltrialsgov-mcp-server"
+  },
+  {
+    "description": "A super minimal code based agent",
+    "name": "mini-agent2"
+  },
+  {
+    "description": "\u4e3aGPT/GLM\u7b49LLM\u5927\u8bed\u8a00\u6a21\u578b\u63d0\u4f9b\u5b9e\u7528\u5316\u4ea4\u4e92\u63a5\u53e3\uff0c\u7279\u522b\u4f18\u5316\u8bba\u6587\u9605\u8bfb/\u6da6\u8272/\u5199\u4f5c\u4f53\u9a8c\uff0c\u6a21\u5757\u5316\u8bbe\u8ba1\uff0c\u652f\u6301\u81ea\u5b9a\u4e49\u5feb\u6377\u6309\u94ae&\u51fd\u6570\u63d2\u4ef6\uff0c\u652f\u6301Python\u548cC++\u7b49\u9879\u76ee\u5256\u6790&\u81ea\u8bd1\u89e3\u529f\u80fd\uff0cPDF/LaTex\u8bba\u6587\u7ffb\u8bd1&\u603b\u7ed3\u529f\u80fd\uff0c\u652f\u6301\u5e76\u884c\u95ee\u8be2\u591a\u79cdLLM\u6a21\u578b\uff0c\u652f\u6301chatglm3\u7b49\u672c\u5730\u6a21\u578b\u3002\u63a5\u5165\u901a\u4e49\u5343\u95ee, deepseekcoder, \u8baf\u98de\u661f\u706b, \u6587\u5fc3\u4e00\u8a00, llama2, rwkv, claude2, moss\u7b49\u3002",
+    "name": "gpt_academic"
+  },
+  {
+    "description": "A Qt-based CyberChef interface designed for malware analysis workflows, particularly in IDA Pro",
+    "name": "ida-cyberchef"
+  },
+  {
+    "description": "AI Sub-Agents Collection for Claude Code - AI\u667a\u80fd\u4ee3\u7406\u96c6\u5408",
+    "name": "sub-agents"
+  },
+  {
+    "description": "adapt data to and from every format",
+    "name": "pydapter"
+  },
+  {
+    "description": "this is the repository from my Azure Dev Summit Talk",
+    "name": "ambient_deep_agents"
+  },
+  {
+    "description": "Unofficial Python SDK for Z.AI API. Free, open-source client library for accessing advanced language   models including GLM-4.5V and 360B models. Features automatic authentication, streaming responses,   customizable parameters, and modular architecture. No API key required.",
+    "name": "zai-python-sdk"
+  },
+  {
+    "description": "Official codebase for the paper \"Presenting a Paper is an Art: Self-Improvement Aesthetic Agents for Academic Presentations\"",
+    "name": "EvoPresent"
+  },
+  {
+    "description": "mcp index code context retrieval",
+    "name": "mcp-index"
+  },
+  {
+    "description": "Trae Agent is an LLM-based agent for general purpose software engineering tasks.",
+    "name": "trae-agent"
+  },
+  {
+    "description": "\ud83d\udd2e A Node.js scraper for humans.",
+    "name": "scrape-it"
+  },
+  {
+    "description": "A complete AI agency at your fingertips** - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+    "name": "agency-agents"
+  },
+  {
+    "description": "Open Human Ontology: A collaborative project to build a comprehensive, open, and structured human ontology for research and applications in AI and knowledge management.",
+    "name": "open_human_ontology"
+  },
+  {
+    "description": "",
+    "name": "PG-Agent"
+  },
+  {
+    "description": "vlurp === (vibes && slurp) // true",
+    "name": "vlurp"
+  },
+  {
+    "description": "Vibetest MCP - automated QA testing using Browser-Use agents",
+    "name": "vibetest-use"
+  },
+  {
+    "description": "PrimoAgent: Multi-Agent Stock Analysis",
+    "name": "PrimoAgent"
+  },
+  {
+    "description": "An MCP server to query any Postgres database in natural language.",
+    "name": "pgmcp"
+  },
+  {
+    "description": "\u9999\u8549\u8d85\u5e02\uff5c\u5404\u79cd\u73a9\u6cd5\u4e00\u952e\u751f\u6210\uff0c\u65e0\u9700\u63d0\u793a\u8bcd\uff0c\u652f\u6301\u5c40\u90e8\u6d82\u9009\u3001\u8fde\u7eed\u7f16\u8f91",
+    "name": "Nano-Bananary"
+  },
+  {
+    "description": "MultiAgentPPT \u662f\u4e00\u4e2a\u96c6\u6210\u4e86 A2A\uff08Agent2Agent\uff09+ MCP\uff08Model Context Protocol\uff09+ ADK\uff08Agent Development Kit\uff09 \u67b6\u6784\u7684\u667a\u80fd\u5316\u6f14\u793a\u6587\u7a3f\u751f\u6210\u7cfb\u7edf\uff0c\u652f\u6301\u901a\u8fc7\u591a\u667a\u80fd\u4f53\u534f\u4f5c\u548c\u6d41\u5f0f\u5e76\u53d1\u673a\u5236",
+    "name": "MultiAgentPPT"
+  },
+  {
+    "description": "mcp-use is the easiest way to interact with mcp servers with custom agents",
+    "name": "mcp-use"
+  },
+  {
+    "description": "Matrix-Game 2.0: An Open-Source, Real-Time, and Streaming Interactive World Model",
+    "name": "Matrix-Game"
+  },
+  {
+    "description": "Deploy your agentic worfklows to production",
+    "name": "llama_deploy"
+  },
+  {
+    "description": "Vonssy Part 2?",
+    "name": "KiteAi-BOT"
+  },
+  {
+    "description": "\u79c1\u6709\u5316\u90e8\u7f72\uff0c\u5185\u7f51\u9002\u7528\u7684\u8bed\u97f3\u8f6c\u5f55\u603b\u7ed3\u5de5\u5177\uff0c\u5b8c\u6574\u7684\u524d\u540e\u7aef\u4ee3\u7801",
+    "name": "intrascribe"
+  },
+  {
+    "description": "An MCP server providing tools for image processing operations",
+    "name": "imagesorcery-mcp"
+  },
+  {
+    "description": "Hyperliquid Tranding Bot Rust: Automated trading bot, compatible with Hyperliquid DEX",
+    "name": "hyperliquid-trading-bot-rust"
+  },
+  {
+    "description": "gpoParser is a tool designed to extract and analyze configurations applied through Group Policy Objects (GPOs) in an Active Directory environment.",
+    "name": "gpoParser"
+  },
+  {
+    "description": "Analyzes your codebase identifying important files based on dependency relationships. Generates diagrams and importance scores per file, helping AI assistants understand the codebase. Automatically parses popular programming languages such as Python, C, C++, Rust, Zig, Lua.",
+    "name": "FileScopeMCP"
+  },
+  {
+    "description": "\u4e00\u4e2a\u73b0\u4ee3\u5316\u7684 Everything \u641c\u7d22\u5ba2\u6237\u7aef\uff0c\u5c06 AI \u667a\u80fd\u4e0e\u6781\u901f\u672c\u5730\u641c\u7d22\u5b8c\u7f8e\u7ed3\u5408\u3002",
+    "name": "everything-ai-chat"
+  },
+  {
+    "description": "",
+    "name": "dsts"
+  },
+  {
+    "description": "Web path scanner",
+    "name": "dirsearch"
+  },
+  {
+    "description": "",
+    "name": "DeepResearchAgent"
+  },
+  {
+    "description": "Open Source Intelligence Interface for Deep Web Scraping",
+    "name": "darkdump"
+  },
+  {
+    "description": "ComfyDeployed",
+    "name": "comfydeploy"
+  },
+  {
+    "description": "VSCode Extension for Codegen",
+    "name": "codegen-ide"
+  },
+  {
+    "description": "Query-Based Code Analysis Engine",
+    "name": "CodeFuse-Query"
+  },
+  {
+    "description": "Codacy's MCP Server implementation",
+    "name": "codacy-mcp-server"
+  },
+  {
+    "description": "Project management system for Claude Code using GitHub Issues and Git worktrees for parallel agent execution.",
+    "name": "ccpm"
+  },
+  {
+    "description": "\u26a1 Stream browser logs to terminal, zero setup, perfect for Ai Agents",
+    "name": "browser-echo"
+  },
+  {
+    "description": "A programming framework for agentic AI \ud83e\udd16 PyPi: autogen-agentchat Discord: https://aka.ms/autogen-discord Office Hour: https://aka.ms/autogen-officehour",
+    "name": "autogen"
+  },
+  {
+    "description": "Import wisdom, export code.",
+    "name": "autogenlib"
+  },
+  {
+    "description": "",
+    "name": "app"
+  },
+  {
+    "description": "802.11 Attack Tool",
+    "name": "AngryOxide"
+  },
+  {
+    "description": "\u4e00\u6b3e AI \u8f85\u52a9\u9605\u8bfb\u5668\uff0c\u4e09\u680f\u8bbe\u8ba1\u5b9e\u73b0\u7b14\u8bb0\u3001\u9605\u8bfb\u3001\u5bf9\u8bdd\u540c\u5c4f\u4ea4\u4e92\uff0c\u8ba9\u6df1\u5ea6\u9605\u8bfb\u66f4\u9ad8\u6548",
+    "name": "sageread"
+  },
+  {
+    "description": "The 500 AI Agents Projects is a curated collection of AI agent use cases across various industries. It showcases practical applications and provides links to open-source projects for implementation, illustrating how AI agents are transforming sectors such as healthcare, finance, education, retail, and more.",
+    "name": "500-AI-Agents-Projects"
+  },
+  {
+    "description": "Repository-level Repair Agent Based on SWE-Bench\u2014JoyCode Agent",
+    "name": "joycode-agent"
+  },
+  {
+    "description": "data mining",
+    "name": "wm001"
+  },
+  {
+    "description": "\u5f00\u6e90\u514d\u8d39\u7684 Wispr Flow \u66ff\u4ee3\u65b9\u6848 | \u96c6\u6210FunASR\u672c\u5730\u6a21\u578b\u548c\u53ef\u914d\u7f6e\u5927\u8bed\u8a00\u6a21\u578b\u7684\u4e0b\u4e00\u4ee3\u4e2d\u6587\u684c\u9762\u8bed\u97f3\u5de5\u4f5c\u6d41",
+    "name": "ququ"
+  },
+  {
+    "description": "\u514d\u6740\u6240\u6709\u6740\u8f6f\u3001bypass all\uff0c\u7ed5\u8fc7WB\u3001VT \uff0c0\u68c0\u6d4b\u3002",
+    "name": "bypass-all"
+  },
+  {
+    "description": "AI \uc5d0\uc774\uc804\ud2b8 \uc560\ud50c\ub9ac\ucf00\uc774\uc158, \uc0d8\ud50c \uc571, \ud14c\uc2a4\ud2b8",
+    "name": "ai-sre-agent"
+  },
+  {
+    "description": "An advanced multi-functional osint tool",
+    "name": "spyder-osint2"
+  },
+  {
+    "description": "stellar phoenix data recovery pro, stellar phoenix windows data recovery pro download, stellar phoenix windows data recovery pro v7, stellar data recovery 8 pro, stellar phoenix windows data recovery pro key, stellar phoenix data recovery pro crack, stellar phoenix windows data recovery pro review, download stellar phoenix windows data",
+    "name": "stellar-data-recovery-free"
+  },
+  {
+    "description": "The Release of Mordoria",
+    "name": "unnamed_game_1_v2"
+  },
+  {
+    "description": "Code review assistant powered by LLM",
+    "name": "codedog"
+  },
+  {
+    "description": "Writeup and exploit for CVE-2025-22441: Privilege escalation from installed app to SystemUI process on Android due to pass of untrusted ApplicationInfo to LoadedApk",
+    "name": "ResourcePoison"
+  },
+  {
+    "description": "Quines demonstrating self-propagation",
+    "name": "Quine"
+  },
+  {
+    "description": "",
+    "name": "vibe-coding-playbook"
+  },
+  {
+    "description": "The All in One Framework to Build Undefeatable Scrapers",
+    "name": "botasaurus"
+  },
+  {
+    "description": "The open-source framework for building AI-native frontends",
+    "name": "cedar-OS"
+  },
+  {
+    "description": "",
+    "name": "qwenchat2api"
+  },
+  {
+    "description": "",
+    "name": "zai"
+  },
+  {
+    "description": "",
+    "name": "chrome-sandbox"
+  },
+  {
+    "description": "",
+    "name": "jet_redis"
+  },
+  {
+    "description": "",
+    "name": "n8n-terry-guide"
+  },
+  {
+    "description": "youtube subscriber bot",
+    "name": "youtube-subscriber-bot"
+  },
+  {
+    "description": "\u4e00\u952e\u4ea7\u51fa\u7206\u6b3e\u89c6\u9891\uff1a1.\u81ea\u52a8\u63d0\u53d6\u5bf9\u6807\u6587\u6848 2.\u81ea\u52a8\u8fdb\u884c\u6587\u6848\u4eff\u5199 3.\u81ea\u52a8\u6839\u636e\u6587\u6848\u58f0\u97f3\u514b\u9686 4.\u81ea\u52a8\u751f\u6210\u6570\u5b57\u4eba\u53e3\u64ad 5.\u81ea\u52a8\u6dfb\u52a0\u5b57\u5e55 6.\u81ea\u52a8\u6dfb\u52a0\u80cc\u666f\u97f3\u4e50 7.\u81ea\u52a8\u6dfb\u52a0\u89c6\u9891\u6807\u9898 8.\u81ea\u52a8\u751f\u6210\u89c6\u9891\u5c01\u9762 9.\u81ea\u52a8\u5c06\u89c6\u9891\u53d1\u5e03\u5230\u5404\u5e73\u53f0",
+    "name": "LuoGen-agent"
+  },
+  {
+    "description": "",
+    "name": "episodic-sdk"
+  },
+  {
+    "description": "Craft complex trading strategies with remarkably simple Python. Access 300+ indicators, multi-symbol/timeframe support, spot/futures trading, partial fills, and risk management tools. Focus on logic, not boilerplate.",
+    "name": "crypto-trader-bot-with-AI-algo"
+  },
+  {
+    "description": "Extension to integrate DeepScan into VS Code.",
+    "name": "vscode-deepscan"
+  },
+  {
+    "description": "",
+    "name": "webscout-mcp"
+  },
+  {
+    "description": "The Driflyte MCP Server exposes tools that allow AI assistants to query and retrieve topic-specific knowledge from recursively crawled and indexed web pages.",
+    "name": "driflyte-mcp-server"
+  },
+  {
+    "description": "Dynamic shellcode loader with sophisticated evasion capabilities",
+    "name": "AsmLdr"
+  },
+  {
+    "description": "This is a JavaScript implementaion of ELM network invented by Guang-Bin Huang in 2006 but allows for more creative extensibility like deep ELM's and chained ELM's also providing a way to create an ecosystem of ELM models that are orchestratable ",
+    "name": "AsterMind-ELM"
+  },
+  {
+    "description": "",
+    "name": "open_codegen"
+  },
+  {
+    "description": "Qwen3-omni is a natively end-to-end, omni-modal LLM developed by the Qwen team at Alibaba Cloud, capable of understanding text, audio, images, and video, as well as generating speech in real time.",
+    "name": "Qwen3-Omni"
+  },
+  {
+    "description": "A powerful osint tool.",
+    "name": "spyder-osint"
+  },
+  {
+    "description": "Automation bot for pharos testnet",
+    "name": "PharosTestnet-Bot"
+  },
+  {
+    "description": "Grass automation python bot.",
+    "name": "grass-bot"
+  },
+  {
+    "description": "Red Team containers automated",
+    "name": "Tacticontainer"
+  },
+  {
+    "description": "Python SDK for Agent AI Observability, Monitoring and Evaluation Framework. Includes features like agent, llm and tools tracing, debugging multi-agentic system, self-hosted dashboard and advanced analytics with timeline and execution graph view ",
+    "name": "RagaAI-Catalyst"
+  },
+  {
+    "description": "Recursive-Open-Meta-Agent v0.1 (Beta). A meta-agent framework to build high-performance multi-agent systems.",
+    "name": "ROMA"
+  },
+  {
+    "description": "KAG is a logical form-guided reasoning and retrieval framework based on OpenSPG engine and LLMs.  It is used to build logical reasoning and factual Q&A solutions for professional domain knowledge bases. It can effectively overcome the shortcomings of the traditional RAG vector similarity calculation model.",
+    "name": "KAG"
+  },
+  {
+    "description": "rewrite grok2api",
+    "name": "grok2api"
+  },
+  {
+    "description": "A tiny little JSON parsing library",
+    "name": "sj.h"
+  },
+  {
+    "description": "Swiss Army Knife for payload encryption, obfuscation, and conversion to byte arrays \u2013 all in a single command (14 output formats supported)! \u2622\ufe0f",
+    "name": "ByteCaster"
+  },
+  {
+    "description": "The Ultimate Model Context Protocol (MCP) Server, providing unified access to a wide variety of useful and powerful tools.",
+    "name": "ultimate_mcp_server"
+  },
+  {
+    "description": "The official repository of S1-MatAgent.",
+    "name": "S1-MatAgent"
+  },
+  {
+    "description": "The Official Twilio SendGrid Python API Library",
+    "name": "sendgrid-python"
+  },
+  {
+    "description": "The RF Automotive tool allow you to unlock cars",
+    "name": "AutoRFKiller"
+  },
+  {
+    "description": "",
+    "name": "comfy-deploy-python"
+  },
+  {
+    "description": "",
+    "name": "infinity-sql"
+  },
+  {
+    "description": "Banana Gen \u662f\u4e00\u4e2a\u7edf\u4e00\u7684\u56fe\u50cf\u751f\u6210\u7ba1\u7406\u6846\u67b6\uff0c\u63d0\u4f9b\u667a\u80fd Key \u7ba1\u7406\u3001Prompt \u7ba1\u7406\u3001\u7075\u6d3b\u56fe\u7247\u6765\u6e90\u3001\u4efb\u52a1\u8c03\u5ea6\u5668\u548c Web UI\uff0c\u652f\u6301\u5d4c\u5957 workflow \u548c\u6279\u91cf\u5904\u7406\u3002Banana Gen is a unified image generation management framework that provides intelligent key management, prompt management, flexible image sources, task scheduler, and Web UI, supporting nested workflows and batch processing.",
+    "name": "banana-gen"
+  },
+  {
+    "description": "Autonomous Multi-Agent Based Red Team Testing Service",
+    "name": "Decepticon"
+  },
+  {
+    "description": "Code search MCP for Claude Code. Make entire codebase the context for any coding agent.",
+    "name": "claude-context"
+  },
+  {
+    "description": "",
+    "name": "SelfEvolvingAgent"
+  },
+  {
+    "description": "",
+    "name": "jet_server"
+  },
+  {
+    "description": "Bytebot is a self-hosted AI desktop agent that automates computer tasks through natural language commands, operating within a containerized Linux desktop environment.",
+    "name": "bytebot"
+  },
+  {
+    "description": "",
+    "name": "OneReward"
+  },
+  {
+    "description": "Core code for a real-time AI assistant using DXGI, TensorRT, and driver-level input.",
+    "name": "Auto_aim"
+  },
+  {
+    "description": "",
+    "name": "k2Think2Api"
+  },
+  {
+    "description": "AI agent in a Deno sandbox",
+    "name": "vibe-chamber"
+  },
+  {
+    "description": "bloop is a fast code search engine written in Rust.",
+    "name": "bloop"
+  },
+  {
+    "description": "\u9999\u8549\u5de5\u5382\uff1a\u57fa\u4e8e Nano Banana \u548c Veo3 \u6a21\u578b/\u5de5\u5177\uff0c\u8f7b\u677e\u5b9e\u73b0\u6d41\u7a0b\u81ea\u52a8\u5316",
+    "name": "BananaFlow-ZHO"
+  },
+  {
+    "description": "A bot for Pharos Testnet automation",
+    "name": "Pharos-Testnet-Bot"
+  },
+  {
+    "description": "",
+    "name": "k2think2api2"
+  },
+  {
+    "description": "",
+    "name": "mail01"
+  },
+  {
+    "description": "PoC exploit for the vulnerable WatchDog Anti-Malware driver (amsdk.sys) \u2013 weaponized to kill protected EDR/AV processes via BYOVD.",
+    "name": "WatchDogKiller"
+  },
+  {
+    "description": "\"Deep research for bugs\" \u2013 Agentic root cause analysis through hypothesis-driven debugging",
+    "name": "dilagent"
+  },
+  {
+    "description": "",
+    "name": "nano-banana-infinimap"
+  },
+  {
+    "description": "A powerful MCP (Model Context Protocol) server for decompiling and analyzing .NET assemblies, with specialized support for Unity's Assembly-CSharp.dll files. DecompilerServer provides comprehensive decompilation, search, and code analysis capabilities through a rich set of tools and APIs.",
+    "name": "DecompilerServer"
+  },
+  {
+    "description": "Open Immersive Translate. A revolutionary open-source browser translation plugin that enables everyone to have a native-like reading experience. \u5f00\u6e90\u7684\u6c89\u6d78\u5f0f\u7ffb\u8bd1\uff0c\u4e00\u6b3e\u9769\u547d\u6027\u7684\u6d4f\u89c8\u5668\u7ffb\u8bd1\u63d2\u4ef6\uff0c\u8ba9\u6240\u6709\u4eba\u90fd\u80fd\u591f\u62e5\u6709\u6bcd\u8bed\u822c\u7684\u9605\u8bfb\u4f53\u9a8c\u3002",
+    "name": "FluentRead"
+  },
+  {
+    "description": "Mostly Autonomous Generative Intelligence",
+    "name": "magi"
+  },
+  {
+    "description": "It's like Claude Code + Linear + GitHub PR",
+    "name": "async-server"
+  },
+  {
+    "description": "\u96c6\u6210\u4e86openai-api\u3001coze\u3001deepseek\u3001cursor\u3001windsurf\u3001qodo\u3001blackbox\u3001you\u3001grok\u3001bing  \u7ed8\u753b \u591a\u6b3eAI\u7684\u804a\u5929\u9006\u5411\u63a5\u53e3\u9002\u914d\u5230 OpenAI API \u6807\u51c6\u63a5\u53e3\u670d\u52a1\u7aef\u3002",
+    "name": "chatgpt-adapter"
+  },
+  {
+    "description": "Auto - Lovable for design",
+    "name": "auto-agent"
+  },
+  {
+    "description": "Vector Database Manager for VSCode/Cursor",
+    "name": "vex"
+  },
+  {
+    "description": "ZtoApi \u662f\u4e00\u4e2a\u9ad8\u6027\u80fd\u7684 OpenAI \u517c\u5bb9 API \u4ee3\u7406\u670d\u52a1\u5668\uff0c\u4e13\u4e3a Z.ai \u7684 GLM-4.5 \u548c GLM-4.5V \u6a21\u578b\u8bbe\u8ba1\u3002\u4f7f\u7528 Deno \u539f\u751f HTTP API \u5b9e\u73b0\uff0c\u652f\u6301\u5b8c\u6574\u7684\u6d41\u5f0f\u548c\u975e\u6d41\u5f0f\u54cd\u5e94\uff0c\u63d0\u4f9b\u5b9e\u65f6\u76d1\u63a7 Dashboard\uff0c\u8ba9\u4f60\u80fd\u591f\u65e0\u7f1d\u5730\u5c06 Z.ai \u7684\u5f3a\u5927 AI \u80fd\u529b\u96c6\u6210\u5230\u73b0\u6709\u7684 OpenAI \u5ba2\u6237\u7aef\u5e94\u7528\u4e2d\u3002",
+    "name": "ZtoApits"
+  },
+  {
+    "description": "",
+    "name": "tinygen"
+  },
+  {
+    "description": "image scaling attacks for multi-modal prompt injection",
+    "name": "anamorpher"
+  },
+  {
+    "description": "",
+    "name": "gcli2api"
+  },
+  {
+    "description": "",
+    "name": "quicksilver-sdk"
+  },
+  {
+    "description": "autogenerated python client for the codegen rest api.",
+    "name": "codegen-api-client"
+  },
+  {
+    "description": "ts-morph\u3092\u3064\u304b\u3063\u305f\u30ea\u30d5\u30a1\u30af\u30bf\u30ea\u30f3\u30b0\u6a5f\u80fd\u3092MCP\u3067\u63d0\u4f9b\u3059\u308b",
+    "name": "mcp-ts-morph"
+  },
+  {
+    "description": "\u8fd9\u662f\u4e00\u4e2a\u4e3a Zai \u63d0\u4f9b OpenAI API \u517c\u5bb9\u63a5\u53e3\u7684\u4ee3\u7406\u670d\u52a1\uff0c\u5141\u8bb8\u5f00\u53d1\u8005\u901a\u8fc7\u6807\u51c6\u7684 OpenAI API \u683c\u5f0f\u8bbf\u95ee Zai \u7684 GLM-4.5 \u6a21\u578b\u3002",
+    "name": "OpenAI-Compatible-API-Proxy-for-Z"
+  },
+  {
+    "description": "The #1 open-source SWE-bench Verified implementation",
+    "name": "augment-swebench-agent"
+  },
+  {
+    "description": "Unified framework for building enterprise RAG pipelines with small, specialized models",
+    "name": "llmware"
+  },
+  {
+    "description": "Comprehensive Windows Syscall Extraction & Analysis Framework",
+    "name": "NTSleuth"
+  },
+  {
+    "description": "\u4e00\u4e2a\u7528\u4e8e\u91cd\u7f6e Qoder \u5e94\u7528\u7a0b\u5e8f\u7528\u6237\u8eab\u4efd\u4fe1\u606f\u7684\u73b0\u4ee3\u5316\u56fe\u5f62\u754c\u9762\u5de5\u5177\u3002",
+    "name": "qoder-free"
+  },
+  {
+    "description": "",
+    "name": "open_deep_research"
+  },
+  {
+    "description": "\ud83d\udd0d An LLM-based Multi-agent Framework of Web Search Engine (like Perplexity.ai Pro and SearchGPT)",
+    "name": "MindSearch"
+  },
+  {
+    "description": "Easy, fast, and cheap pretrain,finetune, serving for everyone",
+    "name": "byzer-llm"
+  },
+  {
+    "description": "Experience email the way you want with 0 \u2013 the first open source email app that puts your privacy and safety first. Join the discord: https://discord.gg/0email",
+    "name": "Zero"
+  },
+  {
+    "description": "Web Crawling and RAG Capabilities for AI Agents and AI Coding Assistants",
+    "name": "mcp-crawl4ai-rag"
+  },
+  {
+    "description": "koding with any LLMs",
+    "name": "anon-kode"
+  },
+  {
+    "description": "Transform any OpenAPI/Swagger definition into a fully-featured Model Context Protocol (MCP) server",
+    "name": "auto-mcp"
+  },
+  {
+    "description": "Bella is best",
+    "name": "Bella"
+  },
+  {
+    "description": "Expose your FastAPI endpoints as Model Context Protocol (MCP) tools, with Auth!",
+    "name": "fastapi_mcp"
+  },
+  {
+    "description": "Awesome hacking is an awesome collection of hacking tools.",
+    "name": "awesome-hacking"
+  },
+  {
+    "description": "A Workflow Engine for Offensive Security",
+    "name": "osmedeus"
+  },
+  {
+    "description": "",
+    "name": "augment-code-patcher"
+  },
+  {
+    "description": "\u2705 Github \u26a1 Source code and instructions for creating a passive income tool using an MEV bot.\u26a1Detailed setup and launch instructions for the MEV bot are available in the Readme file.",
+    "name": "Github-Mev-Bot"
+  },
+  {
+    "description": "",
+    "name": "claude-code-configs"
+  },
+  {
+    "description": " State-of-the-art TTS model under 25MB \ud83d\ude3b ",
+    "name": "KittenTTS"
+  },
+  {
+    "description": "Weaponize DLL hijacking easily. Backdoor any function in any DLL.",
+    "name": "DllShimmer"
+  },
+  {
+    "description": "Flashloan Arbitrage on Ethereum 5 DeFi Protocols,DYDX,Uniswap,SushiSwap,Curve,Balancer",
+    "name": "Flashloan-Arbitrage-Bot"
+  },
+  {
+    "description": "AI-Powered Game Development Team in Your Terminal",
+    "name": "gamestudio-subagents"
+  },
+  {
+    "description": "Render any git repo into a single static HTML page for humans or LLMs",
+    "name": "rendergit"
+  },
+  {
+    "description": "",
+    "name": "executive-ai-assistant"
+  },
+  {
+    "description": "\u30108\u6708\u66f4\u65b0\u3011AugmentCode\u65e0\u9650\u514d\u8d39\u7eed\u676f\u65b9\u6848[\u3010August Update\u3011AugmentCode unlimited free refill plan]",
+    "name": "AugmentCode-Free"
+  },
+  {
+    "description": "The AI Agent That Lives On Your Desktop And Uses It Like You Do!",
+    "name": "neuralagent"
+  },
+  {
+    "description": "userscript to offload Anubis PoW to native CPU or GPU code",
+    "name": "anubis_offload"
+  },
+  {
+    "description": "",
+    "name": "repomirror"
+  },
+  {
+    "description": "",
+    "name": "TinyGen-prama-yudistara"
+  },
+  {
+    "description": "",
+    "name": "uwu"
+  },
+  {
+    "description": "Heaven.xyz is the pumpfun for token2022.",
+    "name": "Solana-Heaven-Dex-Trading-Bot"
+  },
+  {
+    "description": "Improve your resumes with Resume Matcher. Get insights, keyword suggestions and tune your resumes to job descriptions. ",
+    "name": "Resume-Matcher"
+  },
+  {
+    "description": "Shrimp Task Manager is a task tool built for AI Agents, emphasizing chain-of-thought, reflection, and style consistency. It converts natural language into structured dev tasks with dependency tracking and iterative refinement, enabling agent-like developer behavior in reasoning AI systems.",
+    "name": "mcp-shrimp-task-manager"
+  },
+  {
+    "description": "\u667a\u5dddx-agent",
+    "name": "x-agent"
+  },
+  {
+    "description": "Claude API Proxy platform - Seamlessly forward Claude Code requests to any OpenAI-compatible API service with smart model mapping, streaming support, deployed on Cloudflare Worker.",
+    "name": "claude-code-nexus"
+  },
+  {
+    "description": "",
+    "name": "terminalcp"
+  },
+  {
+    "description": "Safely remove Windows Updates.",
+    "name": "WinUpdateRemover"
+  },
+  {
+    "description": "An MCP (Model Context Protocol) server designed to understand codebases and provide intelligent context to AI coding assistants",
+    "name": "code-understanding-mcp"
+  },
+  {
+    "description": "",
+    "name": "AVR-Eval-Agent"
+  },
+  {
+    "description": "A Model Context Protocol (MCP) server that provides tools for interacting with JMAP (JSON Meta Application Protocol) email servers. Built with Deno and using the jmap-jam client library.",
+    "name": "jmap-mcp"
+  },
+  {
+    "description": "Reverse-engineering-crackme-\u201clevel1\u201d.-Detailed-explanation-of-the-logic,-several-solutions,-writing-a-keygen-for-the-program",
+    "name": "level1-crackmes-solutions"
+  },
+  {
+    "description": "EDtunnel \u662f\u4e00\u4e2a\u57fa\u4e8e Cloudflare Workers \u548c Pages \u7684\u4ee3\u7406\u5de5\u5177\uff0c\u652f\u6301\u591a\u79cd\u534f\u8bae\u548c\u914d\u7f6e\u9009\u9879\u3002  EDtunnel is a proxy tool based on Cloudflare Workers and Pages, supporting multiple protocols and configuration options.",
+    "name": "EDtunnel"
+  },
+  {
+    "description": "Transform Claude Code into a complete development studio with 40+ specialized AI agents, MCP integrations, and enterprise-grade workflows",
+    "name": "claude-code-studio"
+  },
+  {
+    "description": "\ud83d\udcd6 MCP server for fetch deepwiki.com and get latest knowledge in Cursor and other Code Editors",
+    "name": "deepwiki-mcp"
+  },
+  {
+    "description": "DreamV \u6570\u636e\u53ef\u89c6\u5316\u5e73\u53f0",
+    "name": "dreamv"
+  },
+  {
+    "description": "\u7528\u4e8e\u65e0\u9650\u7eed\u676fAugmentCode VSCode\u63d2\u4ef6.A tool that allows you to use the AugmentCode  VSCode plugin indefinitely.",
+    "name": "free-augmentcode"
+  },
+  {
+    "description": "Open-source versioning, tracing, and annotation tooling.",
+    "name": "lilypad"
+  },
+  {
+    "description": "AI that knows your entire codebase. Custom build edition",
+    "name": "cody"
+  },
+  {
+    "description": "",
+    "name": "MCP"
+  },
+  {
+    "description": "",
+    "name": "graph-of-thoughts-mcp"
+  },
+  {
+    "description": "",
+    "name": "etf-data-scrape"
+  },
+  {
+    "description": "An MCP server that autonomously evaluates web applications. ",
+    "name": "web-eval-agent"
+  },
+  {
+    "description": "",
+    "name": "evolutionary-layering-in-complex-systems-mcp"
+  },
+  {
+    "description": "\ud83d\ude08 OSINT AI - CHAT << Leak Finder >>",
+    "name": "piedpiper"
+  },
+  {
+    "description": "\u72ec\u7acb\u5f00\u53d1/\u51fa\u6d77\u5f00\u53d1\u76f8\u5173\u6280\u672f\u6808\u53ca\u5de5\u5177\u6536\u5f55 / Find the best tools for indie hackers here",
+    "name": "awesome-indie-hacker-tools"
+  },
+  {
+    "description": "",
+    "name": "computational-mathematical-discovery-framework"
+  },
+  {
+    "description": "A MCP for an AI development environment orchestrator that can coordinate complex multi-service workflows, manage dependencies automatically, and provide visual process management.",
+    "name": "textualize-mcp"
+  },
+  {
+    "description": "sharing current agents in use",
+    "name": "agents"
+  },
+  {
+    "description": "Python environment for AI agents to complete tasks on-device through a conversational chat interface.  Agents plan step-wise execution paths with real-time problem solving to complete complex tasks.",
+    "name": "local-operator"
+  },
+  {
+    "description": "Safely run untrusted Python code using Pyodide and Deno",
+    "name": "langchain-sandbox"
+  },
+  {
+    "description": "Custom subagents to use with Claude Code.",
+    "name": "claude-agents"
+  },
+  {
+    "description": "A Model Context Protocol (MCP) server for ATLAS, a Neo4j-powered task management system for LLM Agents - implementing a three-tier architecture (Projects, Tasks, Knowledge) to manage complex workflows. Now with Deep Research.",
+    "name": "atlas-mcp-server"
+  },
+  {
+    "description": "The easiest way to get started with LlamaIndex",
+    "name": "create-llama"
+  },
+  {
+    "description": "",
+    "name": "windcode"
+  },
+  {
+    "description": "",
+    "name": "forensic-analysis"
+  },
+  {
+    "description": "Analytics for codebase maintainability and complexity",
+    "name": "codebase-analytics"
+  },
+  {
+    "description": "Agent-X - The async task orchestrator that makes AI APIs sing in harmony. Built for developers who refuse to wait for GPT-Image to finish  rendering while their users tap their fingers. Agent-X \u8bde\u751f\u4e8e\u5de5\u7a0b\u5e08\u4eec\u5bf9\u540c\u6b65 API \u8c03\u7528\u6bc1\u6389\u7528\u6237\u4f53\u9a8c\u7684\u6124\u6012\u3002\u5b83\u662f\u4e00\u4e2a\u9ad8\u6027\u80fd\u4efb\u52a1\u4ee3\u7406\uff0c\u80fd\u628a\u4efb\u4f55\u963b\u585e\u64cd\u4f5c\u8f6c\u5316\u4e3a\u4e1d\u6ed1\u7684\u5f02\u6b65\u5de5\u4f5c\u6d41\u3002",
+    "name": "agent-x"
+  },
+  {
+    "description": "Red Team C2 and Post Exploitation code",
+    "name": "C2PE"
+  },
+  {
+    "description": "",
+    "name": "gemini-cli-mcp-server"
+  },
+  {
+    "description": "A Lightweight, Production-Ready Remix Stack for your next SaaS application.",
+    "name": "remix-saas"
+  },
+  {
+    "description": "Enhanced MCP server for interactive user feedback and command execution in AI-assisted development, featuring dual interface support (Web UI and Desktop Application) with intelligent environment detection and cross-platform compatibility.",
+    "name": "mcp-feedback-enhanced"
+  },
+  {
+    "description": "",
+    "name": "claude-code-requirements-builder"
+  },
+  {
+    "description": "",
+    "name": "auto-coder"
+  },
+  {
+    "description": "Chat UI interacts with agents via the A2A protocol.",
+    "name": "a2a-client"
+  },
+  {
+    "description": "",
+    "name": "SandboxFusion"
+  },
+  {
+    "description": "Multi agents code review system ",
+    "name": "code-review-mas"
+  },
+  {
+    "description": "Deploying a FastAPI application to Cloudflare Workers with uv.",
+    "name": "uv-cloudflare-workers-example"
+  },
+  {
+    "description": "Model Context Protocol server that enables AI agents to discover, create, and execute complex, multi-step workflows defined in simple YAML files. Allow your AI agents to better organize their tool usage and provide a more structured way to handle complex multi-step tasks.",
+    "name": "workflows-mcp-server"
+  },
+  {
+    "description": "https://stresser.cfd/ its a professinal network ip stresser tool with a lot of unique methods for any purposes",
+    "name": "stresser"
+  },
+  {
+    "description": "Command-line interface for Chrome automation using DevTools Protocol",
+    "name": "chromancer"
+  },
+  {
+    "description": "\ud83d\udd25 tiktok viewbot 500+ per second \ud83d\udd25 tiktok view bot views bot tiktok viewbot tiktok view bot views bot tiktok viewbot tiktok view bot views bot tiktok viewbot tiktok view bot views bot tiktok viewbot tiktok view bot views bot tiktok viewbot  falfegfr",
+    "name": "TikTok-viewbot"
+  },
+  {
+    "description": "paython keylogger windows keylogger keylogger discord webhook + email \ud83d\udca5 keylogger windows 10/11 linux \ud83d\udca5 python keylogger working on all os. keylogger keylogging keylogger keylogging keylogger keylogging keylogger keylogging keylogger keylogging keylogger keylogging keylogger  yvppfywd",
+    "name": "python-keylogger"
+  },
+  {
+    "description": "grabber \ud83d\udd25 blank grabber \ud83d\udd25 updated 2024 \ud83d\udd25 blank password grabber written in python. cookie stealer password stealer wallet stealer cookie grabber password grabber wallet grabber cookie stealer password stealer wallet stealer cookie grabber password grabber wallet grabber cookie stealer password stealer wallet stealer cookie grabber hpqozl",
+    "name": "Blank-Grabber"
+  },
+  {
+    "description": "phisher pyphisher \ud83d\udca5 best phisher in python \ud83d\udca5 phisher written in python for educational purpose. phisher phishing website phisher phishing website phisher phishing website phisher phishing website phisher phishing website phisher phishing website phisher phishing website phisher phishing website phisher phishing website psgoa",
+    "name": "PyPhisher"
+  },
+  {
+    "description": "gmail acc generator \ud83d\udca5 2024 fast mass mails \ud83d\udca5 gmail generator with sms verification using sms-activate.org. gmail gen gmail generator mass gmail gen mass gmail generator gmail gen gmail generator mass gmail gen mass gmail generator gmail gen gmail generator mass gmail gen mass gmail generator gmail gen gmail generator mass gmail gen covwty",
+    "name": "gmail-gen"
+  },
+  {
+    "description": "tiktok bot tiktok botting \ud83d\udd25 tiktok follower \ud83d\udd25 tiktok likes \ud83d\udd25 tiktok views tiktok automater tiktok aio quiwaklrc",
+    "name": "tiktok-bot"
+  },
+  {
+    "description": "\ud83d\udd25 youtube viewbot \ud83d\udd25 fast multithread view bot, bot youtube views youtube viewbot youtube view bot youtube viewbot youtube view bot youtube viewbot youtube view bot youtube views youtube viewbot youtube view bot youtube viewbot youtube view bot youtube viewbot youtube view bot phrtn",
+    "name": "YouTube-viewbot"
+  },
+  {
+    "description": "grabber \ud83d\udd25 blackcap grabber \ud83d\udd25 fixed stealer - dualhook removed - python3 logger blackcap grabber blackcap grabber blackcap grabber blackcap grabber blackcap grabber blackcap grabber blackcap grabber blackcap grabber blackcap grabber blackcap grabber blackcap grabber blackcap grabber blackcap grabber pevnrzdh",
+    "name": "BlackCap-Grabber-NoDualHook"
+  },
+  {
+    "description": "stealer grabber grabber cookie grabber grabber 2023 cookie stealer token password \ud83d\udd25 stealer \ud83d\udd25 password grabber token stealer cookie password password python stealer password cookie stealer stealer high in token stealer end stealer creal grabber cookie stealer token cookie working stealer password grabber stealer token ojowgr",
+    "name": "Creal-Stealer"
+  },
+  {
+    "description": "zphisher python edition \ud83d\udd25 unflagged \ud83d\udd25 phishmailer gophish socialphish phishing page generator phishing mail zphish phishmailer phishing template shellphisher blackphish  phishmailer gophish socialphish phishing page generator phishing mail zphish phishmailer phishing template shellphisher bxnlqq",
+    "name": "ZPhisher-Python"
+  },
+  {
+    "description": "Static code scan agent ",
+    "name": "code-scan-agent"
+  },
+  {
+    "description": "bitcoin wallet finder \ud83d\udca5 btc seedphrase bruteforcer \ud83d\udca5 bruteforces thousands of bitcoin privatkeys per second and checks for balance. bitcoin wallet finder bitcoin wallet miner bitcoin seedphrase finder bitcoin wallet finder bitcoin wallet miner bitcoin seedphrase finder btc wallet finder bitcoin wallet miner bitcoin wallet bruteforce uccvwpdip",
+    "name": "Bitcoin-wallet-finder"
+  },
+  {
+    "description": "AgentCPM-GUI: An on-device GUI agent for operating Android apps, enhancing reasoning ability with reinforcement fine-tuning for efficient task execution.",
+    "name": "AgentCPM-GUI"
+  },
+  {
+    "description": "From Code to Kubernetes in One Step.",
+    "name": "launchpad"
+  },
+  {
+    "description": "Meta Agent framework that designs multi agent systems",
+    "name": "MA"
+  },
+  {
+    "description": "A Python module to bypass Cloudflare's anti-bot page.",
+    "name": "cloudscraper"
+  },
+  {
+    "description": "Production-ready implementation of InvisPose - a revolutionary WiFi-based dense human pose estimation system that enables real-time full-body tracking through walls using commodity mesh routers ",
+    "name": "wifi-densepose"
+  },
+  {
+    "description": "\u57fa\u4e8epython\u7684\u7f51\u9875\u81ea\u52a8\u5316\u5de5\u5177\u3002\u65e2\u80fd\u63a7\u5236\u6d4f\u89c8\u5668\uff0c\u4e5f\u80fd\u6536\u53d1\u6570\u636e\u5305\u3002\u53ef\u517c\u987e\u6d4f\u89c8\u5668\u81ea\u52a8\u5316\u7684\u4fbf\u5229\u6027\u548crequests\u7684\u9ad8\u6548\u7387\u3002\u529f\u80fd\u5f3a\u5927\uff0c\u5185\u7f6e\u65e0\u6570\u4eba\u6027\u5316\u8bbe\u8ba1\u548c\u4fbf\u6377\u529f\u80fd\u3002\u8bed\u6cd5\u7b80\u6d01\u800c\u4f18\u96c5\uff0c\u4ee3\u7801\u91cf\u5c11\u3002",
+    "name": "DrissionPage"
+  },
+  {
+    "description": "",
+    "name": "do-rag"
+  },
+  {
+    "description": "\u2668\ufe0f  Warming up TikTok accounts, one swipe at a time",
+    "name": "tiktok-warmup-bot"
+  },
+  {
+    "description": "",
+    "name": "aikb"
+  },
+  {
+    "description": "Examples using the Codegen SDK",
+    "name": "codegen-examples"
+  },
+  {
+    "description": "Automatic view component renderer by AI agent",
+    "name": "autoview"
+  },
+  {
+    "description": "Villain is a high level stage 0/1 C2 framework that can handle multiple reverse TCP & HoaxShell-based shells, enhance their functionality with additional features (commands, utilities) and share them among connected sibling servers (Villain instances running on different machines).",
+    "name": "Villain"
+  },
+  {
+    "description": "",
+    "name": "project_tools"
+  },
+  {
+    "description": "Advanced VSCode pair programming extension with unlimited codebase memory",
+    "name": "KODER-extension"
+  },
+  {
+    "description": "Professional high-performance tool for processing and analyzing email:password combinations with advanced analytics",
+    "name": "gsort-professional"
+  },
+  {
+    "description": "A comprehensive toolkit for intercepting, analyzing, and reverse engineering Android application traffic, with advanced tools for decoding and understanding complex protocols and payloads.",
+    "name": "android-mitm-ssl-interceptor"
+  },
+  {
+    "description": "Codebase exploration with AI research agents",
+    "name": "deep-research"
+  },
+  {
+    "description": "",
+    "name": "ai-web-integration-agent"
+  },
+  {
+    "description": "Collection of patches for puppeteer and playwright to avoid automation detection and leaks. Helps to avoid Cloudflare and DataDome CAPTCHA pages. Easy to patch/unpatch, can be enabled/disabled on demand.",
+    "name": "rebrowser-patches"
+  },
+  {
+    "description": "",
+    "name": "sambanova-webinar"
+  },
+  {
+    "description": "\ud83d\udc36 A curated list of Web Security materials and resources.",
+    "name": "awesome-web-security"
+  },
+  {
+    "description": "Python package to consume Linear GraphQL API",
+    "name": "linear-client"
+  },
+  {
+    "description": "Simplest k8s deployment",
+    "name": "simplest-k8s"
+  },
+  {
+    "description": "Grab cam shots & GPS location from target's phone front camera or PC webcam just sending a link.",
+    "name": "CamPhish"
+  },
+  {
+    "description": "Simple, elegant, Pythonic functional programming.",
+    "name": "coconut"
+  },
+  {
+    "description": "A service that can convert ChatGPT on the web to OpenAI API format.",
+    "name": "chat2api"
+  },
+  {
+    "description": "Customizable, AI-driven virtual assistant designed to streamline customer service operations, handle common inquiries, and improve overall user satisfaction through automated and contextually aware responses.",
+    "name": "ai-virtual-assistant"
+  },
+  {
+    "description": " \u5de5\u5177\u7bb1\u5fae\u4fe1\u5c0f\u7a0b\u5e8f\u662f\u4e00\u4e2a\u96c6\u6210\u4e86\u56fe\u7247\u8f6cExcel\u3001\u56fe\u7247\u8f6cPDF\u3001PDF\u8f6cWord\u3001PDF\u62c6\u5206\u5408\u5e76\u3001\u6587\u672c\u6bd4\u8f83\u3001\u6587\u4ef6\u538b\u7f29\u3001\u6279\u91cf\u91cd\u547d\u540d\u4e0eMarkdown\u8f6c\u6362\u7b49\u591a\u79cd\u6587\u4ef6\u5904\u7406\u529f\u80fd\u7684\u5fae\u4fe1\u5c0f\u7a0b\u5e8f\uff0c\u901a\u8fc7\u524d\u7aef\u5c0f\u7a0b\u5e8f\u4e0ePython\u540e\u7aef\u670d\u52a1\u7684\u7ed3\u5408\uff0c\u4e3a\u7528\u6237\u63d0\u4f9b\u4fbf\u6377\u9ad8\u6548\u7684\u6587\u4ef6\u8f6c\u6362\u4e0e\u5904\u7406\u89e3\u51b3\u65b9\u6848\u3002",
+    "name": "toolsbox"
+  },
+  {
+    "description": "This script allows you to download VS Code extensions as VSIX files directly from the Visual Studio Marketplace.",
+    "name": "Download-VSIX-From-Visual-Studio-Market-Place"
+  },
+  {
+    "description": "\ud83c\udfad Intelligent browser header & fingerprint generator",
+    "name": "browserforge"
+  },
+  {
+    "description": "Refactored & improved CredKing password spraying tool, uses FireProx APIs to rotate IP addresses, stay anonymous, and beat throttling",
+    "name": "CredMaster"
+  },
+  {
+    "description": "Tools and Techniques for Red Team / Penetration Testing",
+    "name": "RedTeam-Tools"
+  },
+  {
+    "description": "",
+    "name": "mcp-aas"
+  },
+  {
+    "description": "Powerful & Easy-to-Use Video Face Swapping and Editing Software",
+    "name": "VisoMaster"
+  },
+  {
+    "description": "",
+    "name": "Arangodb-graphrag"
+  },
+  {
+    "description": "Byzer-retrieval is a distributed retrieval system which designed as a backend for LLM RAG (Retrieval Augmented Generation). The system supports both BM25 retrieval algorithm and vector retrieval algorithm.",
+    "name": "BYZER-RETRIEVAL"
+  },
+  {
+    "description": "",
+    "name": "mcp-code-indexer"
+  },
+  {
+    "description": "Study Notes For Web Hacking / Web\u5b89\u5168\u5b66\u4e60\u7b14\u8bb0",
+    "name": "Learn-Web-Hacking"
+  },
+  {
+    "description": "",
+    "name": "arxiver"
+  },
+  {
+    "description": "cython hooks for hatch",
+    "name": "hatch-cython"
+  },
+  {
+    "description": "A Windows reverse shell payload generator and handler that abuses the http(s) protocol to establish a beacon-like reverse shell.",
+    "name": "hoaxshell"
+  },
+  {
+    "description": "An Innovative Agent Framework Driven by KG Engine",
+    "name": "CodeFuse-muAgent"
+  },
+  {
+    "description": "A Collection of 10.000 collected Windows Chrome Fingerprints. Usable with an easy-to-use API, available as a compressed (lzma) or full-size Json (view Releases). Its just 1.4mb in size in compressed form, and fast in read times.",
+    "name": "chrome-fingerprints"
+  },
+  {
+    "description": "SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.",
+    "name": "spiderfoot"
+  },
+  {
+    "description": "Delve into a comprehensive checklist, your ultimate companion for Android app penetration testing. Identify vulnerabilities in network, data, storage, and permissions effortlessly. Boost security skills with essential tools and user-friendly guides. Elevate Android security seamlessly!",
+    "name": "Android-Pentesting-Checklist"
+  },
+  {
+    "description": "LLM API Server , OpenAI  \u540c\u65f6\u652f\u6301 ChatGLM3 \uff0cLlama, Llama-3, Firefunction, Openfunctions \uff0cBAAI/bge-m3 ,bge-large-zh-v1.5",
+    "name": "local-openai-api-service"
+  },
+  {
+    "description": "\u203c\ufe0f \u203c\ufe0f \u203c\ufe0f \u203c\ufe0f  DEPRECATED, please use https://github.com/cnpm/cnpmcore \u203c\ufe0f \u203c\ufe0f \u203c\ufe0f \u203c\ufe0f ",
+    "name": "cnpmjs.org"
+  },
+  {
+    "description": "the fastest and most powerful android decompiler(native tool working without Java VM) for the APK, DEX, ODEX, OAT, JAR, AAR, and CLASS file. which supports malicious behavior detection, privacy leaking detection, vulnerability detection, path solving, packer identification, variable tracking, deobfuscation, python&java scripts, device memory ",
+    "name": "GDA-android-reversing-Tool"
+  },
+  {
+    "description": "Nishang - Offensive PowerShell for red team, penetration testing and offensive security. ",
+    "name": "nishang"
+  },
+  {
+    "description": "An all-in-one hacking tool to remotely exploit Android devices using ADB and Metasploit-Framework to get a Meterpreter session.",
+    "name": "PhoneSploit-Pro"
+  },
+  {
+    "description": "Cloud Security Operations Orchestrator",
+    "name": "cloud-sniper"
+  },
+  {
+    "description": "A collection of hacking / penetration testing resources to make you better!",
+    "name": "Awesome-Hacking-Resources"
+  },
+  {
+    "description": "Useful tool to track location or mobile number",
+    "name": "GhostTrack"
+  },
+  {
+    "description": "Based on a true story",
+    "name": "hacker-scripts"
+  },
+  {
+    "description": "Rift: an AI-native language server for your personal AI software engineer",
+    "name": "rift"
+  },
+  {
+    "description": "glint \u662f\u4e00\u6b3e\u57fa\u4e8e\u6d4f\u89c8\u5668\u722c\u866bgolang\u5f00\u53d1\u7684web\u6f0f\u6d1e\u4e3b\u52a8(\u88ab\u52a8)\u626b\u63cf\u5668",
+    "name": "glint"
+  },
+  {
+    "description": "The LAZY script will make your life easier, and of course faster.",
+    "name": "lscript"
+  },
+  {
+    "description": "GeoSpy is an OSINT analysis and research tool,",
+    "name": "GeoSpy"
+  },
+  {
+    "description": "CredSniper is a phishing framework written with the Python micro-framework Flask and Jinja2 templating which supports capturing 2FA tokens.",
+    "name": "CredSniper"
+  }
+]
